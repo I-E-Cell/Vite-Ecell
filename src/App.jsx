@@ -1,18 +1,21 @@
+import React from "react";
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
+import Vision from "./Components/Vision";
+import Initiatives from "./Components/Initiatives";
+import Footer from "./Components/Footer";
 
-import './App.css'
 
 function App() {
-  
-
   return (
-    <>
-      <div>
-        <center>
-        <h1 className='text-blue-500 '>Ecell</h1>
-        </center>
-       </div>
-    </>
-  )
+    <div>
+     <Navbar />
+     <Home />
+     <Vision />
+     <Initiatives />
+     <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
