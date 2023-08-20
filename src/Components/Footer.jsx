@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
 
             </div>
-
+            {/* FOOTER  */}
         </div>
         <div className=' my-auto h-6 mx-auto  bg-[#FEF7D8]'>
                 <h1 className='flex my-auto mx-[30%] md:mx-[35%]'> Made without  <FaHeart color='red' className=' mt-1 mx-2'/>   by I&E Cell</h1>
