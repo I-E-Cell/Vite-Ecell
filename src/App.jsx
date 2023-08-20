@@ -7,7 +7,9 @@ function App() {
   return (
     <>
       <div>
-        <h1>Ecell</h1>
+        <center>
+        <h1 className='text-blue-500 '>Ecell</h1>
+        </center>
        </div>
     </>
   )
