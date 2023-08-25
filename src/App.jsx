@@ -4,6 +4,7 @@ import Home from "./Components/Home";
 import Vision from "./Components/Vision";
 import Initiatives from "./Components/Initiatives";
 import Footer from "./Components/Footer";
+import Contact from "./Components/Contact";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
      <Home />
      <Vision />
      <Initiatives />
+     <Contact />
      <Footer />
     </div>
   );

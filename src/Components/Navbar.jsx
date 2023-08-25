@@ -28,7 +28,7 @@ const Navbar = () => {
  
                     <a className='hover:text-[#906ED6] md:text-sm lg:text-[15px] duration-300' href="">STARTUP INITIATIVES</a>
 
-                    <a className='hover:text-[#906ED6] md:text-sm lg:text-[15px] duration-300' href="">CONTACT US</a>
+                    <a className='hover:text-[#906ED6] md:text-sm lg:text-[15px] duration-300' href="#contact">CONTACT US</a>
 
                 </div>
                 <img className='h-[60px] hidden md:flex my-2' src={ecell_logo} alt="ecell_logo" />
