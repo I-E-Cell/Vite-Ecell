@@ -11,7 +11,7 @@ const Initiatives = () => {
             <h1 className='my-auto text-[#935CFF] text-5xl  font-bold'>UR INITIATIVES</h1>
         </div>
         <div>
-            <img className='py-10 w-[100%]' src={back} alt="" />
+            <img className='py-10 w-[100%] h-[60em]' src={back} alt="" />
             
         </div>
     </div>
