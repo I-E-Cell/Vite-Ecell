@@ -26,3 +26,24 @@
 *:focus {
     outline: none;
 }
+
+
+
+.react-multi-carousel-list  {
+    position: relative;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    
+
+}
+.custom-dot-list-style button{
+    border: #A06EE0;
+    background: #A06EE0;
+    }
+
+.init{
+    background-image: url(../src/assets/Rectangle.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
