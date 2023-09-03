@@ -36,18 +36,18 @@ const Footer = () => {
             </div>
             <div className='w-[100%] flex-col right-0 md:w-[70%]'>
                 <div>
-                    ffwf
+                    
 
                 </div>
-                <div className='text-[100px] md:text-[100px] lg:text-[133px] mx-[10%]   top-[210px]   text-[#414141] font-bold'>
+                <div className='text-[70px] sm:text-[95px] md:text-[100px] lg:text-[133px] mx-[10%]   top-[210px]   text-[#414141] font-bold'>
                     <h1 className=' my-0'>I&E CELL</h1>
                 </div>
 
             </div>
             {/* FOOTER  */}
         </div>
-        <div className=' my-auto h-6 mx-auto  bg-[#FEF7D8]'>
-                <h1 className='flex my-auto mx-[30%] md:mx-[35%]'> Made without  <FaHeart color='red' className=' mt-1 mx-2'/>   by I&E Cell</h1>
+        <div className='h-6 mx-auto  bg-[#FEF7D8]'>
+                <h1 className='flex text-[sm] mx-auto justify-center '> Made without  <FaHeart color='red' className=' mt-1 mx-2'/>   by I&E Cell</h1>
         </div>
         </>)
 }

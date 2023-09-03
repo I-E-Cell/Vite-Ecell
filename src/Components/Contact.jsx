@@ -3,7 +3,7 @@ import c_img from '../assets/undraw.png'
 
 const Contact = () => {
     return (
-        <div id='contact' className='flex py-10 md:py-0 flex-col md:flex-row  overflow-hidden sm:mx-auto justify-around'>
+        <div id='contact' className='flex py-10 md:pt-10  md:py-0 flex-col md:flex-row  overflow-hidden sm:mx-auto justify-around'>
             <div className='mx-auto md:mx-0'>
                 <div className='my-5 mx-5 text-[#935CFF] text-5xl  font-bold '>Contact Us</div>
                 <div className='my-5'
