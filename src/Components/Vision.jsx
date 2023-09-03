@@ -2,9 +2,9 @@ import React from 'react'
 
 const Vision = () => {
     return (
-        <div className='py-[10px]'>
-            <div className=' opacity-50 h-[85vh]   md:h-[40vh] w-[90%] mx-auto my-10 rounded-tl-[15vh] rounded-br-[15vh] bg-[#C4A7FF]'></div>
-            <div className='opacity-70 relative top-[-88vh] md:top-[-43vh] left-[2vh] h-[85vh] md:h-[40vh] w-[90%] mx-auto my-10 rounded-tl-[15vh] rounded-br-[15vh] bg-[#C4A7FF]  '>
+        <div className='py-[10px] mb-[-700px] sm:mb-[-650px] md:mb-[-250px]'>
+            <div className=' opacity-50 h-[85vh]   md:h-[290px] w-[90%] mx-auto my-10 rounded-tl-[15vh] rounded-br-[15vh] bg-[#C4A7FF]'></div>
+            <div className='opacity-70 relative top-[-88vh] md:top-[-43vh] left-[2vh] h-[85vh] md:h-[290px] w-[90%] mx-auto my-10 rounded-tl-[15vh] rounded-br-[15vh] bg-[#C4A7FF]  '>
                 <div className='flex flex-col md:flex-row  mx-[22%] md:mx-[2%] justify-evenly my-[30px]'>
                     <div className='max-w-sm my-[45px] '>
                         <h1 className='text-2xl md:text-4xl text-white font-semibold drop-shadow-2xl shadow-black'>
