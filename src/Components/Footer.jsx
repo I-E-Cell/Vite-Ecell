@@ -1,3 +1,5 @@
+// ------------------------------Footer----------------------------------//
+
 import React from 'react'
 import { FaInstagram, FaLinkedinIn, FaFacebook, FaTwitter, FaYoutube, FaHeart} from "react-icons/fa";
 

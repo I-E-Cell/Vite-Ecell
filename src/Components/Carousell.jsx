@@ -1,3 +1,4 @@
+// ------------------------------Carousel----------------------------------//
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -5,6 +6,7 @@ import ss from '../assets/sslogo.png';
 import "react-multi-carousel/lib/styles.css";
 
 import '../index.css'
+
 
 
 
