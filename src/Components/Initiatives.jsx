@@ -1,3 +1,6 @@
+// ------------------------------Initiatives----------------------------------//
+
+
 import React from 'react';
 import oo from '../assets/oo.png';
 import back from '../assets/Rectangle.png';

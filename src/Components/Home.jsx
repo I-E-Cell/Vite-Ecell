@@ -1,3 +1,6 @@
+// ------------------------------Home----------------------------------//
+
+
 import React from 'react';
 import Mglass from "../assets/magnifying-glass.png"
 import { AiOutlineArrowUp } from "react-icons/ai";

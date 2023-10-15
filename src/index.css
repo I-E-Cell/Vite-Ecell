@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* //index */
+
+
 *{
     scroll-behavior: smooth;
 }
@@ -43,6 +46,12 @@
 
 .init{
     background-image: url(../src/assets/Rectangle.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.init2{
+    background-image: url(../src/assets/team_bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
