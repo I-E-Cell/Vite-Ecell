@@ -5,14 +5,14 @@ import { FaInstagram, FaLinkedinIn, FaFacebook, FaTwitter, FaYoutube, FaHeart } 
 
 function Card(props){
   return (
-    <div className='w-[15em] h-[19em]'>
+    <div className='w-[17em] h-[19em] '>
                         <div className='h-[42%]  ' >
-                            <div className='photo relative top-8 left-9 overflow-hidden h-[130%] w-[70%] rounded-full'>
-                                <img className=' scale-[240%] relative -left-8' src={props.img} alt="" />
+                            <div className='photo relative top-5 mx-auto  overflow-hidden h-[145%] w-[70%] rounded-full'>
+                                <img className='people scale-[240%] relative -left-8' src={props.img} alt="" />
                             </div>
                         </div>
 
-                        <div className='w-[15em] h-[11em] bg-[#E7DCFF] rounded-2xl'>
+                        <div className='w-[17em] h-[11em] bg-[#E7DCFF] rounded-2xl'>
                             <div className='h-[82%]'>
                                 <div className='h-[53%]'>
 
@@ -27,10 +27,11 @@ function Card(props){
                                 </div>
                             </div>
 
-                            <div className=' flex justify-center gap-3'>
+                            <div className=' flex justify-center gap-4'>
                                 <FaFacebook size={18} />
                                 <FaInstagram size={20} />
                                 <FaLinkedinIn size={20} />
+                                <FaTwitter size={20} />
 
                             </div>
                         </div>

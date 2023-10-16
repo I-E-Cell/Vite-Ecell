@@ -56,3 +56,12 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.people{
+    filter: grayscale(80%);
+
+}
+.people:hover{
+    filter: none;
+    transition: .6s ease;
+    
+}

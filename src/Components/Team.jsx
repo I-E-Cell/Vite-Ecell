@@ -3,8 +3,12 @@ import oo from '../assets/oo.png';
 import gulshan from "../assets/gulshann.png"
 import { FaInstagram, FaLinkedinIn, FaFacebook, FaTwitter, FaYoutube, FaHeart } from "react-icons/fa";
 import Card from './Card';
-
-
+import ayush from '../assets/Team/ayush.png'
+import shivank from '../assets/Team/shivank.png'
+import likhit from '../assets/Team/likhit.png'
+import nikita from '../assets/Team/nikita.png'
+import jyoti from '../assets/Team/jyoti.png'
+import ankit from '../assets/Team/ankit.png'
 
 const Team = () => {
     return (
@@ -18,10 +22,11 @@ const Team = () => {
                     <h1 className='mx-auto text-[#444444] text-center text-3xl sm:text-4xl  py-4 font-bold'>Mentors</h1>
 
                 </div>
-                <div className='flex flex-col lg:flex-row relative mx-auto  justify-center'>
+                <div className='flex flex-col lg:flex-row relative mx-auto'>
                     <div className='flex flex-col relative mx-auto  md:flex-row gap-16'>
                     <Card name="Samik Chaudhary" branch="SE COMP" img={gulshan}/>
                     <Card name="Ayush Singh" branch="SE COMP" img={gulshan}/>
+                    
                     </div>
                     <div className='flex flex-col relative mx-auto  md:flex-row gap-16'>
 
