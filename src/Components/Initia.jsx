@@ -1,13 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import circle from '../assets/circle.png'
 import ait from "../assets/AIT.png"
 import aitb from "../assets/aitb.png"
+import sslogo from "../assets/sslogo.png"
+
 
 
 import ecell_logo from "../assets/Copy of logo 6.png";
+import StartupSaga from './Events/StartupSaga';
+import Unnati from './Events/Unnati';
 
 
 const Initia = () => {
+
+  const [show,setShow]=useState(true)
+  const [showU,setShowU]=useState(false)
+
+
   return (
     <div className=''>
       <div className='flex gap-3 md:gap-28 lg:gap-[300px] ml-[15%] lg:ml-[25%] justify-center'>
@@ -27,6 +36,16 @@ const Initia = () => {
 
           </div>
 
+          <div className='top-[60%] relative mx-auto flex ' >
+            <button onClick={()=>setShow(!show)} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+              April
+            </button>
+            <button onClick={()=>setShowU(!showU)} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+              Sept
+            </button>
+            
+          </div>
+
 
         </div>
 
@@ -40,8 +59,10 @@ const Initia = () => {
             <img className='w-[70%] h-[50%] relative mx-auto my-[9px]' src={aitb} alt="" />
           </div>
 
-
-
+          {
+            show? <StartupSaga /> :null
+          }
+          { showU? <Unnati /> :null}
 
         </div>
       </div>
