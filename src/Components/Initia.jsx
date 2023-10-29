@@ -9,12 +9,15 @@ import sslogo from "../assets/sslogo.png"
 import ecell_logo from "../assets/Copy of logo 6.png";
 import StartupSaga from './Events/StartupSaga';
 import Unnati from './Events/Unnati';
+import DecodeBranding from './Events/DecodeBranding'
 
 
 const Initia = () => {
 
   const [show,setShow]=useState(true)
   const [showU,setShowU]=useState(false)
+  const [showdb,setShowdb]=useState(false)
+
 
 
   return (
@@ -43,6 +46,9 @@ const Initia = () => {
             <button onClick={()=>setShowU(!showU)} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               Sept
             </button>
+            <button onClick={()=>setShowdb(!showdb)} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+              Nov
+            </button>
             
           </div>
 
@@ -63,6 +69,7 @@ const Initia = () => {
             show? <StartupSaga /> :null
           }
           { showU? <Unnati /> :null}
+          { showdb? <DecodeBranding /> : null}
 
         </div>
       </div>
