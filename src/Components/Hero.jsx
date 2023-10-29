@@ -41,20 +41,20 @@ const Hero = () => {
                     <div className=' relative -top-20 max-w-md mx-auto lg:mx-0'>
 
                         <div className='relative top-10'>
-                            <div className='py-3 -top-3 relative'>
-                                <a href="">
+                            <div className='py-3 -top-3 relative' >
+                                <a href="https://www.instagram.com/ecell_ait/" target='_blank'>
                                     <img className='icons  w-10 relative left-[60%]' src={insta} alt="" />
                                 </a>
-                                <a href="">
+                                <a href="https://www.youtube.com/@aitecell" target='_blank'>
                                     <img className='icons w-12 relative left-[40%]' src={youtube} alt="" />
                                 </a>
-                                <a href="">
+                                <a href="https://www.facebook.com/ecellait" target='_blank'>
                                     <img className='icons w-12  -top-[10px] relative left-[16.5%]' src={fb} alt="" />
                                 </a>
-                                <a href="">
+                                <a href="https://www.linkedin.com/company/innovation-entrepreneurship-cell/" target='_blank'>
                                     <img className='icons w-14 relative -top-9  left-[67%]' src={linkedin} alt="" />
                                 </a>
-                                <a href="">
+                                <a href="https://twitter.com/ecell_aitpune" target='_blank'>
                                     <img className='icons w-11 -top-9  relative left-[27%]' src={x} alt="" />
                                 </a>
                             </div>
