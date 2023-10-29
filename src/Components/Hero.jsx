@@ -2,6 +2,8 @@ import React from 'react'
 import puzzel from '../assets/puzzle.png'
 import youtube from '../assets/youtube.png'
 import x from '../assets/x.png'
+import fb from '../assets/fb.png'
+
 import insta from '../assets/insta.png'
 import linkedin from '../assets/linkedin.png'
 
@@ -47,13 +49,16 @@ const Hero = () => {
                                     <img className='icons w-12 relative left-[40%]' src={youtube} alt="" />
                                 </a>
                                 <a href="">
-                                    <img className='icons w-14 relative -top-3 left-[67%]' src={linkedin} alt="" />
+                                    <img className='icons w-12  -top-[10px] relative left-[16.5%]' src={fb} alt="" />
                                 </a>
                                 <a href="">
-                                    <img className='icons w-11 -top-3 relative left-[25%]' src={x} alt="" />
+                                    <img className='icons w-14 relative -top-9  left-[67%]' src={linkedin} alt="" />
+                                </a>
+                                <a href="">
+                                    <img className='icons w-11 -top-9  relative left-[27%]' src={x} alt="" />
                                 </a>
                             </div>
-                            <img className='lg:w-[28em] w-[22em] relative mx-auto' src={puzzel} alt="" />
+                            <img className='lg:w-[28em] -top-9 w-[22em] relative mx-auto' src={puzzel} alt="" />
 
                         </div>
 

@@ -4,8 +4,8 @@ import ecell_logo from "../assets/Copy of logo 6.png";
 
 const Moto = () => {
     return (
-        <div className='bg-[#0F1322] moto h-[100vh] w-[100%]'>
-            <div className='flex  top-10 flex-col md:flex-row gap-28 mg:gap-16 gap justify-center relative mx-auto'>
+        <div className='bg-[#0F1322] moto h-[90vh] md:h-[47vh] w-[100%] '>
+            <div className='flex  top-10 flex-col md:flex-row gap-28 md:gap-16 gap justify-center relative mx-auto'>
                 <div className='w-[21em] relative mx-auto md:mx-0 md:w-[27em] lg:w-[30em] h-[10em] rounded-2xl bg-[#D2AD93]'>
 
                     <div className='absolute flex flex-row gap-2 left-[72%] md:left-[76%] top-1 justify-end'>
