@@ -10,9 +10,9 @@ import ecell_logo from "../assets/Copy of logo 6.png";
 const Initia = () => {
   return (
     <div className=''>
-      <div className='flex gap-3 md:gap-28 lg:gap-40 ml-[15%] justify-center'>
-        <h1 className='textt font-semibold text-[45px] text-center text-white'>Initiatives</h1>
-        <img className='w-20' src={circle} alt="" />
+      <div className='flex gap-3 md:gap-28 lg:gap-[300px] ml-[15%] lg:ml-[25%] justify-center'>
+        <h1 className='textt font-semibold flex  items-center  text-[45px] text-center text-white'>Initiatives</h1>
+        <img className='md:w-24 w-20 rotate ' src={circle} alt="" />
 
       </div>
       <div className='flex  top-10 flex-col md:flex-row  gap-10 md:gap-16 gap justify-center relative mx-auto '>

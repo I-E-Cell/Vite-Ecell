@@ -49,8 +49,9 @@ body{
 
 .icons{
  position: relative;
- animation: iconss 3s  ease-out  normal;
+ animation: iconss 3s  ease-out  normal, bounce 3s 3s linear infinite;
 }
+
 .textt{
     position: relative;
     animation: t_right 1.2s  ease-out  normal;
@@ -59,7 +60,27 @@ body{
     position: relative;
     animation: t_up 1.2s  ease-out  normal;
 }
+.rotate{
+    animation: rotate 10s infinite;
+}
+@keyframes bounce {
+    0% {
+        
+        transform: translateY(0);
+        
 
+    }
+    50% {
+        transform: translateY(-7px);
+
+    }
+    100%{
+        transform: translateY(0);
+
+
+    }
+    
+}
 
 
 @keyframes iconss {
@@ -123,4 +144,19 @@ body{
 
     }
     
+}
+
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+
+    }
 }
