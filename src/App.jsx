@@ -1,27 +1,27 @@
 // ------------------------------APP----------------------------------//
 
-
 import React from "react";
-import Navbar from "./Components/Navbar";
-import Home from "./Components/Home";
-import Vision from "./Components/Vision";
-import Initiatives from "./Components/Initiatives";
-import Footer from "./Components/Footer";
-import Contact from "./Components/Contact";
-import Team from "./Components/Team";
+
+import Hero from "./Components/Hero";
+import Nav from "./Components/Nav";
+import Moto from "./Components/Moto";
+import Initia from "./Components/Initia";
+
 
 
 function App() {
   return (
     <div>
-     <Navbar />
-     <Home />
-     <Vision />
-     <Initiatives />
-     <Team />
-     <Contact />
-     <Footer />
+      <Nav />
+      <Hero />
+      <Moto />
+      <Initia />
+     
     </div>
+
+
+
+
   );
 }
 
