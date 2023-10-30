@@ -18,6 +18,21 @@ const Initia = () => {
   const [showU,setShowU]=useState(false)
   const [showdb,setShowdb]=useState(false)
 
+  const dbranding = () => {
+    setShowdb(true)
+    setShowU(false)
+    setShow(false)
+  }
+  // const StartupSaga = () => {
+  //   setShowdb(false)
+  //   setShowU(false)
+  //   setShow(true)
+  // }
+  const unnati = () => {
+    setShowdb(false)
+    setShowU(true)
+    setShow(false)
+  }
 
 
   return (
@@ -40,13 +55,13 @@ const Initia = () => {
           </div>
 
           <div className='top-[60%] relative mx-auto flex ' >
-            <button onClick={()=>setShow(!show)} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+            <button onClick={() => (!show)} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               April
             </button>
-            <button onClick={()=>setShowU(!showU)} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+            <button onClick={unnati} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               Sept
             </button>
-            <button onClick={()=>setShowdb(!showdb)} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+            <button onClick={dbranding} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               Nov
             </button>
             
