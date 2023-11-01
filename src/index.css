@@ -82,6 +82,64 @@ body{
     
 }
 
+.text_inni{
+    position: relative;
+    animation: animate 2s  ease-out  normal;
+
+}
+.btn_inni{
+    position: relative;
+    animation: animate 2s  ease-out  normal;
+
+}
+.logo_inni{
+    position: relative;
+    animation: animate_logo 2s  ease-out  normal;
+
+}
+.text_inni_main{
+    position: relative;
+    
+    animation: animate_logo 6s  ease-out  normal;
+    
+
+}
+
+@keyframes animate {
+    0% {
+
+       opacity: 0;
+       left: -20px;
+       
+
+    }
+   
+    100%{
+       
+
+       left: 0px;
+        
+        opacity: 1;
+    }
+    
+}
+@keyframes animate_logo {
+    0% {
+
+       opacity: 0;
+       
+
+    }
+   
+    100%{
+       
+
+        
+        
+        opacity: 1;
+    }
+    
+}
 
 @keyframes iconss {
     0% {
