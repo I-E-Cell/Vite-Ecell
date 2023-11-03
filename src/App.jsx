@@ -8,6 +8,8 @@ import Moto from "./Components/Moto";
 import Initia from "./Components/Initia";
 import Line from "./Components/LineChart";
 import Newsletter from "./Components/Newsletter";
+import Footer from "./Components/Footer";
+
 
 
 
@@ -20,6 +22,8 @@ function App() {
       <Initia />
       {/* <Line /> */}
       <Newsletter />
+      <Footer />
+      
      
     </div>
 
