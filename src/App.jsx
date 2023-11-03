@@ -6,6 +6,8 @@ import Hero from "./Components/Hero";
 import Nav from "./Components/Nav";
 import Moto from "./Components/Moto";
 import Initia from "./Components/Initia";
+import Line from "./Components/LineChart";
+import Newsletter from "./Components/Newsletter";
 
 
 
@@ -16,6 +18,8 @@ function App() {
       <Hero />
       <Moto />
       <Initia />
+      {/* <Line /> */}
+      <Newsletter />
      
     </div>
 

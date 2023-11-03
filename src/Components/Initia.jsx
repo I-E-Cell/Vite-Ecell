@@ -12,6 +12,8 @@ import StartupSaga from './Events/StartupSaga';
 import Unnati from './Events/Unnati';
 import DecodeBranding from './Events/DecodeBranding'
 import { BsArrowUpRight } from "react-icons/bs";
+// import Line from "./Components/LineChart";
+
 
 
 const Initia = () => {
@@ -60,6 +62,8 @@ const Initia = () => {
           <BsArrowUpRight color='white' className='relative mx-auto top-3' size={40} />
             
           </div>
+
+          {/* <Line /> */}
 
 
 
