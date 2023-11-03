@@ -218,3 +218,8 @@ body{
 
     }
 }
+
+::placeholder{
+    position: relative;
+    left: 8px;
+}
