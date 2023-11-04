@@ -8,7 +8,7 @@ const Footer = () => {
     return (<>
         <div>
             <hr className='w-[95%] mx-auto  my-12'/>
-            <div id='top' className='bg-[#0F1322]  w-[100%] h-[75vh] md:h-[40vh] flex  flex-col md:flex-row'>
+            <div id='top' className='bg-[#0F1322]  w-[100%] h-[67vh] sm:h-[79vh] md:h-[46vh] flex  flex-col md:flex-row'>
 
                 <div className='w-[100%] align-centre justify-center md:w-[30%]'>
                     <div className='text-white  mx-auto w-[80%] justify-center rounded-xl'>
@@ -45,7 +45,7 @@ const Footer = () => {
                         <div className='textt hidden mx-auto md:mx-0 text-white relative lg:flex flex-col top-4' >
                             <a className='font-semibold mb-3'>QUICK LINKS</a>
                             <a href='' className='text-xs mb-2  font-thin'>Our Team</a>
-                            <a href='' className='text-xs mb-2  font-thin'>Gallary</a>
+                            <a href='' className='text-xs mb-2  font-thin'>Gallery</a>
                             <a href='' className='text-xs mb-2  font-thin'>Startup Initiatives </a>
                             <a href='' className='text-xs mb-2  font-thin'>AIT Pune</a>
 
@@ -54,7 +54,7 @@ const Footer = () => {
                         <div className='textt text-white mx-auto md:mx-0 relative flex flex-col top-4' >
                             <a className='font-semibold mb-3'>QUICK LINKS</a>
                             <a href='' className='text-xs mb-2  font-thin'>Our Team</a>
-                            <a href='' className='text-xs mb-2  font-thin'>Gallary</a>
+                            <a href='' className='text-xs mb-2  font-thin'>Gallery</a>
                             <a href='' className='text-xs mb-2  font-thin'>Startup Initiatives </a>
                             <a href='' className='text-xs mb-2  font-thin'>AIT Pune</a>
 
