@@ -27,11 +27,11 @@ const Initia = () => {
     setShowU(false)
     setShow(false)
   }
-  // const StartupSaga = () => {
-  //   setShowdb(false)
-  //   setShowU(false)
-  //   setShow(true)
-  // }
+  const StartupSagaa = () => {
+    setShowdb(false)
+    setShowU(false)
+    setShow(!show)
+  }
   const unnati = () => {
     setShowdb(false)
     setShowU(true)
@@ -68,7 +68,7 @@ const Initia = () => {
 
 
           <div className='top-[40%] relative mx-auto flex ' >
-            <button onClick={() => (!show)} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+            <button onClick={StartupSagaa} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               April
             </button>
             <button onClick={unnati} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
