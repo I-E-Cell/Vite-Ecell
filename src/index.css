@@ -243,3 +243,9 @@ body{
         flex-direction: column !important;
     }
 }
+
+.icon:hover{
+    
+    scale: 1.2 ;
+    transition-duration: 0.4s;
+}

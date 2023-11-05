@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import ait_logo from "../assets/AIT LOGO 7 (1).svg";
 import ait from "../assets/AIT.png"
-import ecell_logo from "../assets/Copy of logo 6.png";
+import ecell_logo from "../assets/ecell.png";
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
@@ -21,14 +21,16 @@ const Navbar = () => {
             <div className=' bg-transparent  top-9 justify-between md:justify-normal mx-0  lg:mx-20 my-auto flex text sticky z-50  gap-20 px-8'>
                 <img className='h-[50px]   my-2' src={ait} alt="ait_logo" />
                 <div className='hidden text-white font-normal  md:flex my-auto lg:gap-10 md:gap-6'>
+                    <Link  to="/" >
                     <a className='hover:text-[#7ABDB1]  md:text-[16px]  lg:text-[17.5px] duration-300 ' href="#home">Home</a>
+                    </Link>
                     <Link  to="/team" >
                     <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="">Team</a>
                     </Link>
                     <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="">Events</a>
-
+                    <Link to="/gallery">
                     <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="">Gallary</a>
- 
+                    </Link>
                     <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="">Initiatives</a>
 
                     <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="#contact">Contact</a>

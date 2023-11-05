@@ -7,7 +7,7 @@ import sslogo from "../assets/sslogo.png"
 
 
 
-import ecell_logo from "../assets/Copy of logo 6.png";
+import ecell_logo from "../assets/ecell.png";
 import StartupSaga from './Events/StartupSaga';
 import Unnati from './Events/Unnati';
 import DecodeBranding from './Events/DecodeBranding'

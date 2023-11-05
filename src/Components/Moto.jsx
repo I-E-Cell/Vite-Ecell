@@ -1,6 +1,6 @@
 import React from 'react'
 import ait from "../assets/aitb.png"
-import ecell_logo from "../assets/Copy of logo 6.png";
+import ecell_logo from "../assets/ecell.png";
 
 const Moto = () => {
     return (
