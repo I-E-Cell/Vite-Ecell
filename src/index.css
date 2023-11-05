@@ -249,3 +249,20 @@ body{
     scale: 1.2 ;
     transition-duration: 0.4s;
 }
+
+.aws-btn {
+    --button-default-height: 44px;
+    --button-default-font-size: 14px;
+    --button-default-border-radius: 4px;
+    --button-horizontal-padding: 16px;
+    --button-raise-level: 4px;
+    --button-hover-pressure: 1.25;
+    --transform-speed: 0.15s;
+    --button-primary-color: #949494;
+    --button-primary-color-dark: #3b3b3b;
+    --button-primary-color-light: #ffffff;
+    --button-primary-color-hover: #187bd1;
+    --button-primary-color-active: #166dba;
+    --button-primary-border: 5px solid transparent;
+    
+  }
