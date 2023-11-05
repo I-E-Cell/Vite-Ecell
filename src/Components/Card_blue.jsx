@@ -1,10 +1,11 @@
 import React from 'react'
 import gobi from '../assets/gobi.png'
 
-const Card_M = () => {
-    return (
-        <div className='flex  text-center'>
-            <div className='bg-[#FFCFCF] h-[18em] rounded-2xl flex-col flex gap-6  w-[17em]'>
+
+const Card_blue = () => {
+  return (
+    <div className='flex  text-center'>
+            <div className='bg-[#86C8D3] h-[18em] rounded-2xl flex-col flex gap-6  w-[17em]'>
                 <div className='rounded-full relative top-3  flex'>
                     <img src={gobi} className='rounded-full w-12 relative left-2' alt="" />
                 </div>
@@ -18,7 +19,7 @@ const Card_M = () => {
 
             </div>
         </div>
-    )
+  )
 }
 
-export default Card_M
+export default Card_blue
