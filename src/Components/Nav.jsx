@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import ait_logo from "../assets/AIT LOGO 7 (1).svg";
 import ait from "../assets/AIT.png"
-import ecell_logo from "../assets/ecell.png";
+
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
@@ -43,7 +43,7 @@ const Navbar = () => {
                 </div>
                 <div className={!nav? 'fixed left-0 top-0 w-[60%] h-[100%] border-r border-r-gray-900  bg-[#76bbc8] ease-in-out duration-500' : 'fixed left-[-100%]'}>
 
-                    <img className='h-[60px]  my-8 mx-8' src={ait_logo} alt="ait_logo" />
+                    <img className='h-[60px]  my-8 mx-8' src={ait} alt="ait_logo" />
                     <div className=' gap-10 pt-10 '>
 
                         <a className='p-4 border-gray-600 ' href="">HOME<br /> <hr className='w-[90%]  rounded-xl my-2 bg-[#906ED6] mx-auto'/><br /></a>
