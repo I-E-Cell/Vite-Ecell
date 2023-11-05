@@ -11,6 +11,7 @@ import Newsletter from "./Components/Newsletter";
 import Footer from "./Components/Footer";
 import CarouselDisplay from "./Components/CarouselDisplay";
 import Team from "./Components/Team";
+import Gallery from "./Components/Gallery";
 
 
 function LandingPage() {
@@ -37,6 +38,9 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/gallery" element={<Gallery />} />
+
+        
 
       </Routes>
     </Router>
