@@ -9,6 +9,7 @@ import Initia from "./Components/Initia";
 import Line from "./Components/LineChart";
 import Newsletter from "./Components/Newsletter";
 import Footer from "./Components/Footer";
+import CarouselDisplay from "./Components/CarouselDisplay";
 
 
 
@@ -22,7 +23,12 @@ function App() {
       <Initia />
       {/* <Line /> */}
       <Newsletter />
+      <CarouselDisplay />
+      
+
       <Footer />
+      
+
       
      
     </div>

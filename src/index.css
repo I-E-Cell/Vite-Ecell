@@ -223,3 +223,13 @@ body{
     position: relative;
     left: 8px;
 }
+
+.review::after{
+    content: '“';
+    font-size: 30px;
+}
+.review::before{
+    content: '”';
+    font-size: 30px;
+
+}
