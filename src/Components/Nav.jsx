@@ -5,6 +5,7 @@ import ait_logo from "../assets/AIT LOGO 7 (1).svg";
 import ait from "../assets/AIT.png"
 import ecell_logo from "../assets/Copy of logo 6.png";
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -21,8 +22,9 @@ const Navbar = () => {
                 <img className='h-[50px]   my-2' src={ait} alt="ait_logo" />
                 <div className='hidden text-white font-normal  md:flex my-auto lg:gap-10 md:gap-6'>
                     <a className='hover:text-[#7ABDB1]  md:text-[16px]  lg:text-[17.5px] duration-300 ' href="#home">Home</a>
+                    <Link  to="/team" >
                     <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="">Team</a>
-
+                    </Link>
                     <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="">Events</a>
 
                     <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="">Gallary</a>

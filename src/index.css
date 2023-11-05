@@ -225,11 +225,21 @@ body{
 }
 
 .review::after{
-    content: '“';
-    font-size: 30px;
+    content: ' ”';
+    font-size: 32px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .review::before{
-    content: '”';
-    font-size: 30px;
+    content: '“';
+    font-size: 32px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+
+@media (max-width: 1400px) {
+    .nextline{
+        display: flex;
+        flex-direction: column !important;
+    }
 }
