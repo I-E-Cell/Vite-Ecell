@@ -12,6 +12,7 @@ import Footer from "./Components/Footer";
 import CarouselDisplay from "./Components/CarouselDisplay";
 import Team from "./Components/Team";
 import Gallery from "./Components/Gallery";
+import Internship from "./Components/Internship";
 
 
 function LandingPage() {
@@ -39,7 +40,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/team" element={<Team />} />
         <Route path="/gallery" element={<Gallery />} />
-
+        <Route path="/internship" element={<Internship />} />
         
 
       </Routes>

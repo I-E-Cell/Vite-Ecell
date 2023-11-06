@@ -2,7 +2,7 @@ import React from 'react'
 import letter from '../assets/letter.png'
 const Newsletter = () => {
     return (
-        <div className='py-16 w-[91%] md:w-[84.4%] justify-center gap-6  lg:gap-32 flex flex-col-reverse md:flex-row bg-[#A1A6DC] rounded-2xl  mt-44 mx-auto relative '>
+        <div className='py-16 w-[91%] md:w-[84.4%] justify-center gap-6  lg:gap-32 flex flex-col-reverse md:flex-row bg-[#A1A6DC] rounded-2xl  mt-32 mx-auto relative '>
 
             <div className='relative flex items-center '>
                 <img className='mx-auto  relative flex items-center' src={letter} alt="" />
