@@ -43,7 +43,7 @@ const Initia = () => {
     <div className=''>
       <div className='flex gap-3 md:gap-28 lg:gap-[300px] ml-[15%] lg:ml-[25%] justify-center'>
         <h1 className='textt font-semibold flex  items-center  text-[45px] text-center text-white'>Initiatives</h1>
-        <img className='md:w-24 w-20 rotate ' src={circle} alt="" />
+        <img className='md:w-28 w-20 rotate ' src={circle} alt="" />
 
       </div>
       <div className='flex  top-10 flex-col md:flex-row gap-24 md:gap-16 gap justify-center relative mx-auto '>

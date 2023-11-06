@@ -32,9 +32,9 @@ const Navbar = () => {
                     <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="">Gallary</a>
                     </Link>
                     <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="">Initiatives</a>
-
-                    <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="#contact">Contact</a>
-
+                    <Link to="/internship">
+                    <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="#contact">Internship</a>
+                    </Link>
                 </div>
                 
                 <div onClick={haldleNav} className='block md:hidden my-auto relative -left-4'>

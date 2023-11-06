@@ -8,7 +8,7 @@ const Footer = () => {
     return (<>
         <div>
             <hr className='w-[95%] mx-auto  my-12'/>
-            <div id='top' className='bg-[#0F1322]  w-[100%] h-[67vh] sm:h-[79vh] md:h-[46vh] flex  flex-col md:flex-row'>
+            <div id='top' className='bg-[#0F1322]  w-[100%] h-[70vh] sm:h-[79vh] md:h-[46vh] flex  flex-col md:flex-row'>
 
                 <div className='w-[100%] align-centre justify-center md:w-[30%]'>
                     <div className='text-white  mx-auto w-[80%] justify-center rounded-xl'>
@@ -20,7 +20,7 @@ const Footer = () => {
                         <h1 className='w-[80%]  mx-auto text-center textt '>Army Institute of Technology,Pune
                             Dighi Hills Pune 411015</h1>
                     </div>
-                    <div className='flex  justify-evenly px-16 my-5 '>
+                    <div className='flex  justify-evenly lg:px-16 my-5 '>
                         <a target='_blank' href='https://www.facebook.com/ecellait' className='w-[38px] h-[38px] bg-white rounded-full'>
                             <FaFacebook size={22} className='mx-auto my-[20%]' />
                         </a>
