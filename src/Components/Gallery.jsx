@@ -9,6 +9,12 @@ import unnati5 from '../assets/Event/Unnati/unnati5.jpg'
 import unnati6 from '../assets/Event/Unnati/unnati6.jpg'
 import ss1 from '../assets/Event/SS/SS1.jpg'
 import ss2 from '../assets/Event/SS/SS2.jpg'
+import ss3 from '../assets/Event/SS/SS3.jpg'
+import ss4 from '../assets/Event/SS/SS4.jpg'
+import ss5 from '../assets/Event/SS/SS5.jpg'
+import ss6 from '../assets/Event/SS/SS6.jpg'
+
+
 
 
 
@@ -54,9 +60,9 @@ const Gallery = () => {
 
                     <div className='absolute w-[100%] top-10 text-white font-thin nav flex flex-row gap-4 justify-center'>
 
-                        <button onClick={displayUnnati}>Unnati</button>
-                        <button onClick={displayStartupSaga}>StartupSaga</button>
-                        <button onClick={displayUs_bhai_us}>Us_Bhai_Us</button>
+                        <button className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]' onClick={displayUnnati}>Unnati</button>
+                        <button className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]' onClick={displayStartupSaga}>StartupSaga</button>
+                        <button className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]' onClick={displayUs_bhai_us}>Us_Bhai_Us</button>
 
                     </div>
                     <div className='absolute top-[85px]  w-[100%]'>
@@ -75,6 +81,12 @@ const Gallery = () => {
                     {startupsaga? <Images 
                     img1={ss1}
                     img2={ss2}
+                    img3={ss3}
+                    img4={ss4}
+                    img5={ss5}
+                    img6={ss6}
+
+
 
                     /> : null}
                     {us_bhai_us? <Images /> : null}
