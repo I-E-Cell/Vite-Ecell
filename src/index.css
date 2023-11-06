@@ -61,7 +61,7 @@ body{
     animation: t_up 1.2s  ease-out  normal;
 }
 .rotate{
-    animation: rotate 10s infinite;
+    animation: rotate 10s infinite linear;
 }
 @keyframes bounce {
     0% {
@@ -104,6 +104,11 @@ body{
     
 
 }
+.upp{
+    position: relative;
+    animation: animate 1.2s ease-out linear;
+}
+
 
 @keyframes animate {
     0% {
@@ -209,10 +214,10 @@ body{
     0%{
         transform: rotate(0deg);
     }
-    50%{
+    /* 50%{
         transform: rotate(180deg);
 
-    }
+    } */
     100%{
         transform: rotate(360deg);
 
@@ -250,19 +255,26 @@ body{
     transition-duration: 0.4s;
 }
 
-.aws-btn {
-    --button-default-height: 44px;
-    --button-default-font-size: 14px;
-    --button-default-border-radius: 4px;
-    --button-horizontal-padding: 16px;
-    --button-raise-level: 4px;
-    --button-hover-pressure: 1.25;
-    --transform-speed: 0.15s;
-    --button-primary-color: #949494;
-    --button-primary-color-dark: #3b3b3b;
-    --button-primary-color-light: #ffffff;
-    --button-primary-color-hover: #187bd1;
-    --button-primary-color-active: #166dba;
-    --button-primary-border: 5px solid transparent;
-    
-  }
+
+
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #86C8D3 #0F1322;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #0F1322;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #86C8D3;
+  border-radius: 20px;
+  border: 0px solid #0F1322;
+}

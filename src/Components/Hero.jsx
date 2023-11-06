@@ -22,20 +22,20 @@ const Hero = () => {
 
 
     const animationClientsCount = () => {
-        animate(0, 100, {
+        animate(0, 900, {
             duration: 2,
             onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
         });
     }
 
     const animationProjectCount = () => {
-        animate(0, 500, {
+        animate(0, 7000, {
             duration: 2,
             onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
         });
     }
     const animationReachCount = () => {
-        animate(0, 5000, {
+        animate(0, 100, {
             duration: 2,
             onUpdate: (v) => (reachCount.current.textContent = v.toFixed()),
         });
@@ -74,20 +74,20 @@ const Hero = () => {
                         </div>
                         <div className='flex top-10 lg:top-16 justify-evenly text-3xl font-bold relative'>
                             <div >
-                                <motion.span whileInView={animationClientsCount} ref={clientCount}>100
+                                <motion.span whileInView={animationClientsCount} ref={clientCount}>900
 
                                 </motion.span>+
+                                <h1 className='text-lg font-semibold relative left-1 mt-1'>Visitors</h1>
+
+                            </div>
+                            <div>
+                                <motion.span ref={projectCount} whileInView={animationProjectCount}>7000</motion.span>+
                                 <h1 className='text-lg font-semibold relative left-1 mt-1'>Reach</h1>
 
                             </div>
                             <div>
-                                <motion.span ref={projectCount} whileInView={animationProjectCount}>500</motion.span>+
-                                <h1 className='text-lg font-semibold relative left-1 mt-1'>Reach</h1>
-
-                            </div>
-                            <div>
-                                <motion.span ref={reachCount} whileInView={animationReachCount}>5000</motion.span>+
-                                <h1 className='text-lg font-semibold relative left-1 mt-1'>Reach</h1>
+                                <motion.span ref={reachCount} whileInView={animationReachCount}>100</motion.span>+
+                                <h1 className='text-lg font-semibold relative left-1 mt-1'>StartUps</h1>
 
                             </div>
                         </div>
