@@ -24,7 +24,7 @@ const Team = () => {
                         
                         <div className=' relative max-w-[98%] mx-auto overflow-hidden'>
                             <div>
-                                <h1 className='mx-auto text-[#e6e6e6] text-center textt text-3xl sm:text-4xl  py-4 font-bold'>Mentors</h1>
+                                <h1 className='mx-auto text-[#e6e6e6] text-center textt text-3xl sm:text-4xl  py-4 font-semibold'>Mentors</h1>
 
                             </div>
                             <div className='flex flex-col lg:flex-row relative nextline mx-auto '>
@@ -47,7 +47,7 @@ const Team = () => {
                         </div>
                         <div className='relative max-w-[98%] mx-auto overflow-hidden'>
                             <div>
-                                <h1 className='mx-auto text-[#e6e6e6] text-center text-3xl sm:text-4xl  textt py-4 font-bold'>Secretary</h1>
+                                <h1 className='mx-auto text-[#e6e6e6] text-center text-3xl sm:text-4xl  textt py-4 font-semibold'>Secretary</h1>
 
                             </div>
                             <div className='flex flex-col   relative mx-auto  md:flex-row justify-center gap-16'>
@@ -62,7 +62,7 @@ const Team = () => {
                         </div>
                         <div className='relative max-w-[98%] mx-auto overflow-hidden'>
                             <div>
-                                <h1 className='mx-auto text-[#e6e6e6] text-center text-3xl textt sm:text-4xl pt-9  py-4 font-bold'>Domain Heads</h1>
+                                <h1 className='mx-auto text-[#e6e6e6] text-center text-3xl textt sm:text-4xl pt-9  py-4 font-semibold'>Domain Heads</h1>
 
                             </div>
                             <div className='flex flex-col lg:flex-row relative nextline mx-auto  justify-center'>
@@ -78,7 +78,7 @@ const Team = () => {
                         </div>
                         <div className='relative max-w-[98%] mx-auto overflow-hidden pb-6'>
                             <div>
-                                <h1 className='mx-auto text-[#e6e6e6] text-center text-3xl textt sm:text-4xl pt-9  py-4 font-bold'>Joint Secretaries</h1>
+                                <h1 className='mx-auto text-[#e6e6e6] text-center text-3xl textt sm:text-4xl pt-9  py-4 font-semibold'>Joint Secretaries</h1>
 
                             </div>
                             <div className='flex flex-col lg:flex-row relative nextline mx-auto  justify-center '>

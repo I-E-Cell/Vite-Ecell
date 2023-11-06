@@ -23,24 +23,38 @@ const Gallery = () => {
     const [unnati, setUnnati] = useState(true)
     const [startupsaga, setstartupsaga] = useState(false)
     const [us_bhai_us, setUs_bhai_us] = useState(false)
+    const [visits, setVisits] = useState(false)
+
 
     const displayUnnati = ()=>{
         setUnnati(!unnati)
         setstartupsaga(false)
         setUs_bhai_us(false)
+        setVisits(false)
+
 
     }
     const displayStartupSaga = ()=>{
         setUnnati(false)
         setstartupsaga(true)
         setUs_bhai_us(false)
+        setVisits(false)
+
 
     }
     const displayUs_bhai_us = ()=>{
         setUnnati(false)
         setstartupsaga(false)
         setUs_bhai_us(true)
+        setVisits(false)
 
+
+    }
+    const displayVisits = () =>{
+        setUnnati(false)
+        setstartupsaga(false)
+        setUs_bhai_us(false)
+        setVisits(true)
     }
 
 
@@ -63,6 +77,7 @@ const Gallery = () => {
                         <button className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]' onClick={displayUnnati}>Unnati</button>
                         <button className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]' onClick={displayStartupSaga}>StartupSaga</button>
                         <button className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]' onClick={displayUs_bhai_us}>Us_Bhai_Us</button>
+                        <button className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]' onClick={displayVisits}>Visits</button>
 
                     </div>
                     <div className='absolute top-[85px]  w-[100%]'>
@@ -90,6 +105,8 @@ const Gallery = () => {
 
                     /> : null}
                     {us_bhai_us? <Images /> : null}
+
+                    {visits? <Images /> :null}
 
 
 
