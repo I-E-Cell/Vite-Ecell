@@ -23,7 +23,7 @@ export default () => {
         <SwiperSlide><Card_blue /></SwiperSlide>
         <SwiperSlide><Card_purple /></SwiperSlide>
 
-        ...
+        
       </Swiper>
     </div>
   );

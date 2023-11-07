@@ -8,7 +8,7 @@ const Footer = () => {
     return (<>
         <div>
             <hr className='w-[95%] mx-auto  my-12'/>
-            <div id='top' className='bg-[#0F1322]  w-[100%] h-[70vh] sm:h-[79vh] md:h-[46vh] flex  flex-col md:flex-row'>
+            <div id='top' className='bg-[#0F1322]  w-[100%] h-[30em] sm:h-[34em] md:h-[20em] flex  flex-col md:flex-row'>
 
                 <div className='w-[100%] align-centre justify-center md:w-[30%]'>
                     <div className='text-white  mx-auto w-[80%] justify-center rounded-xl'>
