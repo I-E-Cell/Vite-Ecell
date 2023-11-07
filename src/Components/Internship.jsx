@@ -23,13 +23,13 @@ const Internship = () => {
                     {/* //-------- */}
                     <div className='flex justify-center relative -top-[60px]'>
                         
-                        <div className='py-16 w-[91%] md:w-[78.4%] justify-center gap-6  lg:gap-32 flex flex-col-reverse md:flex-row bg-[#1C1F2B] rounded-2xl mx-auto absolute '>
+                        <div className='py-16 w-[91%] md:w-[87.4%] lg:w-[78.4%] justify-center gap-6  lg:gap-32 flex flex-col-reverse md:flex-row bg-[#1C1F2B] rounded-2xl mx-auto absolute '>
 
                             <div className='relative flex items-center '>
                                 <img className='mx-auto  relative flex items-center' src={cv} alt="" />
                             </div>
                             <div className=' max-w-md relative mx-auto md:mx-0 text-center md:text-start'>
-                                <h1 className='lg:text-[37px] text-[30px]   font-bold text-[#86C8D3]'>Drop us your CV and We’ll Contact you with and Opportunity !!</h1>
+                                <h1 className='lg:text-[37px] text-[30px]   font-bold text-[#86C8D3]'>Drop us your e-mail and We’ll Contact you with an Opportunity !!</h1>
                                 <hr className='max-w-[80%] mx-auto md:mx-0 bg-[#86C8D3] realtive px-4' />
 
                                 <input className='mt-6 shadow-xl mb-6 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="email" placeholder='Enter your E-mail' />

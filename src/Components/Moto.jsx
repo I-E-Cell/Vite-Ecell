@@ -4,7 +4,7 @@ import ecell_logo from "../assets/ecell.png";
 
 const Moto = () => {
     return (
-        <div className='bg-[#0F1322] moto h-[84vh] md:h-[40vh] w-[100%] '>
+        <div className='bg-[#0F1322] moto h-[34.5em] md:h-[18em] w-[100%] '>
             <div className='flex  top-10 flex-col md:flex-row gap-28 md:gap-16 gap justify-center relative mx-auto'>
                 <div className='w-[21em] relative mx-auto md:mx-0 md:w-[27em] lg:w-[30em] h-[10em] rounded-2xl bg-[#D2AD93]'>
 
