@@ -72,7 +72,7 @@ const Hero = () => {
 
 
                         </div>
-                        <div className='flex top-10 lg:top-16 justify-evenly text-3xl font-bold relative'>
+                        <div className='flex top-10 lg:top-16 justify-between mx-3 text-3xl font-bold relative'>
                             <div >
                                 <motion.span whileInView={animationClientsCount} ref={clientCount}>900
 
