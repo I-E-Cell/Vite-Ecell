@@ -31,7 +31,7 @@ const Navbar = () => {
                     <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="">Alumni</a>
                     </Link>
                     <Link to="/gallery">
-                    <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="">Gallary</a>
+                    <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="">Gallery</a>
                     </Link>
                     <a className='hover:text-[#7ABDB1] md:text-[16px] lg:text-[17.5px] duration-300' href="">Initiatives</a>
                     <Link to="/internship">
@@ -47,18 +47,23 @@ const Navbar = () => {
 
                     <img className='h-[60px]  my-8 mx-8' src={ait} alt="ait_logo" />
                     <div className=' gap-10 pt-10 '>
-
-                        <a className='p-4 border-gray-600 ' href="">HOME<br /> <hr className='w-[90%]  rounded-xl my-2 bg-[#906ED6] mx-auto'/><br /></a>
-                        <a className='p-4 border-gray-600' href="">TEAM<br /><hr className='w-[90%]  rounded-xl my-2 bg-[#906ED6] mx-auto'/><br /></a>
-
-                        <a className='p-4 border-gray-600' href="">EVENTS<br /><hr className='w-[90%]  rounded-xl my-2 bg-[#906ED6] mx-auto'/><br /></a>
-
-                        <a className='p-4 border-gray-600' href="">ALUMNI<br /><hr className='w-[90%]  rounded-xl my-2 bg-[#906ED6] mx-auto'/><br /></a>
+                        <Link  to="/" >
+                        <a className='p-4 border-gray-600 ' href="">Home<br /> <hr className='w-[90%]  rounded-xl my-2 bg-[#906ED6] mx-auto'/><br /></a>
+                        </Link>
+                        <Link  to="/team" >
+                        <a className='p-4 border-gray-600' href="">Team<br /><hr className='w-[90%]  rounded-xl my-2 bg-[#906ED6] mx-auto'/><br /></a>
+                        </Link>
+                        <Link to='/alumni'>
+                        <a className='p-4 border-gray-600' href="">Alumni<br /><hr className='w-[90%]  rounded-xl my-2 bg-[#906ED6] mx-auto'/><br /></a>
+                        </Link>
+                        <Link to="/gallery">
+                        <a className='p-4 border-gray-600' href="">Gallery<br /><hr className='w-[90%]  rounded-xl my-2 bg-[#906ED6] mx-auto'/><br /></a>
+                        </Link>
 
                         <a className='p-4 border-gray-600' href="">STARTUP INITIATIVES<br /><hr className='w-[90%]  rounded-xl my-2 bg-[#906ED6] mx-auto'/><br /></a>
-
-                        <a className='p-4 border-gray-600' href="">CONTACT US<br /><hr className='w-[90%]  rounded-xl my-2 bg-[#906ED6] mx-auto'/><br /></a>
-
+                        <Link to="/internship">
+                        <a className='p-4 border-gray-600' href="">Internship<br /><hr className='w-[90%]  rounded-xl my-2 bg-[#906ED6] mx-auto'/><br /></a>
+                        </Link>
                     </div>
                 </div>
             </div>
