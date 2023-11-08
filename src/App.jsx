@@ -13,6 +13,8 @@ import CarouselDisplay from "./Components/CarouselDisplay";
 import Team from "./Components/Team";
 import Gallery from "./Components/Gallery";
 import Internship from "./Components/Internship";
+import AlumniCard from "./Components/AlumniCard";
+import Alumni from "./Components/Alumni";
 
 
 function LandingPage() {
@@ -26,6 +28,7 @@ function LandingPage() {
       <Newsletter />
       <CarouselDisplay />
       <Footer />
+      
     </div>
   );
 }
@@ -41,6 +44,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/internship" element={<Internship />} />
+        <Route path='/alumni' element={<Alumni />} />
         
 
       </Routes>
