@@ -242,20 +242,25 @@ body{
 
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1410px) {
     .nextline{
         display: flex;
         flex-direction: column !important;
+        
     }
     
 }
-@media (max-width: 1480px) {
-    .nextline2{
-        display: flex;
-        flex-direction: column !important;
+
+@media (min-width: 1410px) {
+    .nextline{
+        
+        gap: 0;
+        
     }
+
     
 }
+
 .icon{
     z-index: 99;
 }

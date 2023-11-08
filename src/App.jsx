@@ -15,6 +15,7 @@ import Gallery from "./Components/Gallery";
 import Internship from "./Components/Internship";
 import AlumniCard from "./Components/AlumniCard";
 import Alumni from "./Components/Alumni";
+import CardEcell from "./Components/CardEcell";
 
 
 function LandingPage() {
@@ -28,6 +29,7 @@ function LandingPage() {
       <Newsletter />
       <CarouselDisplay />
       <Footer />
+      <CardEcell />
       
     </div>
   );
