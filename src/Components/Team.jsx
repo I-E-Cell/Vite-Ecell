@@ -4,6 +4,7 @@ import gulshan from "../assets/gulshann.png"
 import Card from './TeamCard';
 import ecell_logo from "../assets/ecell.png";
 import Nav from "./Nav";
+import NewCard from './NewCard';
 
 
 const Team = () => {
@@ -122,6 +123,7 @@ const Team = () => {
 
                 </div>
             </div>
+            <NewCard />
 
 
         </div>
