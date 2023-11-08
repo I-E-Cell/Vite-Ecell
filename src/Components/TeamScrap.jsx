@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from './CardEcell';
-
 import Nav from "./Nav";
 import tanumam from '../assets/Team/tanumam.png';
 import gulshan from '../assets/Team/gulshan.jpeg'
