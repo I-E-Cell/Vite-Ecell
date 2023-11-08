@@ -29,7 +29,6 @@ function LandingPage() {
       <Newsletter />
       <CarouselDisplay />
       <Footer />
-      <CardEcell />
       
     </div>
   );

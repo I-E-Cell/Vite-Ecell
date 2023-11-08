@@ -5,7 +5,7 @@
 
 
 
-*{
+* {
     scroll-behavior: smooth;
 }
 
@@ -17,7 +17,7 @@
 
 
 
-body{
+body {
     background-color: #0F1322;
 }
 
@@ -31,80 +31,90 @@ body{
 
 
 
-.s_box{
+.s_box {
     position: relative;
-    transform:skew(-36deg)
-    
+    transform: skew(-36deg)
 }
-.textt{
+
+.textt {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.1;
-    
-    
+
+
 }
-.moto{
+
+.moto {
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
-.icons{
- position: relative;
- animation: iconss 3s  ease-out  normal, bounce 3s 3s linear infinite;
+.icons {
+    position: relative;
+    animation: iconss 3s ease-out normal, bounce 3s 3s linear infinite;
 }
 
-.textt{
+.textt {
     position: relative;
-    animation: t_right 1.2s  ease-out  normal;
+    animation: t_right 1.2s ease-out normal;
 }
-.btn{
+
+.btn {
     position: relative;
-    animation: t_up 1.2s  ease-out  normal;
+    animation: t_up 1.2s ease-out normal;
 }
-.rotate{
+
+.rotate {
     animation: rotate 10s infinite linear;
 }
+
 @keyframes bounce {
     0% {
-        
+
         transform: translateY(0);
-        
+
 
     }
+
     50% {
         transform: translateY(-7px);
 
     }
-    100%{
+
+    100% {
         transform: translateY(0);
 
 
     }
-    
+
 }
 
-.text_inni{
+.text_inni {
     position: relative;
-    animation: animate 2s  ease-out  normal;
+    animation: animate 2s ease-out normal;
 
 }
-.btn_inni{
+
+.btn_inni {
     position: relative;
-    animation: animate 2s  ease-out  normal;
+    animation: animate 2s ease-out normal;
 
 }
-.logo_inni{
+
+.logo_inni {
     position: relative;
-    animation: animate_logo 2s  ease-out  normal;
+    animation: animate_logo 2s ease-out normal;
 
 }
-.text_inni_main{
+
+.text_inni_main {
     position: relative;
-    
-    animation: animate_logo 6s  ease-out  normal;
-    
+
+    animation: animate_logo 6s ease-out normal;
+
 
 }
-.upp{
+
+.upp {
     position: relative;
     animation: animate 1.2s ease-out linear;
 }
@@ -113,37 +123,38 @@ body{
 @keyframes animate {
     0% {
 
-       opacity: 0;
-       left: -20px;
-       
+        opacity: 0;
+        left: -20px;
+
 
     }
-   
-    100%{
-       
 
-       left: 0px;
-        
+    100% {
+
+
+        left: 0px;
+
         opacity: 1;
     }
-    
+
 }
+
 @keyframes animate_logo {
     0% {
 
-       opacity: 0;
-       
+        opacity: 0;
+
 
     }
-   
-    100%{
-       
 
-        
-        
+    100% {
+
+
+
+
         opacity: 1;
     }
-    
+
 }
 
 @keyframes iconss {
@@ -153,121 +164,131 @@ body{
         opacity: 0;
 
     }
+
     50% {
         top: 5px;
-        
+
         opacity: 0.3;
     }
-    100%{
+
+    100% {
         transform: rotate(0deg);
         opacity: 1;
 
 
     }
-    
+
 }
+
 @keyframes t_right {
     0% {
         left: -75px;
-        
+
         opacity: 0;
 
     }
+
     50% {
         /* left: -100px; */
-        
+
         opacity: 0.3;
     }
-    100%{
+
+    100% {
         left: 0px;
-        
+
         opacity: 1;
 
 
     }
-    
+
 }
+
 @keyframes t_up {
     0% {
         top: 75px;
-        
+
         opacity: 0;
 
     }
+
     50% {
         /* left: -100px; */
-        
+
         opacity: 0.4;
     }
-    100%{
+
+    100% {
         top: 0px;
-        
+
         opacity: 1;
 
 
     }
-    
+
 }
 
 
-@keyframes rotate{
-    0%{
+@keyframes rotate {
+    0% {
         transform: rotate(0deg);
     }
+
     /* 50%{
         transform: rotate(180deg);
 
     } */
-    100%{
+    100% {
         transform: rotate(360deg);
 
     }
 }
 
-::placeholder{
+::placeholder {
     position: relative;
     left: 8px;
 }
 
-.review::after{
+.review::after {
     content: ' ”';
     font-size: 32px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-.review::before{
+
+.review::before {
     content: '“';
     font-size: 32px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 @media (max-width: 1410px) {
-    .nextline{
+    .nextline {
         display: flex;
         flex-direction: column !important;
-        
+
     }
-    
+
 }
 
 @media (min-width: 1410px) {
-    .nextline{
-        
+    .nextline {
+
         gap: 0;
-        
+
     }
 
-    
+
 }
 
-.icon{
+.icon {
     z-index: 99;
 }
 
-.icon:hover{
-    
-    scale: 1.2 ;
+.icon:hover {
+
+    scale: 1.2;
     transition-duration: 0.4s;
 }
 
@@ -275,21 +296,30 @@ body{
 
 /* Works on Firefox */
 * {
-  scrollbar-width: thin;
-  scrollbar-color: #86C8D3 #0F1322;
+    scrollbar-width: thin;
+    scrollbar-color: #86C8D3 #0F1322;
 }
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 6px;
+    width: 6px;
 }
 
 *::-webkit-scrollbar-track {
-  background: #0F1322;
+    background: #0F1322;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #86C8D3;
-  border-radius: 20px;
-  border: 0px solid #0F1322;
+    background-color: #86C8D3;
+    border-radius: 20px;
+    border: 0px solid #0F1322;
+}
+
+.shadoww {
+
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
+}
+.shadowin {
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
