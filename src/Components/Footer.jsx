@@ -3,6 +3,7 @@
 import React from 'react'
 import { FaInstagram, FaLinkedinIn, FaFacebook, FaTwitter, FaYoutube, FaHeart, } from "react-icons/fa";
 import { BsArrowUpRight } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (<>
@@ -55,16 +56,18 @@ const Footer = () => {
                             <a className='font-semibold mb-3'>QUICK LINKS</a>
                             <a href='' className='text-xs mb-2  font-thin'>Our Team</a>
                             <a href='' className='text-xs mb-2  font-thin'>Gallery</a>
-                            <a href='' className='text-xs mb-2  font-thin'>Startup Initiatives </a>
+                            <Link to='/credits'>
+                            <a href='' className='text-xs mb-2  font-thin'>Credits </a>
+                            </Link>
                             <a href='' className='text-xs mb-2  font-thin'>AIT Pune</a>
 
 
                         </div>
-                        <div className='textt text-white mx-auto md:mx-0 relative border-white border-[1px] top-4 px-1' >
+                        <div className='textt text-white mx-auto md:mx-0 relative rounded-xl p-2 px-2 border-white border-[1px] top-4 px-1' >
 
                             <p className='text-xs mb-2 max-w-[180px] '>“If you look at history, innovation doesn’t come just from giving people incentives; it comes from creating environments where their ideas can connect.“</p>
 
-                            <a href='/' className='flex gap-2 text-[#B8BFFF]'  >I & E Cell <BsArrowUpRight color='#B8BFFF' size={15} /></a>
+                            <a href='/' className='flex justify-end gap-2 text-[#B8BFFF]'  >I & E Cell <BsArrowUpRight color='#B8BFFF' size={15} /></a>
 
                         </div>
 

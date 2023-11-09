@@ -123,7 +123,7 @@ const Team = () => {
 
                 </div>
             </div>
-            <NewCard />
+            
 
 
         </div>

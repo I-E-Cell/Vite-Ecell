@@ -5,6 +5,7 @@
 
 
 
+
 * {
     scroll-behavior: smooth;
 }
@@ -90,19 +91,19 @@ body {
 
 .text_inni {
     position: relative;
-    animation: animate 2s ease-out normal;
+    animation: animate 0.7s ease-in-out normal;
 
 }
 
 .btn_inni {
     position: relative;
-    animation: animate 2s ease-out normal;
+    animation: animate 0.7s ease-out normal;
 
 }
 
 .logo_inni {
     position: relative;
-    animation: animate_logo 2s ease-out normal;
+    animation: animate_logo 1s ease-out normal;
 
 }
 
@@ -317,9 +318,21 @@ body {
 
 .shadoww {
 
-    box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
+    /* box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px; */
+    box-shadow: 8px 8px 12px 0px rgba(255, 255, 255, 0.527);
 }
 .shadowin {
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.vm_text{
+    font-weight: 300 !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.icons:hover{
+    filter: brightness(10);
+    
 }
