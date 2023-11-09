@@ -4,7 +4,7 @@ import ecell_logo from "../assets/ecell.png";
 
 const Moto = () => {
     return (
-        <div className='bg-[#0F1322] moto h-[34.5em] md:h-[18em] w-[100%] '>
+        <div className='bg-[#0F1322] moto md:-mt-6 h-[34.5em] md:h-[18em] w-[100%] '>
             <div className='flex  top-10 flex-col md:flex-row gap-28 md:gap-16 gap justify-center relative mx-auto'>
                 <div className='w-[21em] relative mx-auto md:mx-0 md:w-[27em] lg:w-[30em] h-[10em] rounded-2xl bg-[#D2AD93]'>
 
@@ -22,7 +22,7 @@ const Moto = () => {
                     </div>
 
                     <div className='w-[76%] relative top-12 h-[10em] rounded-2xl bg-[#D2AD93]'>
-                        <h1 className='max-w-[10 0%] text-center text-sm left-[15%] z-10 top-12 relative'>
+                        <h1 className='max-w-[10 0%] text-center text-sm left-[15%] z-10 top-12 relative vm_text'>
                         To be an important part of Government 's dream of 5 trillion economy, by contributing through startups of AIT students.
                         </h1>
                         <div className='w-[32%] h-[40%] bg-[#D2AD93] relative top-[1.3%]  md:top-[12.3%]  -skew-x-12 left-[80%]'>
@@ -50,7 +50,7 @@ const Moto = () => {
 
                         </div>
                         <div className='relative min-w-[115%] text-sm -left-[22%] z-10 top-7  text-center'>
-                            <h1>
+                            <h1 className='vm_text'>
                             To build an ecosystem to identify, nurture innovation and entrepreneurship skills amongst students and to generate successful commercial enterprise contributing towards significant job creations.
                             </h1>
                         </div>

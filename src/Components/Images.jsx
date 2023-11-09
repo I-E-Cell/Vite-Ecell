@@ -2,7 +2,7 @@ import React from 'react'
 
 function Images(props) {
   return (
-    <div className='absolute flex flex-col gap-4 top-[140px] w-[100%]'>
+    <div className='absolute flex flex-col gap-4 md:top-[75px] align-middle justify-center items-center h-[90%] w-[100%]'>
                         <div className='flex flex-col relative mx-auto lg:flex-row justify-center gap-4'>
                             <div className='upp w-[20em] md:w-[24em] lg:w-[18em] rounded-xl h-[13em] bg-slate-600'>
                                 <img className='rounded-xl w-[100%] h-[100%]' src={props.img1} alt="" />

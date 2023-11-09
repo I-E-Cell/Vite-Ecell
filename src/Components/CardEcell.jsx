@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaInstagram, FaLinkedinIn, FaFacebook, FaTwitter, FaYoutube, FaHeart } from "react-icons/fa";
-import tanumam from '../assets/Team/tanumam.png';
+import tanumam from '../assets/Team/tanumam.jpg';
 
 
 function CardEcell(props){

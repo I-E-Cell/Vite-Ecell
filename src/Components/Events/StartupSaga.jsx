@@ -13,7 +13,7 @@ const StartupSaga = () => {
                 <div className='flex flex-col gap-5'>
 
 
-                    <h1 className='text_inni text-3xl lg:text-4xl my-auto font-bold'>StartUP <br /> Saga</h1>
+                    <h1 className='text_inni text-3xl lg:text-4xl my-auto font-bold'>StartUP Saga</h1>
                     <a href="https://www.startupsaga.in/" target='_blank'>
                         <button className=' btn_inni bg-[#27096D] rounded-xl  relative   w-24 border-white border-1 h-8'>
                             <h1 className=' text-white  text-center relative justify-center text-sm mx-auto '>Explore</h1>

@@ -17,26 +17,30 @@ const Alumni = () => {
 
                     </div>
 
-                    <h1 className='absolute  text-[#0F1322]  font-bold text-3xl md:text-4xl flex justify-center text-center w-[100%] top-9'>Alumni</h1>
-                    <div className='relative mx-auto w-[98%]'>
-                        <div className='flex flex-col lg:flex-row relative mb-28 gap-28  nextline2  '>
-                            <div className='flex flex-col relative mx-auto   md:flex-row gap-28 md:gap-16'>
-                                <AlumniCard /><AlumniCard />
+                    <div className='relative -top-28 flex flex-col max-w-[98%] gap-28 mx-auto'>
+
+
+
+                        <h1 className='absolute  text-[#0F1322]  font-bold text-3xl  md:text-4xl flex justify-center text-center w-[100%] '>Alumni</h1>
+                        <div className='relative  mt-24 mx-auto w-[98%]'>
+                            <div className='flex flex-col lg:flex-row relative mb-28 gap-28  nextline  '>
+                                <div className='flex flex-col relative mx-auto   md:flex-row gap-28 md:gap-16'>
+                                    <AlumniCard /><AlumniCard />
+                                </div>
+                                <div className='flex flex-col relative mx-auto  md:flex-row gap-28 md:gap-16'>
+                                    <AlumniCard /><AlumniCard />
+                                </div>
                             </div>
-                            <div className='flex flex-col relative mx-auto  md:flex-row gap-28 md:gap-16'>
-                                <AlumniCard /><AlumniCard />
-                            </div>
-                        </div>
-                        <div className='flex flex-col lg:flex-row relative mb-28 gap-28  nextline2 mx-auto '>
-                            <div className='flex flex-col relative mx-auto   md:flex-row gap-28 md:gap-16'>
-                                <AlumniCard /><AlumniCard />
-                            </div>
-                            <div className='flex flex-col relative mx-auto  md:flex-row gap-28 md:gap-16'>
-                                <AlumniCard /><AlumniCard />
+                            <div className='flex flex-col lg:flex-row relative mb-28 gap-28  nextline mx-auto '>
+                                <div className='flex flex-col relative mx-auto   md:flex-row gap-28 md:gap-16'>
+                                    <AlumniCard /><AlumniCard />
+                                </div>
+                                <div className='flex flex-col relative mx-auto  md:flex-row gap-28 md:gap-16'>
+                                    <AlumniCard /><AlumniCard />
+                                </div>
                             </div>
                         </div>
                     </div>
-
 
 
 

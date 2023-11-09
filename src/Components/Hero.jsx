@@ -46,15 +46,15 @@ const Hero = () => {
 
 
     return (
-        <div className='relative w-[100%] pb-32 lg:h-[100%] h-[165%] bg-[#0F1322]'>
-            <div className='relative mx-auto justify-center align-middle  top-[95px]  w-[94%] h-[57em] lg:h-[39em] rounded-3xl bg-[#86C8D3]'>
+        <div className='relative w-[100%] pb-32 h-[100%] bg-[#0F1322]'>
+            <div className='relative mx-auto justify-center align-middle  top-[95px]  w-[94%]  h-[39em] rounded-3xl bg-[#86C8D3]'>
                 <div className=' relative w-[28%]  h-[10em] rounded-3xl left-[72%] -top-[75px]  bg-[#86C8D3]'>
                     <div className='s_box rounded-sm w-[68%] lg:-left-[26.5px] -left-[28px] top-[6px]  h-[60%] bg-[#86C8D3]'>
 
                     </div>
 
                 </div>
-                <div className='flex text-[#0F1322]  flex-col lg:flex-row relative lg:-top-16  justify-around'>
+                <div className='flex text-[#0F1322]  flex-col lg:flex-row relative top-5 lg:-top-16  justify-around'>
                     <div className='mx-auto lg:mx-0 -top-12 lg:top-0 relative'>
                         <h1 className='textt font-semibold  text-center lg:text-start md:text-[60px] text-[40px] sm:text-[50px] lg:text-[70px]'>
                             Innovation & <br />
@@ -72,7 +72,7 @@ const Hero = () => {
 
 
                         </div>
-                        <div className='flex top-10 lg:top-16 justify-between mx-3 text-3xl font-bold relative'>
+                        <div className='flex top-24 lg:top-16 justify-between mx-3 text-3xl font-bold relative'>
                             <div >
                                 <motion.span whileInView={animationClientsCount} ref={clientCount}>900
 
@@ -93,7 +93,7 @@ const Hero = () => {
                         </div>
 
                     </div>
-                    <div className=' relative -top-20 max-w-md mx-auto lg:mx-0'>
+                    <div className=' hidden lg:flex relative -top-20 max-w-md mx-auto lg:mx-0'>
 
                         <div className='relative top-10'>
                             <div className='py-3 -top-3 relative' >

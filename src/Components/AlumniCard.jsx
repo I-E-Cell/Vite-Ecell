@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaLinkedinIn} from "react-icons/fa";
-import tanumam from '../assets/Team/tanumam.png';
+import tanumam from '../assets/Team/tanumam.jpg';
 
 
 const AlumniCard = () => {
@@ -22,7 +22,7 @@ const AlumniCard = () => {
                     </div>
 
                 </div>
-                <div className='text-white text-sm relative w-[100%] h-[50%] justify-center flex font-medium top-8 '><h1>Founder and Director, Udchalo</h1></div>
+                <div className='text-white text-sm relative  h-[50%] justify-center flex font-medium top-4 text-center w-[92%] '><h1>Founder and Director, Udchalo</h1></div>
                 <div className='absolute w-[6.2em] bottom-[1em] h-[2em] rounded-bl-3xl rounded-tl-sm a_card  -z-10 flex right-[10.8em] bg-[#D9D9D9] top-[2em]'>
 
                 </div>
