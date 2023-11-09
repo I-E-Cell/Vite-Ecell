@@ -3,6 +3,7 @@
 import React from 'react'
 import { FaInstagram, FaLinkedinIn, FaFacebook, FaTwitter, FaYoutube, FaHeart, } from "react-icons/fa";
 import { BsArrowUpRight } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (<>
@@ -55,7 +56,9 @@ const Footer = () => {
                             <a className='font-semibold mb-3'>QUICK LINKS</a>
                             <a href='' className='text-xs mb-2  font-thin'>Our Team</a>
                             <a href='' className='text-xs mb-2  font-thin'>Gallery</a>
-                            <a href='' className='text-xs mb-2  font-thin'>Startup Initiatives </a>
+                            <Link to='/credits'>
+                            <a href='' className='text-xs mb-2  font-thin'>Credits </a>
+                            </Link>
                             <a href='' className='text-xs mb-2  font-thin'>AIT Pune</a>
 
 

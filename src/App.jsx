@@ -17,6 +17,7 @@ import AlumniCard from "./Components/AlumniCard";
 import Alumni from "./Components/Alumni";
 import CardEcell from "./Components/CardEcell";
 import TeamScrap from "./Components/TeamScrap";
+import Credits from "./Components/Credits";
 
 
 function LandingPage() {
@@ -47,6 +48,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/internship" element={<Internship />} />
         <Route path='/alumni' element={<Alumni />} />
+        <Route path='/credits' element={<Credits />} />
         
 
       </Routes>

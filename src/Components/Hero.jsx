@@ -22,7 +22,7 @@ const Hero = () => {
 
 
     const animationClientsCount = () => {
-        animate(0, 900, {
+        animate(0, 1200, {
             duration: 2,
             onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
         });
@@ -74,7 +74,7 @@ const Hero = () => {
                         </div>
                         <div className='flex top-24 lg:top-16 justify-between mx-3 text-3xl font-bold relative'>
                             <div >
-                                <motion.span whileInView={animationClientsCount} ref={clientCount}>900
+                                <motion.span whileInView={animationClientsCount} ref={clientCount}>1200
 
                                 </motion.span>+
                                 <h1 className='text-lg font-semibold relative left-1 mt-1'>Visitors</h1>
