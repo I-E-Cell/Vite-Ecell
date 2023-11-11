@@ -29,6 +29,7 @@ import aryansir from '../assets/Team/aaryan.png'
 import deveshsir from '../assets/Team/deveshsir.jpg'
 import ankitsir from '../assets/Team/ankitsir.jpg'
 import aniket from '../assets/Team/aniket.png'
+import akhileshsir from "../assets/Team/akhilesh.jpg"
 
 
 
@@ -125,7 +126,7 @@ const TeamScrap = () => {
                             </div>
                             <div className='flex flex-col   relative mx-auto  md:flex-row justify-center gap-20 md:gap-12'>
                                 <div className='flex flex-col relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                    <Card name="Akhilesh Gupta" branch="TE ENTC" img={tanumam} domain='Operations Head' />
+                                    <Card name="Akhilesh Gupta" branch="TE ENTC" img={akhileshsir} domain='Operations Head' />
                                 </div>
                             </div>
                         </div>

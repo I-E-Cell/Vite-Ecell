@@ -13,6 +13,7 @@ const CarouselDisplay = () => {
         <Carouselsm />
         <Carouselmd />
     </div>
+
   )
 }
 

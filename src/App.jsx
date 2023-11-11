@@ -18,6 +18,7 @@ import Alumni from "./Components/Alumni";
 import CardEcell from "./Components/CardEcell";
 import TeamScrap from "./Components/TeamScrap";
 import Credits from "./Components/Credits";
+// import LineChart from "./Components/LineChart";
 
 
 function LandingPage() {
@@ -31,6 +32,7 @@ function LandingPage() {
       <Newsletter />
       <CarouselDisplay />
       <Footer />
+      {/* <LineChart /> */}
       
     </div>
   );
