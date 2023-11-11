@@ -57,7 +57,7 @@ const Footer = () => {
                             <a href='' className='text-xs mb-2  font-thin'>Our Team</a>
                             <a href='' className='text-xs mb-2  font-thin'>Gallery</a>
                             <Link to='/credits'>
-                            <a href='' className='text-xs mb-2  font-thin'>Credits </a>
+                            <a href='' className='text-xs mb-3 bottom-1 relative  font-thin'>Credits </a>
                             </Link>
                             <a href='' className='text-xs mb-2  font-thin'>AIT Pune</a>
 
