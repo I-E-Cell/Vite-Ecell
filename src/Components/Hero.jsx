@@ -47,7 +47,7 @@ const Hero = () => {
 
     return (
         <div className='relative w-[100%] pb-32 h-[100%] bg-[#0F1322]'>
-            <div className='relative mx-auto justify-center align-middle  top-[95px]  w-[94%]  h-[39em] rounded-3xl bg-[#86C8D3]'>
+            <div className='relative mx-auto justify-center align-middle  top-[95px]  w-[94%] h-[42em] md:h-[39em] rounded-3xl bg-[#86C8D3]'>
                 <div className=' relative w-[28%]  h-[10em] rounded-3xl left-[72%] -top-[75px]  bg-[#86C8D3]'>
                     <div className='s_box rounded-sm w-[68%] lg:-left-[26.5px] -left-[28px] top-[6px]  h-[60%] bg-[#86C8D3]'>
 
@@ -72,7 +72,7 @@ const Hero = () => {
 
 
                         </div>
-                        <div className='flex top-24 lg:top-16 justify-between mx-3 text-3xl font-bold relative'>
+                        <div className='flex top-28 md:top-16 justify-between md:mx-3 text-3xl font-bold relative'>
                             <div >
                                 <motion.span whileInView={animationClientsCount} ref={clientCount}>1200
 
