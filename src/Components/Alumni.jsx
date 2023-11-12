@@ -31,25 +31,25 @@ const Alumni = () => {
 
                         <h1 className='absolute  text-[#0F1322]  font-bold text-3xl  md:text-4xl flex justify-center text-center w-[100%] '>Alumni</h1>
                         <div className='relative  mt-24 mx-auto w-[98%]'>
-                            <div className='flex flex-col nextline relative justify-center mb-28 gap-28  nextline  '>
-                                <div className='flex flex-col relative justify-center md:flex-row'>
-                                    <div className='flex mr-4  flex-col relative mx-auto   md:flex-row gap-28 md:gap-16'>
+                            <div className='flex flex-col nextline relative justify-center mb-28 gap-28  '>
+                                <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto '>
+                                    <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
                                         <AlumniCard name="Ravi Kumar" position="Founder and Director at udChalo" img={ravisir} linkedin="https://www.linkedin.com/in/raviudchalo/"/>
                                         <AlumniCard name="Rahool Gadkari" position="Co-Founder, Neufin" img={rahool} linkedin="https://www.linkedin.com/in/rahoolgadkari/"/>
                                     </div>
-                                    <div className='flex ml-4 flex-col relative mx-auto  md:flex-row gap-28 md:gap-16'>
+                                    <div className='flex flex-col lg:ml-4 md:flex-row relative mx-auto  gap-20 md:gap-12'>
                                         <AlumniCard  name="Baljeet Singh" position="Co-Founder at mTatva & Simbo.ai" img={baljeetsir} linkedin="https://www.linkedin.com/in/blusingh/" />
                                         <AlumniCard name="Vikram Sareen" img={vikramsareen} position="Co-Founder, Chief Architect Blue Bricks Pvt Ltd" linkedin="https://www.linkedin.com/in/vikramsareen/"/>
                                     </div>
                                 </div>
                             </div>
-                            <div className='flex flex-col nextline relative justify-center mb-28 gap-28  nextline  '>
-                                <div className='flex flex-col relative justify-center md:flex-row'>
-                                    <div className='flex mr-4  flex-col relative mx-auto   md:flex-row gap-28 md:gap-16'>
-                                        <AlumniCard name="Abhijeet Deogirikar" img={abhijeetsir} position="Founder, CopperCloud IOTech Pvt Ltd" linkedin="https://www.linkedin.com/in/abhijeet-deogirikar-ab5732a/"/>
+                            <div className='flex flex-col nextline relative justify-center mb-28 gap-28  '>
+                                <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto '>
+                                    <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
+                                        <AlumniCard name="Abhijeet Deogirikar" img={abhijeetsir} position="Founder at CopperCloud IOTech Pvt Ltd" linkedin="https://www.linkedin.com/in/abhijeet-deogirikar-ab5732a/"/>
                                         <AlumniCard name="Rohan Datta" img={rohandatta} position="CEO and Founder at Deep Info Lab" linkedin="https://www.linkedin.com/in/rohan-datta-ab930b150/" />
                                     </div>
-                                    <div className='flex ml-4 flex-col relative mx-auto  md:flex-row gap-28 md:gap-16'>
+                                    <div className='flex flex-col lg:ml-4 md:flex-row relative mx-auto  gap-20 md:gap-12'>
                                         <AlumniCard name="Karan Rai" img={karanrai} position="Founder, Red Panda Innovation Labs" linkedin="https://www.linkedin.com/in/karanrai/"/>
                                         <AlumniCard name="Pallavi Tyagi" img={pallavimam} position="Founder, 26 Technology Services" linkedin="https://www.linkedin.com/in/pallavityagi/"/>
                                     </div>
