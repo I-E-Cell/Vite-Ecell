@@ -8,7 +8,7 @@ const StartupSaga = () => {
 
 
         <div className='absolute flex flex-col  gap-5  w-[80%] top-[60px] mx-auto'>
-            <div className='relative left-[5%] lg:left-[13%] flex gap-4 md:gap-16'>
+            <div className='relative left-[5%] lg:left-[13%] flex gap-4 md:gap-10 lg:gap-16'>
                 <img className='relative logo_inni w-[9em] lg:w-[11em]' src={sslogo} alt="" />
                 <div className='flex flex-col gap-5'>
 
