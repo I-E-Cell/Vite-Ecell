@@ -1,6 +1,8 @@
 import React from 'react'
 import ait from "../assets/aitb.png"
 import ecell_logo from "../assets/ecell.png";
+import { motion } from 'framer-motion'
+
 
 const Moto = () => {
     return (
@@ -14,17 +16,31 @@ const Moto = () => {
                     </div>
 
                     <div className='absolute mx-[3.1em] md:mx-[3.5em]  top-9 lg:mx-[4.6em] font-semibold z-10 text-4xl'>
+                        <motion.div
+                            initial={{ opacity: 0, x: -60 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 0.6 }}
 
-                        <h1>Vision</h1>
+                        >
+                            <h1>Vision</h1>
+                        </motion.div>
                         <div className='w-[95%] h-[1.4px] rounded-full relative mx-auto bg-black'>
 
                         </div>
                     </div>
 
                     <div className='w-[76%] relative top-12 h-[10em] rounded-2xl bg-[#D2AD93]'>
-                        <h1 className='max-w-[10 0%] text-center text-sm left-[15%] z-10 top-12 relative vm_text'>
-                        To be an important part of Government 's dream of 5 trillion economy, by contributing through startups of AIT students.
-                        </h1>
+                        <motion.div
+                            initial={{ opacity: 0, x: -60 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 0.6 }}
+
+                        >
+                            <h1 className='max-w-[10 0%] text-center text-sm left-[15%] z-10 top-12 relative vm_text'>
+                                To be an important part of Government 's dream of 5 trillion economy, by contributing through startups of AIT students.
+                            </h1>
+                        </motion.div>
+
                         <div className='w-[32%] h-[40%] bg-[#D2AD93] relative top-[1.3%]  md:top-[12.3%]  -skew-x-12 left-[80%]'>
 
                         </div>
@@ -40,8 +56,15 @@ const Moto = () => {
                             <img className='w-10 h-6' src={ecell_logo} alt="" />
                         </div>
                         <div className='absolute top-9 mx-[0.7em] md:mx-[1em]  lg:mx-[2em] font-semibold z-10 text-4xl'>
+                            <motion.div
+                                initial={{ opacity: 0, x: 60 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                transition={{ duration: 0.6 }}
 
-                            <h1>Mission</h1>
+                            >
+                                <h1>Mission</h1>
+                            </motion.div>
+
                             <div className='w-[95%] h-[1.4px] rounded-full relative mx-auto bg-black'>
 
                             </div>
@@ -50,12 +73,20 @@ const Moto = () => {
 
                         </div>
                         <div className='relative min-w-[115%] text-sm -left-[22%] z-10 top-7  text-center'>
-                            <h1 className='vm_text'>
-                            To build an ecosystem to identify, nurture innovation and entrepreneurship skills amongst students and to generate successful commercial enterprise contributing towards significant job creations.
-                            </h1>
+                            <motion.div
+                                initial={{ opacity: 0, x: 60 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                transition={{ duration: 0.6 }}
+
+                            >
+                                <h1 className='vm_text'>
+                                    To build an ecosystem to identify, nurture innovation and entrepreneurship skills amongst students and to generate successful commercial enterprise contributing towards significant job creations.
+                                </h1>
+                            </motion.div>
+
                         </div>
                     </div>
-                    
+
                     <div className='w-[28%] -top-[144.7%] -left-[13.5px] md:-left-[18px] relative  z-10  h-[4.5em] border-[13px] border-[#0F1322] rounded-full bg-[#A1A6DC]'>
 
                     </div>

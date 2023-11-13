@@ -46,8 +46,8 @@ const Initia = () => {
         <img className='md:w-28 w-20 rotate ' src={circle} alt="" />
 
       </div>
-      <div className='flex  top-10 flex-col md:flex-row gap-24 md:gap-16 gap justify-center relative mx-auto '>
-
+      <div className='flex  top-10 flex-col md:flex-row gap-24 md:gap-[4.4%]  justify-center relative mx-auto '>
+      
         <div className='relative mx-auto rounded-2xl h-[15.5em] top-[4.5em]  md:mx-0 w-[92%] md:w-[40%] bg-[#1C1F2B]'>
           <div className='lg:w-[86%] md:w-[80%] w-[82%] h-[6em] relative bg-[#1C1F2B] rounded-2xl -top-[4.5em]'>
             <div className='h-[60%] top-5 absolute skew-x-12 w-[30%] bg-[#1C1F2B] left-[75%]'>
