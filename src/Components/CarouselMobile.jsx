@@ -11,8 +11,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default () => {
   return (
-    <div>
-    <div className='w-[90%] mt-10  relative flex  sm:hidden mx-auto rounded-tr-2xl rounded-tl-2xl bg-[#1C1F2B] px-16 pt-16' >
+    
+    <div className='w-[91%] md:w-[84.4%] mt-10  relative flex  sm:hidden mx-auto  rounded-2xl bg-[#1C1F2B] px-16 py-16' >
     <Swiper className='flex justify-center'
       spaceBetween={10}
       slidesPerView={1}
@@ -27,9 +27,6 @@ export default () => {
         <SwiperSlide><Card_purple /></SwiperSlide>
     </Swiper>
     </div>
-    <div className='w-[90%] pb-10 bg-[#1C1F2B] sm:hidden flex  justify-center rounded-bl-2xl mx-auto rounded-br-2xl relative top-0'>
-      <h1 className='font-semibold flex justify-center pt-1 text-white'>Swipe<FaArrowRightLong size={20} className='top-[3.4px] pl-1 relative' /></h1>
-    </div>
-    </div>
+    
   );
 }
