@@ -5,7 +5,7 @@ import aitb from "../assets/aitb.png"
 import arrow from '../assets/Arrow.png'
 import sslogo from "../assets/sslogo.png"
 
-
+import { motion } from 'framer-motion'
 
 import ecell_logo from "../assets/ecell.png";
 import StartupSaga from './Events/StartupSaga';
@@ -68,15 +68,15 @@ const Initia = () => {
 
 
           <div className='top-[40%] relative mx-auto flex ' >
-            <button onClick={StartupSagaa} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}   onClick={StartupSagaa} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               April
-            </button>
-            <button onClick={unnati} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+            </motion.button>
+            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={unnati} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               Sept
-            </button>
-            <button onClick={dbranding} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+            </motion.button>
+            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={dbranding} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               Nov
-            </button>
+            </motion.button>
 
           </div>
         </div>

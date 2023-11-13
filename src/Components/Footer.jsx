@@ -29,19 +29,19 @@ const Footer = () => {
                                 Dighi Hills Pune 411015</h1>
                         </div>
                         <div className='flex  justify-evenly lg:px-16 my-5 '>
-                            <a target='_blank' href='https://www.facebook.com/ecellait' className='w-[38px] h-[38px] bg-white rounded-full'>
+                            <a target='_blank' href='https://www.facebook.com/ecellait' className=' hover:scale-110 duration-200 w-[38px] h-[38px] bg-white rounded-full'>
                                 <FaFacebook size={22} className='mx-auto my-[20%]' />
                             </a>
-                            <a target='_blank' href='https://www.instagram.com/ecell_ait/' className='w-[38px] h-[38px] bg-white rounded-full'>
+                            <a target='_blank' href='https://www.instagram.com/ecell_ait/' className='hover:scale-110 duration-200 w-[38px] h-[38px] bg-white rounded-full'>
                                 <FaInstagram size={22} className='mx-auto my-[20%]' />
                             </a>
-                            <a target='_blank' href='https://twitter.com/ecell_aitpune' className='w-[38px] h-[38px] bg-white rounded-full'>
+                            <a target='_blank' href='https://twitter.com/ecell_aitpune' className='hover:scale-110 duration-200 w-[38px] h-[38px] bg-white rounded-full'>
                                 <FaTwitter size={22} className='mx-auto my-[20%]' />
                             </a>
-                            <a target='_blank' href='https://www.linkedin.com/company/innovation-entrepreneurship-cell/' className='w-[38px] h-[38px] bg-white rounded-full'>
+                            <a target='_blank' href='https://www.linkedin.com/company/innovation-entrepreneurship-cell/' className='hover:scale-110 duration-200 w-[38px] h-[38px] bg-white rounded-full'>
                                 <FaLinkedinIn size={22} className='mx-auto my-[20%]' />
                             </a>
-                            <a target='_blank' href='https://www.youtube.com/@aitecell' className='w-[38px] h-[38px] bg-white rounded-full'>
+                            <a target='_blank' href='https://www.youtube.com/@aitecell' className='hover:scale-110 duration-200 w-[38px] h-[38px] bg-white rounded-full'>
                                 <FaYoutube size={22} className='mx-auto my-[20%]' />
                             </a>
 
@@ -52,16 +52,8 @@ const Footer = () => {
                 </div>
                 <div className='w-[100%] flex-col relative mx-auto right-0 md:w-[70%]'>
                     <div className='flex    md:gap-16 md:justify-end relative mx-auto  md:-left-32'>
-                        <div className='textt hidden mx-auto md:mx-0 text-white relative lg:flex flex-col top-4' >
-                            <a className='font-semibold mb-3'>QUICK LINKS</a>
-                            <a href='' className='text-xs mb-2  font-thin'>Our Team</a>
-                            <a href='' className='text-xs mb-2  font-thin'>Gallery</a>
-                            <a href='' className='text-xs mb-2  font-thin'>Startup Initiatives </a>
-                            <a href='' className='text-xs mb-2  font-thin'>AIT Pune</a>
-
-
-                        </div>
-                        <div className='textt text-white mx-auto md:mx-0 relative flex flex-col top-4' >
+                       
+                        <div className='textt text-center text-white mx-auto md:mx-0 relative flex flex-col top-4' >
                             <a className='font-semibold mb-3'>QUICK LINKS</a>
                             <a href='' className='text-xs mb-2  font-thin'>Our Team</a>
                             <a href='' className='text-xs mb-2  font-thin'>Gallery</a>
@@ -98,8 +90,11 @@ const Footer = () => {
                 </div>
                 {/* FOOTER  */}
             </div>
-            <div className='h-6 mx-aua  bg-[#B8BFFF]'>
+            <div className='h-6 mx-aua flex align-middle items-center  bg-[#B8BFFF]'>
+                <hr  className='w-[15%] sm:w-[30%] h-[2.5px] flex justify-center bg-black'/>
                 <h1 className='flex text-[sm] mx-auto justify-center '> Made with  <FaHeart color='red' className=' mt-1 mx-2' />   by I&E Cell</h1>
+                <hr  className='w-[15%] sm:w-[30%] h-[2.5px] flex justify-center bg-black'/>
+
             </div>
         </div>
     </>)

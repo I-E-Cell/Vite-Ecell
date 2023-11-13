@@ -47,15 +47,15 @@ const Hero = () => {
 
     return (
         <div className='relative w-[100%] pb-32 h-[100%] bg-[#0F1322]'>
-            <div className='relative mx-auto justify-center align-middle  top-[95px]  w-[94%] h-[40.5em] md:h-[39em] rounded-bl-xl rounded-br-xl rounded-tl-xl md:rounded-3xl bg-[#86C8D3]'>
-                <div className=' relative w-[28%]  h-[10em] rounded-3xl left-[72%] -top-[75px]  bg-[#86C8D3]'>
+            <div className='relative mx-auto justify-center align-middle  top-[95px]  w-[94%] h-[38em] md:h-[39em] rounded-bl-xl rounded-br-xl rounded-tl-xl md:rounded-3xl bg-[#86C8D3]'>
+                <div className=' relative w-[28%]  h-[10em] rounded-tr-xl md:rounded-tr-3xl rounded-3xl left-[72%] -top-[75px]  bg-[#86C8D3]'>
                     <div className='s_box rounded-sm w-[68%] lg:-left-[26.5px] -left-[28px] top-[6px]  h-[60%] bg-[#86C8D3]'>
 
                     </div>
 
                 </div>
                 <div className='flex text-[#0F1322]  flex-col lg:flex-row relative top-5 lg:-top-16  justify-around'>
-                    <div className='mx-auto lg:mx-0 -top-12 lg:top-0 relative'>
+                    <div className='mx-auto lg:mx-0 -top-8 lg:top-0 relative'>
                         <motion.div
                             initial={{ opacity: 0, x: -60 }}
                             whileInView={{ opacity: 1, x: 0 }}
@@ -80,7 +80,7 @@ const Hero = () => {
 
 
                         </div>
-                        <div className='flex top-28 md:top-16 justify-between md:mx-3 text-2xl md:text-3xl font-bold relative'>
+                        <div className='flex top-32 md:top-16 justify-between md:mx-3 text-2xl md:text-3xl font-bold relative'>
                             <div >
                                 <motion.span whileInView={animationClientsCount} ref={clientCount}>1200
 
@@ -102,12 +102,12 @@ const Hero = () => {
 
                     </div>
                     <motion.div
-                        initial={{ opacity: 0, x: 80 }}
+                        initial={{ opacity: 0, x: 100 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.6 }}
+                        transition={{ duration: 1 }}
 
                     >
-                        <div className=' hidden lg:flex relative -top-20 max-w-md mx-auto lg:mx-0'>
+                        <div className=' hidden lg:flex relative -top-[68.05px] max-w-md mx-auto lg:mx-0'>
 
                             <div className='relative top-10'>
                                 <div className='py-3 -top-3 relative' >

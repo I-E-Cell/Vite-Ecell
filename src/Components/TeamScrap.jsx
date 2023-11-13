@@ -59,12 +59,12 @@ const TeamScrap = () => {
 
                             </div>
                             <div className='flex flex-col lg:flex-row relative gap-20 nextline mx-auto '>
-                                <div className='flex flex-col mr-4 relative mx-auto  md:flex-row gap-20  md:gap-12'>
+                                <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20  md:gap-12'>
                                     <Card name="Samik Choudhury" branch="BE ENTC" img={samiksir} />
                                     <Card name="Ayush Singh" branch="BE ENTC" img={ayushsir} />
 
                                 </div>
-                                <div className='flex flex-col ml-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
+                                <div className='flex flex-col lg:ml-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
 
                                     <Card name="Sandeep Mishra" branch="BE ENTC" img={sandeepsir} />
                                     <Card name="Abhinaw Gupta" branch="BE ENTC" img={abhinawsir} />
@@ -91,48 +91,46 @@ const TeamScrap = () => {
 
                             </div>
                         </div>
-                        <div className='relative flex flex-col max-w-[98%] gap-28 mx-auto'>
-                            <div className=' mt-10'>
+                        <div className='relative max-w-[98%] mx-auto  pb-6'>
+                            <div className=' mt-10 mb-12'>
                                 <h1 className='mx-auto text-[#0F1322] text-center text-3xl textt sm:text-4xl pt-9  py-4 font-semibold'>Domain Heads</h1>
 
                             </div>
-                            <div className='flex flex-col lg:flex-row relative gap-20 nextline mx-auto  justify-center'>
-                                <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                    <Card name="Shivank Singh" branch="TE IT" img={shivank} domain="Finance, Management" />
-                                    <Card name="Umang Singh" branch="TE ENTC" img={umangsir} domain='Sponsorship Head' />
-                                </div>
-                                <div className='flex flex-col lg:ml-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                    <Card name="Nikita Kumari" branch="TE ENTC" img={nikitamam} domain='Design Head' />
-                                    <Card name="Ankit Kr Ranjan" branch="TE ENTC" img={ankitsir} domain='Startup Coordinator' />
-                                </div>
-                                <div className='flex flex-col   relative mx-auto  md:flex-row justify-center gap-20 md:gap-12'>
+                            <div className='flex flex-col gap-28 '>
+                                <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto  '>
+                                    <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
+                                        <Card name="Shivank Singh" branch="TE IT" img={shivank} domain="Finance, Management" />
+                                        <Card name="Umang Singh" branch="TE ENTC" img={umangsir} domain='Sponsorship Head' />
+                                    </div>
+                                    <div className='flex flex-col lg:ml-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
+                                        <Card name="Nikita Kumari" branch="TE ENTC" img={nikitamam} domain='Design Head' />
+                                        <Card name="Ankit Kr Ranjan" branch="TE ENTC" img={ankitsir} domain='Startup Coordinator' />
+                                    </div>
+                                    
 
                                 </div>
-
-                            </div>
-                            <div className='flex flex-col lg:flex-row relative gap-20 nextline mx-auto  justify-center'>
-                                <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                    <Card name="Likhit Reddy" branch="TE Mech" img={likhitsir} domain='Technical Head' />
-                                    <Card name="Aaryan Thakur" branch="TE ENTC" img={aryansir} domain='Graphics Head' />
-                                </div>
-                                <div className='flex flex-col lg:ml-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                    <Card name="Devesh Tiwari" branch="TE IT" img={deveshsir} domain='Media Head' />
-                                    <Card name="Vignesh Hari B" branch="TE Mech" img={vigneshsir} domain='Content Head' />
-                                </div>
-                                <div className='flex flex-col   relative mx-auto  md:flex-row justify-center gap-20 md:gap-12'>
+                                <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto  '>
+                                    <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
+                                        <Card name="Likhit Reddy" branch="TE Mech" img={likhitsir} domain='Technical Head' />
+                                        <Card name="Aaryan Thakur" branch="TE ENTC" img={aryansir} domain='Graphics Head' />
+                                    </div>
+                                    <div className='flex flex-col lg:ml-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
+                                        <Card name="Devesh Tiwari" branch="TE IT" img={deveshsir} domain='Media Head' />
+                                        <Card name="Vignesh Hari B" branch="TE Mech" img={vigneshsir} domain='Content Head' />
+                                    </div>
+                                    
 
                                 </div>
-
-                            </div>
-                            <div className='flex flex-col   relative mx-auto  md:flex-row justify-center gap-20 md:gap-12'>
-                                <div className='flex flex-col relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                    <Card name="Akhilesh Gupta" branch="TE ENTC" img={akhileshsir} domain='Operations Head' />
+                                <div className='flex flex-col -top-8 md:top-0   relative mx-auto  md:flex-row justify-center gap-20 md:gap-12 '>
+                                    <div className='flex flex-col relative mx-auto  md:flex-row gap-20 md:gap-12'>
+                                        <Card name="Akhilesh Gupta" branch="TE ENTC" img={akhileshsir} domain='Operations Head' />
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className='relative max-w-[98%] mx-auto  pb-6'>
                             <div className='mb-10 mt-10'>
-                                <h1 className='mx-auto text-[#0F1322] text-center text-3xl textt sm:text-4xl pt-9  py-4 font-semibold'>Joint Secretaries</h1>
+                                <h1 className='mx-auto text-[#0F1322] text-center text-3xl textt sm:text-4xl pb-5   font-semibold'>Joint Secretaries</h1>
 
                             </div>
                             <div className='flex flex-col gap-28 '>
@@ -173,7 +171,7 @@ const TeamScrap = () => {
                                     </div>
                                     <div className='flex flex-col lg:ml-4 relative mx-auto md:flex-row gap-20 md:gap-12'>
                                         <Card name="Gourav" branch="SE Comp" img={arshia} domain="Content, PR" />
-                                        
+
                                     </div>
                                 </div>
                             </div>
