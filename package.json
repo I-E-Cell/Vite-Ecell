@@ -19,7 +19,7 @@
     "react-multi-carousel": "^2.8.4",
     "react-router": "^6.18.0",
     "react-router-dom": "^6.18.0",
-    "swiper": "^11.0.3"
+    "swiper": "^11.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

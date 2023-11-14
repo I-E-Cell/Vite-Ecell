@@ -47,7 +47,7 @@ const Hero = () => {
 
     return (
         <div className='relative w-[100%] pb-32 h-[100%] bg-[#0F1322]'>
-            <div className='relative mx-auto justify-center align-middle  top-[95px]  w-[94%] h-[39em] rounded-bl-xl rounded-br-xl rounded-tl-xl md:rounded-3xl bg-[#86C8D3]'>
+            <div className='relative mx-auto justify-center align-middle  top-[95px]  w-[94%] h-[40em] md:h-[39em] rounded-bl-xl rounded-br-xl rounded-tl-xl md:rounded-3xl bg-[#86C8D3]'>
                 <div className=' relative w-[28%]  h-[10em] rounded-tr-xl md:rounded-tr-3xl rounded-3xl left-[72%] -top-[75px]  bg-[#86C8D3]'>
                     <div className='s_box rounded-sm w-[68%] lg:-left-[26.5px] -left-[28px] top-[6px]  h-[60%] bg-[#86C8D3]'>
 
@@ -55,7 +55,7 @@ const Hero = () => {
 
                 </div>
                 <div className='flex text-[#0F1322]  flex-col lg:flex-row relative top-5 lg:-top-16  justify-around'>
-                    <div className='mx-auto lg:mx-0 -top-5 lg:top-0 relative'>
+                    <div className='mx-auto lg:mx-0 -top-1 md:-top-8 lg:top-0 relative'>
                         <motion.div
                             initial={{ opacity: 0, x: -60 }}
                             whileInView={{ opacity: 1, x: 0 }}
@@ -77,6 +77,7 @@ const Hero = () => {
                             <button className='btn bg-[#0F1322]  rounded-lg  relative   w-36 border-white border-2 h-10'>
                                 <h1 className=' text-white  text-center relative justify-center text-lg mx-auto '>Explore</h1>
                             </button>
+                            
 
 
                         </div>

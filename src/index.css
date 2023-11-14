@@ -109,8 +109,9 @@ body {
 
 .text_inni_main {
     position: relative;
+    font-weight: 500;
 
-    animation: animate_logo 6s ease-out normal;
+    animation: animate_logo 3s ease-out normal;
 
 
 }
@@ -337,6 +338,25 @@ input {
 }
 
 .icons:hover {
-    filter: brightness(10);
+    scale: 1.2;
+    transition-duration: 0.5s;
+    
+    
 
 }
+.swiper-button-next{
+    
+    position: absolute;
+    
+    transform: translateX(50%);
+    transform: scale(0.6);
+
+
+    }
+    .swiper-button-prev{
+      position: absolute;
+      
+      transform: translateX(-50%);
+      transform: scale(0.6);
+     
+    }

@@ -15,8 +15,8 @@ const StartupSaga = () => {
 
                     <h1 className='text_inni text-3xl lg:text-4xl my-auto font-bold'>StartUP Saga</h1>
                     <a href="https://www.startupsaga.in/" target='_blank'>
-                        <button className=' btn_inni bg-[#27096D] rounded-xl  relative   w-24 border-white border-1 h-8'>
-                            <h1 className=' text-white  text-center relative justify-center text-sm mx-auto '>Explore</h1>
+                        <button className=' btn_inni bg-[#27096D] rounded-lg flex justify-center items-center font-semibold relative  text-white  w-24 border-white border-1 h-9'>
+                            Explore
                         </button>
                     </a>
                 </div>

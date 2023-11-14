@@ -11,8 +11,8 @@ const DecodeBranding = () => {
 
             <h1 className='text_inni text-3xl lg:text-4xl my-auto font-bold'>Decode Branding</h1>
             <a href="https://www.unnati3.in/" target='_blank'>
-                <button className=' bg-[#264248] rounded-xl  relative   w-24 border-white border-1 h-8'>
-                    <h1 className=' text-white  text-center relative justify-center text-sm mx-auto '>Explore</h1>
+                <button className='btn_inni bg-[#264248] text-white font-semibold rounded-lg  relative flex justify-center items-center  w-24 border-white border-1 h-9'>
+                Explore
                 </button></a>
         </div>
     </div>
