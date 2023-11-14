@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const Moto = () => {
     return (
-        <div className='bg-[#0F1322] moto md:-mt-6 h-[34.5em] md:h-[18em] w-[94%] mx-auto relative '>
+        <div id='moto' className='bg-[#0F1322] moto md:-mt-6 h-[34.5em] md:h-[18em] w-[94%] mx-auto relative '>
             <div className='flex  top-10 flex-col md:flex-row gap-28 md:gap-16 gap justify-center relative mx-auto'>
                 <div className='w-[21em] relative mx-auto md:mx-0 md:w-[28em] lg:w-[35em] h-[10em] rounded-2xl bg-[#D2AD93]'>
 

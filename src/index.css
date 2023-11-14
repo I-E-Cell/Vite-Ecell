@@ -120,6 +120,20 @@ body {
     position: relative;
     animation: animate 1.2s ease-out linear;
 }
+#kuchbhe:hover .haikuch:nth-child(1){
+    position: relative;
+    left: 108px;
+    transition-duration: 0.3s;
+
+    
+}
+#kuchbhe:hover .yebhe{
+    position: relative;
+    left: -40px;
+
+    transition-duration: 0.3s;
+    
+}
 
 
 @keyframes animate {
