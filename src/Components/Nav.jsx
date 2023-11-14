@@ -48,7 +48,7 @@ const Navbar = () => {
                     {!nav ? <AiOutlineClose size={25} color='#906ED6' /> : <AiOutlineMenu size={25} color='0F1322' />}
 
                 </div>
-                <div className={!nav ? 'fixed rounded-tr-2xl rounded-xl bg-opacity-60 backdrop-filter backdrop-blur-lg left-2 top-4 w-[55%] h-[100%] border-r border-r-gray-900   bg-gray-700/80  ease-in-out duration-500' : 'fixed left-[-100%]'}>
+                <div className={!nav ? 'fixed rounded-tr-2xl rounded-xl bg-opacity-60 backdrop-filter backdrop-blur-lg left-2 top-2 w-[55%] h-[100%] border-r border-r-gray-900   bg-gray-700/80  ease-in-out duration-500' : 'fixed left-[-100%]'}>
                     <div className='flex w-[4.7em] border border-gray-400 rounded-full my-10 mx-auto h-[4.7em]'>
                         <img className='h-[40px] m-4 rounded-full  relative  border-grey mx-auto' src={ecell} alt="ait_logo" />
                     </div>
