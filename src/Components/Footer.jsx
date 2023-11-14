@@ -52,15 +52,18 @@ const Footer = () => {
                 </div>
                 <div className='w-[100%] flex-col relative mx-auto right-0 md:w-[70%]'>
                     <div className='flex    md:gap-16 md:justify-end relative mx-auto  md:-left-32'>
-                       
-                        <div className='textt text-center text-white mx-auto md:mx-0 relative flex flex-col top-4' >
-                            <a className='font-semibold mb-3'>QUICK LINKS</a>
-                            <a href='' className='text-xs mb-2  font-thin'>Our Team</a>
-                            <a href='' className='text-xs mb-2  font-thin'>Gallery</a>
-                            <Link to='/credits'>
-                                <a href='' className='text-xs mb-3 bottom-1 relative  font-thin'>Credits </a>
+
+                        <div className='textt text-center text-white mx-auto md:mx-0 relative flex gap-1 flex-col top-4' >
+                            <a className='font-semibold mb-1'>QUICK LINKS</a>
+                            <Link to='/team'>
+                                <a href='' className='text-xs mb-2  font-thin'>Our Team</a>
+                            </Link><Link to='/gallery'>
+                                <a href='' className='text-xs mb-2  font-thin'>Gallery</a>
                             </Link>
-                            <a href='' className='text-xs mb-2  font-thin'>AIT Pune</a>
+                            <Link to='/credits'>
+                                <a href='' className='text-xs mb-2 relative  font-thin'>Credits </a>
+                            </Link>
+                            <a target='_blank' href='https://www.aitpune.com/' className='text-xs mb-2  font-thin'>AIT Pune</a>
 
 
                         </div>
@@ -91,9 +94,9 @@ const Footer = () => {
                 {/* FOOTER  */}
             </div>
             <div className='h-6 mx-aua flex align-middle items-center  bg-[#B8BFFF]'>
-                <hr  className='w-[15%] sm:w-[30%] h-[2.5px] flex justify-center bg-black'/>
+                <hr className='w-[15%] sm:w-[30%] h-[2.5px] flex justify-center bg-black' />
                 <h1 className='flex text-[sm] mx-auto justify-center '> Made with  <FaHeart color='red' className=' mt-1 mx-2' />   by I&E Cell</h1>
-                <hr  className='w-[15%] sm:w-[30%] h-[2.5px] flex justify-center bg-black'/>
+                <hr className='w-[15%] sm:w-[30%] h-[2.5px] flex justify-center bg-black' />
 
             </div>
         </div>

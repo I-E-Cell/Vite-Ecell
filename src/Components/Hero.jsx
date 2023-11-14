@@ -5,7 +5,7 @@ import puzzel from '../assets/puzzle.png'
 import youtube from '../assets/youtube.png'
 import x from '../assets/x.png'
 import fb from '../assets/fb.png'
-
+import { BsArrowUpRight } from "react-icons/bs";
 import insta from '../assets/insta.png'
 import linkedin from '../assets/linkedin.png'
 
@@ -46,7 +46,7 @@ const Hero = () => {
 
 
     return (
-        <div className='relative w-[100%] pb-32 h-[100%] bg-[#0F1322]'>
+        <div  className='relative w-[100%] pb-32 h-[100%] bg-[#0F1322]'>
             <div className='relative mx-auto justify-center align-middle  top-[95px]  w-[94%] h-[40em] md:h-[39em] rounded-bl-xl rounded-br-xl rounded-tl-xl md:rounded-3xl bg-[#86C8D3]'>
                 <div className=' relative w-[28%]  h-[10em] rounded-tr-xl md:rounded-tr-3xl rounded-3xl left-[72%] -top-[75px]  bg-[#86C8D3]'>
                     <div className='s_box rounded-sm w-[68%] lg:-left-[26.5px] -left-[28px] top-[6px]  h-[60%] bg-[#86C8D3]'>
@@ -74,8 +74,11 @@ const Hero = () => {
                         </div>
 
                         <div className='relative mx-auto  pt-16 flex justify-center lg:justify-start left-0 overflow-hidden  lg:left-2'>
-                            <button className='btn bg-[#0F1322]  rounded-lg  relative   w-36 border-white border-2 h-10'>
-                                <h1 className=' text-white  text-center relative justify-center text-lg mx-auto '>Explore</h1>
+                            <button id='kuchbhe'  className='explore btn  items-center bg-[#0F1322] flex rounded-3xl  relative   w-36  h-10'>
+                                <div className='haikuch absolute w-[2em] h-[2em] bg-[#86C8D3] left-1 rounded-full'>
+                                <BsArrowUpRight size={22} className=' relative left-1 top-1'/>
+                                </div>
+                                <h1 className='yebhe text-white  text-center relative justify-center left-2 text-lg mx-auto '>Explore</h1>
                             </button>
                             
 
