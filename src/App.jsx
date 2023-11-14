@@ -18,6 +18,7 @@ import Alumni from "./Components/Alumni";
 import CardEcell from "./Components/CardEcell";
 import TeamScrap from "./Components/TeamScrap";
 import Credits from "./Components/Credits";
+import Udyamita from "./Components/Udyamita";
 // import LineChart from "./Components/LineChart";
 
 
@@ -29,6 +30,7 @@ function LandingPage() {
       <Moto />
       <Initia />
       {/* <Line /> */}
+      <Udyamita />
       <Newsletter />
       <CarouselDisplay />
       <Footer />
