@@ -8,7 +8,7 @@ const Card_M = () => {
                 <div className='rounded-full relative top-3  flex'>
                     <img src={gobi} className='rounded-full w-12 relative left-2' alt="" />
                 </div>
-                <h2 className='max-w-[96%] review relative mx-auto  text-left '>Ab na Pampar, na Huggi
+                <h2 className='max-w-[92%] review relative mx-auto  text-left '>Ab na Pampar, na Huggi
                     Bache sirf pahene gay Snuggy
                     <br /></h2>
 
