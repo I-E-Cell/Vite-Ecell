@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Nav from './Nav'
+import { BsArrowUpRight } from "react-icons/bs";
 import Images from './Images'
 import unnati1 from '../assets/Event/Unnati/unnati1.jpg'
 import unnati2 from '../assets/Event/Unnati/unnati2.jpg'
@@ -80,45 +81,46 @@ const Gallery = () => {
                     </div>
 
                     <div className='absolute text-center w-[100%] top-10 text-white font-thin nav flex flex-col md:flex-row  gap-4 md:gap-16  justify-center'>
-                        <div className='flex flex-row gap-16 justify-center'>
-                        <a href="#_" onClick={displayUnnati} className="relative px-5 py-2 font-medium text-white group">
-                            <span class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-purple-500 group-hover:bg-purple-700 group-hover:skew-x-12"></span>
-                            <span class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-purple-700 group-hover:bg-purple-500 group-hover:-skew-x-12"></span>
-                            <span class="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-purple-600 -rotate-12"></span>
-                            <span class="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12"></span>
-                            <span class="relative">Unnati</span>
-                        </a>
-                        <a href="#_" onClick={displayStartupSaga} className="relative px-5 py-2 font-medium text-white group">
-                            <span class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-purple-500 group-hover:bg-purple-700 group-hover:skew-x-12"></span>
-                            <span class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-purple-700 group-hover:bg-purple-500 group-hover:-skew-x-12"></span>
-                            <span class="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-purple-600 -rotate-12"></span>
-                            <span class="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12"></span>
-                            <span class="relative">StartupSaga</span>
-                        </a>
+                        <div className='flex flex-row gap-5  md:gap-16 justify-center '>
+
+                            <button id='kuchbhe' onClick={displayUnnati} className='explore btn  items-center bg-[#0F1322] flex rounded-3xl  relative   w-36  h-10'>
+                                <div className='haikuch absolute w-[2em] h-[2em] bg-[#86C8D3] left-1 rounded-full'>
+                                    <BsArrowUpRight size={22} className=' relative left-1 top-1' />
+                                </div>
+                                <h1 className='yebhe text-white  text-center relative justify-center left-2 text-md mx-auto '>Unnati</h1>
+                            </button>
+                            <button id='kuchbhe' onClick={displayStartupSaga} className='explore btn  items-center bg-[#0F1322] flex rounded-3xl  relative   w-36  h-10'>
+                                <div className='haikuch absolute w-[2em] h-[2em] bg-[#86C8D3] left-1 rounded-full'>
+                                    <BsArrowUpRight size={22} className=' relative left-1 top-1' />
+                                </div>
+                                <h1 className='yebhe text-white  text-center relative justify-center left-2  mx-auto '>StartupSaga</h1>
+                            </button>
+
+
+
                         </div>
-                        <div className='flex flex-row gap-16 justify-center'>
-                        <a href="#_" onClick={displayUs_bhai_us} className="relative px-5 py-2 font-medium text-white group">
-                            <span class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-purple-500 group-hover:bg-purple-700 group-hover:skew-x-12"></span>
-                            <span class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-purple-700 group-hover:bg-purple-500 group-hover:-skew-x-12"></span>
-                            <span class="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-purple-600 -rotate-12"></span>
-                            <span class="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12"></span>
-                            <span class="relative">Us_Bhai_Us</span>
-                        </a>
-                        <a href="#_" onClick={displayVisits} className="relative px-5 py-2 font-medium text-white group">
-                            <span class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-purple-500 group-hover:bg-purple-700 group-hover:skew-x-12"></span>
-                            <span class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-purple-700 group-hover:bg-purple-500 group-hover:-skew-x-12"></span>
-                            <span class="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-purple-600 -rotate-12"></span>
-                            <span class="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12"></span>
-                            <span class="relative">Visits</span>
-                        </a>
+                        <div className='flex flex-row gap-5  md:gap-16 justify-center'>
+                            <button id='kuchbhe' onClick={displayVisits} className='explore btn  items-center bg-[#0F1322] flex rounded-3xl  relative   w-36  h-10'>
+                                <div className='haikuch absolute w-[2em] h-[2em] bg-[#86C8D3] left-1 rounded-full'>
+                                    <BsArrowUpRight size={22} className=' relative left-1 top-1' />
+                                </div>
+                                <h1 className='yebhe text-white  text-center relative justify-center left-2  mx-auto '>Visits</h1>
+                            </button>
+                            <button id='kuchbhe' onClick={displayUs_bhai_us} className='explore btn  items-center bg-[#0F1322] flex rounded-3xl  relative   w-36  h-10'>
+                                <div className='haikuch absolute w-[2em] h-[2em] bg-[#86C8D3] left-1 rounded-full'>
+                                    <BsArrowUpRight size={22} className=' relative left-1 top-1' />
+                                </div>
+                                <h1 className='yebhe text-white  text-center relative justify-center left-2  mx-auto '>Us Bhai Us</h1>
+                            </button>
+
                         </div>
-                     
+
 
                     </div>
                     <div className='absolute  md:top-[85px]   w-[100%]'>
                         <hr className='relative w-[93%]  mx-auto' />
                     </div>
-                    
+
 
                     {unnati ? <Images
                         img1={unnati1}
@@ -139,18 +141,18 @@ const Gallery = () => {
 
 
                     /> : null}
-                    {us_bhai_us ? <Images 
-                    
+                    {us_bhai_us ? <Images
+
                     /> : null}
 
-                    {visits ? <Images 
-                    
+                    {visits ? <Images
+
                         img2={visit1}
                         img1={visit2}
                         img3={visit3}
                         img4={visit4}
                         img5={visit2}
-                        
+
                     /> : null}
 
 
