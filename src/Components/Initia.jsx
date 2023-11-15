@@ -6,13 +6,13 @@ import arrow from '../assets/Arrow.png'
 import sslogo from "../assets/sslogo.png"
 
 import { motion } from 'framer-motion'
-
+import Graph from './Graph'
 import ecell_logo from "../assets/ecell.png";
 import StartupSaga from './Events/StartupSaga';
 import Unnati from './Events/Unnati';
 import DecodeBranding from './Events/DecodeBranding'
 import { BsArrowUpRight } from "react-icons/bs";
-// import Line from "./Components/LineChart";
+
 
 
 
@@ -63,18 +63,21 @@ const Initia = () => {
             
           </div>
 
-          {/* <Line /> */}
+         <Graph />
 
 
 
-          <div className='top-[40%] relative mx-auto flex ' >
-            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}   onClick={StartupSagaa} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+          <div className=' relative z-20 -top-[9em] md:-top-[8.6em] left-3 lg:left-3 w-[98%] sm:w-[86%]  lg:w-[85%] mx-auto flex ' >
+            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}   onClick={StartupSagaa} className='px-3 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               April
             </motion.button>
-            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={unnati} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={dbranding} className='px-2 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+              August
+            </motion.button>
+            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={unnati} className='px-4 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               Sept
             </motion.button>
-            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={dbranding} className='px-3 py-[3px] text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={dbranding} className='px-4 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               Nov
             </motion.button>
 
