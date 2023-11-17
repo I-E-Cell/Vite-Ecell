@@ -30,7 +30,7 @@ const Initia = () => {
   const StartupSagaa = () => {
     setShowdb(false)
     setShowU(false)
-    setShow(!show)
+    setShow(true)
   }
   const unnati = () => {
     setShowdb(false)
@@ -41,12 +41,12 @@ const Initia = () => {
 
   return (
     <div className=''>
-      <div className='flex gap-3 md:gap-28 lg:gap-[300px] ml-[15%] lg:ml-[25%] justify-center'>
-        <h1 className='textt font-semibold flex  items-center  text-[45px] text-center text-white'>Initiatives</h1>
-        <img className='md:w-28 w-20 rotate ' src={circle} alt="" />
+      <div className='flex gap-3 md:gap-28 lg:gap-[300px] item-center justify-center'>
+        <h1 className='textt font-semibold pt-[15px] md:pt-[30px] mb-3 flex   items-center  text-[45px] text-center text-white'>Initiatives</h1>
+        <img className='absolute md:w-28 right-1 md:right-[20%] w-20 rotate ' src={circle} alt="" />
 
       </div>
-      <div className='flex  top-10 flex-col md:flex-row gap-24 md:gap-[4.4%]  justify-center relative mx-auto '>
+      <div className='flex  top-5 md:top-7 flex-col md:flex-row gap-24 md:gap-[4.4%]  justify-center relative mx-auto '>
       
         <div className='relative mx-auto rounded-2xl h-[15.5em] top-[4.5em]  md:mx-0 w-[92%] md:w-[40%] bg-[#1C1F2B]'>
           <div className='lg:w-[86%] md:w-[80%] w-[82%] h-[6em] relative bg-[#1C1F2B] rounded-2xl -top-[4.5em]'>
@@ -58,7 +58,7 @@ const Initia = () => {
             </div>
 
           </div>
-          <div className='absolute lg:left-[85.5%] left-[80.5%] md:left-[79.5%]   border-[12px] border-[#0F1322] lg:w-[15.5%] w-[23%] h-[5.5em] -top-[5.5em] bg-[#1C1F2B] rounded-3xl'>
+          <div className='absolute lg:left-[86%] left-[82%] md:left-[80%]   border-[12px] border-[#0F1322] lg:w-[15.5%] w-[23%] h-[5.5em] -top-[5.5em] bg-[#1C1F2B] rounded-3xl'>
           <BsArrowUpRight color='white' className='relative mx-auto top-3' size={40} />
             
           </div>
@@ -68,9 +68,6 @@ const Initia = () => {
 
 
           <div className=' relative z-20 -top-[9em] md:-top-[8.6em] left-3 lg:left-3 w-[98%] sm:w-[86%]  lg:w-[85%] mx-auto flex ' >
-            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}   onClick={StartupSagaa} className='px-3 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
-              April
-            </motion.button>
             <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={dbranding} className='px-2 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               August
             </motion.button>
@@ -79,6 +76,9 @@ const Initia = () => {
             </motion.button>
             <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={dbranding} className='px-4 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               Nov
+            </motion.button>
+            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}   onClick={StartupSagaa} className='px-3 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+              April
             </motion.button>
 
           </div>

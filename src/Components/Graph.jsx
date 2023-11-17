@@ -18,7 +18,7 @@ const Graph = () => {
 		datasets: [
 			{
 				label: "No of Participants",
-				data: [2400,200, 300, 130],
+				data: [300, 700, 350,2400],
 				backgroundColor: "#B0D4DA",
 				borderColor: "#86C8D3",
 				pointBorderColor: "#11BCD9",
@@ -58,7 +58,7 @@ const Graph = () => {
 
 	return (
 		<>
-			<div className="z-10 relative flex justify-center -top-[5em] sm:-top-[8.2em] md:-top-[6em] lg:-top-[7.5em] w-[95%] sm:w-[75%] md:w-[90%] h-[95%] mx-auto plot">
+			<div className="z-10 relative flex justify-center -top-[5em] sm:-top-[8.2em] md:-top-[6em] lg:-top-[7.5em] w-[95%] sm:w-[75%] md:w-[78%] h-[95%] mx-auto plot">
 				
 				<Line data={data} options={options}></Line>
 			</div>

@@ -29,7 +29,7 @@ const Alumni = () => {
 
 
 
-                        <h1 className='absolute md:mt-6 text-[#0F1322]  font-bold text-3xl  md:text-4xl flex justify-center text-center w-[100%] '>Alumni</h1>
+                        <h1 className='absolute md:mt-6 text-[#0F1322]  font-bold text-3xl  md:text-4xl flex justify-center text-center w-[100%] '>Alumni Entrepreneurs</h1>
                         <div className='relative mt-24 md:mt-36 mx-auto w-[98%]'>
                             <div className='flex flex-col nextline relative justify-center mb-28 gap-28  '>
                                 <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto '>

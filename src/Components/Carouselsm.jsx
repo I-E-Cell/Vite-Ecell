@@ -18,7 +18,7 @@ export default () => {
       modules={[Navigation]}
 
       spaceBetween={44}
-      navigation
+      // navigation
 
       slidesPerView={2}
       onSlideChange={() => console.log('slide change')}
