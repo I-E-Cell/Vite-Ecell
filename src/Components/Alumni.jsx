@@ -9,6 +9,7 @@ import karanrai from "../assets/Alumni/karanrai.jpeg"
 import pallavimam from '../assets/Alumni/pallavimam.jpeg'
 import rohandatta from "../assets/Alumni/rohandatta.jpeg"
 import abhijeetsir from '../assets/Alumni/abhijeetsir.jpeg'
+import ayushsir from '../assets/Alumni/ayushsir.jpeg'
 
 const Alumni = () => {
     return (
@@ -35,7 +36,9 @@ const Alumni = () => {
                                 <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto '>
                                     <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
                                         <AlumniCard name="Ravi Kumar" position="Founder and Director at udChalo" img={ravisir} linkedin="https://www.linkedin.com/in/raviudchalo/"/>
-                                        <AlumniCard name="Rahool Gadkari" position="Co-Founder, Neufin" img={rahool} linkedin="https://www.linkedin.com/in/rahoolgadkari/"/>
+                                        {/* <AlumniCard name="Rahool Gadkari" position="Co-Founder, Neufin" img={rahool} linkedin="https://www.linkedin.com/in/rahoolgadkari/"/> */}
+                                        <AlumniCard name="Ayush Agrawal" position="Founder, CodeFoxie & Seniority.in" img={ayushsir} linkedin="https://www.linkedin.com/in/agrawalayush/"/>
+
                                     </div>
                                     <div className='flex flex-col lg:ml-4 md:flex-row relative mx-auto  gap-20 md:gap-12'>
                                         <AlumniCard  name="Baljeet Singh" position="Co-Founder at mTatva & Simbo.ai" img={baljeetsir} linkedin="https://www.linkedin.com/in/blusingh/" />
