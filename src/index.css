@@ -272,14 +272,14 @@ input {
 
 .review::after {
     content: ' ”';
-    font-size: 32px;
+    font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 .review::before {
     content: '“';
-    font-size: 32px;
+    font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
