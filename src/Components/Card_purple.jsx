@@ -9,8 +9,7 @@ const Card_purple = () => {
                 <div className='rounded-full relative top-3  flex'>
                     <img src={gobi} className='rounded-full w-12 relative left-2' alt="" />
                 </div>
-                <h2 className='max-w-[92%] review relative mx-auto  text-left '>Ab na Pampar, na Huggi
-                    Bache sirf pahene gay Snuggy
+                <h2 className='max-w-[92%] review relative mx-auto  text-left '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe illo provident vitae corrupti, eum repellendus?
                     <br /></h2>
 
                 <h1 className='font-semibold'>

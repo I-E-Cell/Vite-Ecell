@@ -30,6 +30,7 @@ import deveshsir from '../assets/Team/deveshsir.jpg'
 import ankitsir from '../assets/Team/ankitsir.jpg'
 import aniket from '../assets/Team/aniket.png'
 import akhileshsir from "../assets/Team/akhilesh.jpg"
+import rishi from '../assets/Team/rishi.png'
 
 
 
@@ -166,7 +167,7 @@ const TeamScrap = () => {
                                 </div>
                                 <div className='flex flex-col lg:flex-row relative  gap-20 nextline mx-auto  '>
                                     <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                        <Card name="Rishi Singh" branch="SE IT" img={sumit} domain="WebDev, Content" insta={"https://www.instagram.com/infinite_rishi37/"} fb={""} linkedin={"https://www.linkedin.com/in/rishi-kumar-singh-761074215/"}/>
+                                        <Card name="Rishi Singh" branch="SE IT" img={rishi} domain="WebDev, Content" insta={"https://www.instagram.com/infinite_rishi37/"} fb={""} linkedin={"https://www.linkedin.com/in/rishi-kumar-singh-761074215/"}/>
                                         <Card name="Aniket Patil" branch="SE Mech" img={aniket} domain="Graphics, PR" insta={"https://www.instagram.com/aniketpatil.1118/"} fb={""} linkedin={"https://www.linkedin.com/in/aniket-patil-853617265"}/>
                                     </div>
                                     <div className='flex flex-col lg:ml-4 relative mx-auto md:flex-row gap-20 md:gap-12'>

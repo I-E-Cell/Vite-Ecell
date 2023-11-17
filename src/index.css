@@ -120,19 +120,21 @@ body {
     position: relative;
     animation: animate 1.2s ease-out linear;
 }
-#kuchbhe:hover .haikuch:nth-child(1){
+
+#kuchbhe:hover .haikuch:nth-child(1) {
     position: relative;
     left: 108px;
     transition-duration: 0.3s;
 
-    
+
 }
-#kuchbhe:hover .yebhe{
+
+#kuchbhe:hover .yebhe {
     position: relative;
     left: -40px;
 
     transition-duration: 0.3s;
-    
+
 }
 
 
@@ -354,23 +356,50 @@ input {
 .icons:hover {
     scale: 1.2;
     transition-duration: 0.5s;
-    
-    
+
+
 
 }
-.swiper-button-next{
+
+.swiper-button-next {
+
+    position: relative;
     
-    position: absolute;
-    
-    transform: translateX(50%);
+    transform: translateX(10%);
     transform: scale(0.6);
 
 
-    }
-    .swiper-button-prev{
-      position: absolute;
-      
-      transform: translateX(-50%);
-      transform: scale(0.6);
-     
-    }
+}
+
+.swiper-button-prev {
+    position: absolute;
+    
+    transform: translateX(-150%);
+    transform: scale(0.6);
+
+}
+
+.swiper-nav-btns button {
+    z-index: 100;
+    position: relative;
+    width: 60px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: hsl(210, 100%, 50%);
+    color: #fff;
+    margin: 0px 0.5rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 300px;
+    margin-left: -100px;
+    transition: all .5s;
+  }
+  
+  .swiper-nav-btns button:hover {
+    background-color: hsl(210, 100%, 40%);
+    cursor: pointer;
+  }
+  .swiper {
+    padding: 2rem;
+  }

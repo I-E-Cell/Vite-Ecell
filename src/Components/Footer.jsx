@@ -53,7 +53,7 @@ const Footer = () => {
                 <div className='w-[100%] flex-col relative mx-auto right-0 md:w-[70%]'>
                     <div className='flex    md:gap-16 md:justify-end relative mx-auto  md:-left-32'>
 
-                        <div className='textt text-center text-white mx-auto md:mx-0 relative flex gap-1 flex-col top-4' >
+                        <div className='textt  text-white mx-auto md:mx-0 relative flex gap-1 flex-col top-4' >
                             <a className='font-semibold mb-1'>QUICK LINKS</a>
                             <Link to='/team'>
                                 <a href='' className='text-xs mb-2  font-thin'>Our Team</a>

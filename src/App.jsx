@@ -19,6 +19,7 @@ import CardEcell from "./Components/CardEcell";
 import TeamScrap from "./Components/TeamScrap";
 import Credits from "./Components/Credits";
 import Udyamita from "./Components/Udyamita";
+import Startups from "./Components/Startups";
 // import LineChart from "./Components/LineChart";
 
 
@@ -53,6 +54,7 @@ function App() {
         <Route path="/internship" element={<Internship />} />
         <Route path='/alumni' element={<Alumni />} />
         <Route path='/credits' element={<Credits />} />
+        <Route path='/startups' element={<Startups />} />
         
 
       </Routes>
