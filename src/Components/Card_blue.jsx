@@ -2,18 +2,18 @@ import React from 'react'
 import gobi from '../assets/gobi.png'
 
 
-const Card_blue = () => {
+function Card_blue (props) {
   return (
     <div className='flex  text-center'>
-            <div className='bg-[#86C8D3] h-[18em] rounded-2xl flex-col flex gap-6  w-[17em]'>
-                <div className='rounded-full relative top-3  flex'>
-                    <img src={gobi} className='rounded-full w-12 relative left-2' alt="" />
+            <div className='bg-[#86C8D3] overflow-hidden h-[19em] rounded-2xl flex-col flex gap-6  w-[17em]'>
+            <div className='rounded-full relative top-3  flex'>
+                    <img src={props.img} className='rounded-full w-11 h-11 relative left-4 shadow-md shadow-black' alt="" />
                 </div>
-                <h2 className='max-w-[92%] review relative mx-auto  text-left '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe illo provident vitae corrupti, eum repellendus?
+                <h2 className='max-w-[83%]  text-justify text-[11px] review relative mx-auto  '>{props.msg}
                     <br /></h2>
 
-                <h1 className='font-semibold'>
-                    ~ Kolli Goverdhan Durga Reddy
+                <h1 className='font-semibold absolute right-4 bottom-14'>
+                  ~ {props.name} 
                 </h1>
 
             </div>
