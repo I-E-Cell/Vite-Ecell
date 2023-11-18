@@ -4,8 +4,8 @@ import gobi from '../assets/gobi.png'
 
 const Card_purple = () => {
   return (
-    <div className='flex  text-center'>
-            <div className='bg-[#B8BFFF] h-[18em] rounded-2xl flex-col flex gap-6  w-[17em]'>
+    <div className='flex justify-center  text-center'>
+            <div className='bg-[#B8BFFF] h-[20em] rounded-2xl flex-col flex gap-6  w-[18em]'>
                 <div className='rounded-full relative top-3  flex'>
                     <img src={gobi} className='rounded-full w-12 relative left-2' alt="" />
                 </div>

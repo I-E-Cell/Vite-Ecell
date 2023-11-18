@@ -270,7 +270,7 @@ input {
 
 
 
-.review::after {
+/* .review::after {
     content: ' ”';
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -282,7 +282,7 @@ input {
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-}
+} */
 
 @media (max-width: 1410px) {
     .nextline {
