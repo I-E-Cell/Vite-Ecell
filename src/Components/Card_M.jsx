@@ -11,7 +11,7 @@ function Card_M (props) {
                 <h2 className='max-w-[83%]  text-justify text-[11px] review relative mx-auto  '>{props.msg}
                     <br /></h2>
 
-                <h1 className='font-semibold absolute right-4 bottom-14'>
+                <h1 className='font-semibold absolute left-7 bottom-14'>
                   ~ {props.name} 
                 </h1>
 
