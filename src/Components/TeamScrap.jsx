@@ -31,7 +31,7 @@ import ankitsir from '../assets/Team/ankitsir.jpg'
 import aniket from '../assets/Team/aniket.png'
 import akhileshsir from "../assets/Team/akhilesh.jpg"
 import rishi from '../assets/Team/rishi.png'
-
+import gourav from '../assets/Team/gourav.jpg'
 
 
 
@@ -171,7 +171,7 @@ const TeamScrap = () => {
                                         <Card name="Aniket Patil" branch="SE Mech" img={aniket} domain="Graphics, PR" insta={"https://www.instagram.com/aniketpatil.1118/"} fb={""} linkedin={"https://www.linkedin.com/in/aniket-patil-853617265"}/>
                                     </div>
                                     <div className='flex flex-col lg:ml-4 relative mx-auto md:flex-row gap-20 md:gap-12'>
-                                        <Card name="Gourav" branch="SE Comp" img={arshia} domain="Content, PR" insta={"https://www.instagram.com/vashist1563/"} fb={""} linkedin={"https://www.linkedin.com/in/gourav-vashist-713366259/"}/>
+                                        <Card name="Gourav" branch="SE Comp" img={gourav} domain="Content, PR" insta={"https://www.instagram.com/vashist1563/"} fb={""} linkedin={"https://www.linkedin.com/in/gourav-vashist-713366259/"}/>
 
                                     </div>
                                 </div>

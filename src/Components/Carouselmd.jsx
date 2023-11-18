@@ -16,10 +16,10 @@ export default () => {
         <Swiper
       modules={[Navigation]}
 
-          spaceBetween={10}
+          spaceBetween={5}
       navigation
 
-          slidesPerView={3}
+          slidesPerView={2}
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
         >

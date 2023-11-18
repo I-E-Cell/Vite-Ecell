@@ -4,6 +4,12 @@ import dev from '../assets/Startups/dev.jpeg'
 import cv from '../assets/CV.png'
 import { motion } from 'framer-motion'
 import StartupCard from './StartupCard'
+import electrunmotors from '../assets/Startups/electrunmotors.jpeg'
+import virbike from '../assets/Startups/virbike.jpeg'
+import deepinfolab from '../assets/Startups/deepinfolab.jpeg'
+import skrolcart from '../assets/Startups/skrolcart.png'
+import nurserylive from '../assets/Startups/nurserylive.jpeg'
+import momentumrobotics from '../assets/Startups/momentumrobotics.jpeg'
 
 const Startups = () => {
    
@@ -32,20 +38,20 @@ const Startups = () => {
                     </div>
                     <div className='flex-col  -top-20 flex gap-10 relative  mx-auto '>
                         <div className='flex flex-col md:flex-row  mx-auto relative gap-10  md:gap-20 justify-center'>
-                        <StartupCard name="Dev Dynasty" img={dev} discription="lorem20 ufh ejfei fefe fjeife fe fejf efjefeif eifeifje fe ifei eie fieeif eif efi ejiefjeif eeifj"/>
-                        <StartupCard />
+                        <StartupCard name="Dev Dynasty" img={dev} discription="lorem20 ufh ejfei fefe fjeife fe fejf efjefeif eifeifje fe ifei eie fieeif eif efi ejiefjeif eeifj" linkedin="https://www.linkedin.com/company/devdynasty/about/"/>
+                        <StartupCard name="Electrun Motors" founder="Sahil Uttekar" img={electrunmotors} discription="Electrun Motors is an automotive firm specialising in the retrofitting of existing vehicles and the development of new electric vehicles. The company's major goal is to supply society with cost-effective and innovative solutions." linkedin="https://www.linkedin.com/company/electrun-motors/about/" insta="https://www.linkedin.com/company/electrun-motors/about/"/>
                         </div>
                         <div className='flex flex-col md:flex-row  mx-auto relative gap-10 md:gap-20 justify-center'>
-                        <StartupCard />
-                        <StartupCard />
+                        <StartupCard name="VirBike" discription="" founder="Sahil Uttekar" img={virbike} linkedin="https://www.linkedin.com/company/virbike/" insta="https://www.instagram.com/virbike_official/"/>
+                        <StartupCard name="Deep Info Lab" discription="Deep Info Lab is a company that uses artificial intelligence, deep learning and machine learning to add value to businesses, professionals and individuals." img={deepinfolab} founder="Rohan Datta" linkedin="https://www.linkedin.com/company/deepinfolab/about/" insta="https://www.instagram.com/deepinfolab/"/>
                         </div>
                         <div className='flex flex-col md:flex-row  mx-auto relative gap-10 md:gap-20 justify-center'>
-                        <StartupCard />
-                        <StartupCard />
+                        <StartupCard name="Skrolcart" img={skrolcart} founder="Pitambar Panda" insta="https://www.instagram.com/skrolcart" linkedin="https://www.skrolcart.com/"/>
+                        <StartupCard name="Nursery Live" founder="Satender Kumar" img={nurserylive} insta="https://www.instagram.com/nurserylive_" linkedin="https://www.linkedin.com/company/nurserylive/"/>
                         </div>
                         <div className='flex flex-col md:flex-row  mx-auto relative gap-10 md:gap-20 justify-center'>
-                        <StartupCard />
-                        <StartupCard />
+                        <StartupCard name="Momentum Robotics" founder="Rajendra Dixit" img={momentumrobotics} linkedin="https://www.linkedin.com/company/momentum-robotics/"/>
+                        {/* <StartupCard /> */}
                         </div>
 
                     </div>

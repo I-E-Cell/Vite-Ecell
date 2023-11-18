@@ -1,5 +1,5 @@
 import {Swiper, SwiperSlide} from "swiper/react";
-import { Navigation} from 'swiper/modules';
+import { Navigation,  Pagination} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
@@ -14,10 +14,12 @@ export default () => {
     
     <div className='w-[91%] md:w-[84.4%] mt-10  relative flex  sm:hidden mx-auto  rounded-2xl bg-[#1C1F2B] px-16 py-16' >
     <Swiper className='flex justify-center'
-      modules={[Navigation]}
+      modules={[Navigation, Pagination]}
 
-      spaceBetween={10}
-      navigation
+      spaceBetween={0}
+      // navigation
+      pagination={{ clickable: true }}
+
 
       slidesPerView={1}
       onSlideChange={() => console.log('slide change')}
@@ -29,6 +31,8 @@ export default () => {
         <SwiperSlide><Card_M /></SwiperSlide>
         <SwiperSlide><Card_blue /></SwiperSlide>
         <SwiperSlide><Card_purple /></SwiperSlide>
+        <br />
+        <br />
     </Swiper>
     </div>
     
