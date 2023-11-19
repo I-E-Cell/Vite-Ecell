@@ -2,15 +2,17 @@ import React, { useState } from 'react'
 import Nav from './Nav'
 import cv from '../assets/CV.png'
 import { motion } from 'framer-motion'
-
+import Popup from './Popup'
 
 
 const Internship = () => {
     const [send, setSend] = useState("Send")
+    const [popup2, setPopup2]=useState(false)
 
     function pressed() {
         setSend("Sent!");
-        alert("Your e-mail has been registered!!");
+        setPopup2(!popup2);
+        // alert("Your e-mail has been registered!!");
     }
     return (
         <div >
@@ -54,7 +56,7 @@ const Internship = () => {
                     {/* //-------- */}
                 </div>
             </div>
-
+            {popup2? <Popup />: null}
 
         </div>
     )

@@ -1,13 +1,16 @@
 import React, { useState } from 'react'
 import letter from '../assets/letter.png'
 import { motion } from 'framer-motion'
+import Popup from './Popup'
 
 const Newsletter = () => {
-   const [submit, setSubmit] = useState("Sign to Newsletter")
-
-    function pressed(){
+    const [submit, setSubmit] = useState("Sign to Newsletter")
+    const [popup2, setPopup2] = useState(false)
+    function pressed() {
+        setPopup2(!popup2);
         setSubmit("Thankyou for Signing");
-        alert("Thankyou for Subscribing to our Newsletter!!")
+        // alert("Thankyou for Subscribing to our Newsletter!!")
+
     };
 
     return (
@@ -33,14 +36,14 @@ const Newsletter = () => {
                 >
                     <h1 className='md:text-[45px] text-[35px]   font-bold text-[#3E3126]'>Sign up for our newsletter</h1>
                 </motion.div>
-                    <hr className='max-w-[80%] mx-auto md:mx-0 bg-[#3E3126] realtive px-4' />
-                    <p className='max-w-sm vm_text text-sm my-3'>Stay informed and inspired! Sign up for our newsletter to receive exclusive content, Don't miss out on the latest insights. Join our community today!</p>
+                <hr className='max-w-[80%] mx-auto md:mx-0 bg-[#3E3126] realtive px-4' />
+                <p className='max-w-sm vm_text text-sm my-3'>Stay informed and inspired! Sign up for our newsletter to receive exclusive content, Don't miss out on the latest insights. Join our community today!</p>
 
-                    <input className='mt-6 shadow-xl mb-6 rounded-lg bg-[#D4D6ED] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="email" placeholder='Enter your E-mail' />
+                <input className='mt-6 shadow-xl mb-6 rounded-lg bg-[#D4D6ED] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="email" placeholder='Enter your E-mail' />
 
-                    <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} onClick={pressed} className='  shadow-xl mx-auto md:mx-0  bg-[#C6C9E3] rounded-full px-6 py-[6px]  my-3 font-medium text-[#3E3126] flex relative '>{submit}</motion.button>
-
+                <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={pressed} className='  shadow-xl mx-auto md:mx-0  bg-[#C6C9E3] rounded-full px-6 py-[6px]  my-3 font-medium text-[#3E3126] flex relative '>{submit}</motion.button>
             </div>
+            {popup2 ? <Popup /> : null}
 
         </div>
 

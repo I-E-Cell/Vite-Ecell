@@ -20,6 +20,7 @@ import TeamScrap from "./Components/TeamScrap";
 import Credits from "./Components/Credits";
 import Udyamita from "./Components/Udyamita";
 import Startups from "./Components/Startups";
+import Popup from "./Components/Popup";
 // import LineChart from "./Components/LineChart";
 
 
@@ -35,6 +36,7 @@ function LandingPage() {
       <Newsletter />
       <CarouselDisplay />
       <Footer />
+      {/* <Popup /> */}
       {/* <LineChart /> */}
       
     </div>
