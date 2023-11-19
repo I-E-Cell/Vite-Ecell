@@ -1,19 +1,18 @@
 import React from 'react'
 import gobi from '../assets/gobi.png'
 
-
-const Card_purple = () => {
+function Card_purple (props){
   return (
     <div className='flex justify-center  text-center'>
             <div className='bg-[#B8BFFF] h-[20em] rounded-2xl flex-col flex gap-6  w-[18em]'>
-                <div className='rounded-full relative top-3  flex'>
-                    <img src={gobi} className='rounded-full w-12 relative left-2' alt="" />
+            <div className='rounded-full relative top-3  flex'>
+                    <img src={props.img} className='rounded-full w-11 h-11 relative left-4 shadow-md shadow-black' alt="" />
                 </div>
-                <h2 className='max-w-[92%] review relative mx-auto  text-left '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe illo provident vitae corrupti, eum repellendus?
-                    <br /></h2>
+                <h2 className='max-w-[83%]  top-2 text-justify text-[11px] review relative mx-auto  '>"{props.msg}"
+                    </h2>
 
-                <h1 className='font-semibold'>
-                    ~ Kolli Goverdhan Durga Reddy
+                <h1 className='font-semibold absolute left-5 md:left-16 bottom-14'>
+                  ~ {props.name} 
                 </h1>
 
             </div>

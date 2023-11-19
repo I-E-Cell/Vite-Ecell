@@ -63,7 +63,8 @@ const Alumni = () => {
                             <div className='flex flex-col nextline relative justify-center mb-28 gap-28  '>
                                 <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto '>
                                     <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                        <AlumniCard name="Abhijeet Deogirikar" img={abhijeetsir} position="Founder at CopperCloud IOTech Pvt Ltd" linkedin="https://www.linkedin.com/in/abhijeet-deogirikar-ab5732a/" />
+                                        <AlumniCard name="Satender Kumar" img={satenderkumar} position="Co-founder at Nurserylive" linkedin="https://www.linkedin.com/in/satender-kumar-5637b022/" />
+
                                         <AlumniCard name="Rohan Datta" img={rohandatta} position="CEO and Founder at Deep Info Lab" linkedin="https://www.linkedin.com/in/rohan-datta-ab930b150/" />
                                     </div>
                                     <div className='flex flex-col lg:ml-4 md:flex-row relative mx-auto  gap-20 md:gap-12'>
@@ -88,7 +89,8 @@ const Alumni = () => {
                             <div className='flex flex-col nextline relative justify-center mb-28 gap-28  '>
                                 <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto '>
                                     <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                        <AlumniCard name="Satender Kumar" img={satenderkumar} position="Co-founder at Nurserylive" linkedin="https://www.linkedin.com/in/satender-kumar-5637b022/" />
+                                        <AlumniCard name="Abhijeet Deogirikar" img={abhijeetsir} position="Founder at CopperCloud IOTech Pvt Ltd" linkedin="https://www.linkedin.com/in/abhijeet-deogirikar-ab5732a/" />
+
                                         <AlumniCard name="Awanish Pandey" position="Founder, PostingChalo & CargoSync Pvt Ltd" img={awanishpandey} linkedin="https://www.linkedin.com/in/awanish-pandey-pmp%C2%AE-968aaab7/" />
 
                                     </div>

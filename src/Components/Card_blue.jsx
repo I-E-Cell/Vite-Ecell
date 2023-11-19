@@ -9,10 +9,10 @@ function Card_blue (props) {
             <div className='rounded-full relative top-3  flex'>
                     <img src={props.img} className='rounded-full w-11 h-11 relative left-4 shadow-md shadow-black' alt="" />
                 </div>
-                <h2 className='max-w-[83%]  text-justify text-[11px] review relative mx-auto  '>{props.msg}
+                <h2 className='max-w-[83%]  text-justify text-[11px] review relative mx-auto  '>"{props.msg}"
                     <br /></h2>
 
-                <h1 className='font-semibold absolute left-16 bottom-14'>
+                <h1 className='font-semibold  absolute left-5 md:left-16 bottom-14'>
                   ~ {props.name} 
                 </h1>
 
