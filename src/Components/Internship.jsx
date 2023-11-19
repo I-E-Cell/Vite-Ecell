@@ -9,7 +9,8 @@ const Internship = () => {
     const [send, setSend] = useState("Send")
 
     function pressed() {
-        setSend("Sent!")
+        setSend("Sent!");
+        alert("Your e-mail has been registered!!");
     }
     return (
         <div >

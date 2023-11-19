@@ -6,7 +6,8 @@ const Newsletter = () => {
    const [submit, setSubmit] = useState("Sign to Newsletter")
 
     function pressed(){
-        setSubmit("Thankyou for Signing")
+        setSubmit("Thankyou for Signing");
+        alert("Thankyou for Subscribing to our Newsletter!!")
     };
 
     return (
