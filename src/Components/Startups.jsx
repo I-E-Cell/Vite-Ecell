@@ -10,7 +10,7 @@ import deepinfolab from '../assets/Startups/deepinfolab.jpeg'
 import skrolcart from '../assets/Startups/skrolcart.png'
 import nurserylive from '../assets/Startups/nurserylive.jpeg'
 import momentumrobotics from '../assets/Startups/momentumrobotics.jpeg'
-import kagazz from '../assets/Startups/Kaagazz.jpeg'
+import kagazz from '../assets/Startups/kaagazz.jpeg'
 
 const Startups = () => {
    
