@@ -20,7 +20,7 @@ const Unnati = () => {
 
 
             <div>
-                <h3 className='text_inni_main text-center min-w-[110%] relative left-[28px] text-sm lg:text:lg'>To build an ecosystem to identify, nurture innovation and entrepreneurship skills amongst students and to generate successful commercial enterprise contributing towards significant </h3>
+                <h3 className='text_inni_main text-center min-w-[110%] relative left-[28px] text-sm lg:text:lg'>A fantastic event to showcase the art of creative marketing and persuade others of a product and service's value in today's ever- evolving market. </h3>
 
             </div>
 
