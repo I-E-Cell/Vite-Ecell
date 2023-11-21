@@ -8,12 +8,10 @@ function Card_purple (props){
             <div className='rounded-full relative top-3  flex'>
                     <img src={props.img} className='rounded-full w-11 h-11 relative left-4 shadow-md shadow-black' alt="" />
                 </div>
-                <h2 className='max-w-[83%]  top-2 text-justify text-[11px] review relative mx-auto  '>"{props.msg}"
+                <h2 className='max-w-[83%]  top-2 text-justify text-[11px] review relative mx-auto  '>"{props.msg}"<br /><br /><span  className=' text-[15px] font-semibold'>~ {props.name} </span>
                     </h2>
 
-                <h1 className='font-semibold absolute left-5 md:left-16 bottom-14'>
-                  ~ {props.name} 
-                </h1>
+                
 
             </div>
         </div>

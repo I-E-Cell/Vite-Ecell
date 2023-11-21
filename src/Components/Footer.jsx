@@ -23,7 +23,7 @@ const Footer = () => {
 
                             <div className="mx-auto rounded-xl overflow-x-hidden justigy-center">
                                 <iframe className='rounded-xl  mb-10 mx-auto ' src="https://maps.google.com/maps?q=ait pune&t=k&z=16&ie=UTF8&iwloc=&output=embed"></iframe>
-
+                            
                             </div>
                             <h1 className='w-[80%]  mx-auto text-center textt '>Army Institute of Technology,Pune
                                 Dighi Hills Pune 411015</h1>
