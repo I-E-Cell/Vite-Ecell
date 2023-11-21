@@ -29,7 +29,7 @@ const Hero = () => {
     }
 
     const animationProjectCount = () => {
-        animate(0, 7000, {
+        animate(0, 11000, {
             duration: 2,
             onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
         });
@@ -96,7 +96,7 @@ const Hero = () => {
 
                             </div>
                             <div>
-                                <motion.span ref={projectCount} whileInView={animationProjectCount}>7000</motion.span>+
+                                <motion.span ref={projectCount} whileInView={animationProjectCount}>11000</motion.span>+
                                 <h1 className='text-base md:text-lg font-semibold relative left-1 mt-1'>Reach</h1>
 
                             </div>

@@ -25,7 +25,8 @@ import nitishrai from '../assets/Alumni/nitishrai.jpeg'
 import vishwajeet from '../assets/Alumni/vishwajeet.jpeg'
 import vinodkulhari from '../assets/Alumni/vinodkulhari.jpeg'
 import sandeepm from '../assets/Alumni/sandeepm.jpeg'
-
+import pitambersir from '../assets/Alumni/pitambersir.jpg'
+import tamanjitbindra from '../assets/Alumni/tamanjitbindra.jpg'
 const Alumni = () => {
     return (
         <div >
@@ -56,7 +57,8 @@ const Alumni = () => {
                                     </div>
                                     <div className='flex flex-col lg:ml-4 md:flex-row relative mx-auto  gap-20 md:gap-12'>
                                         <AlumniCard name="Baljeet Singh" position="Co-Founder at mTatva & Simbo.ai" img={baljeetsir} linkedin="https://www.linkedin.com/in/blusingh/" />
-                                        <AlumniCard name="Vikram Sareen" img={vikramsareen} position="Co-Founder, Chief Architect Blue Bricks Pvt Ltd" linkedin="https://www.linkedin.com/in/vikramsareen/" />
+                                        <AlumniCard name="Nitish Rai" img={nitishrai} position="Founder and CEO FreightFox" linkedin="https://www.linkedin.com/in/aspiringnitish/" />
+
                                     </div>
                                 </div>
                             </div>
@@ -64,12 +66,13 @@ const Alumni = () => {
                                 <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto '>
                                     <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
                                         <AlumniCard name="Satender Kumar" img={satenderkumar} position="Co-founder at Nurserylive" linkedin="https://www.linkedin.com/in/satender-kumar-5637b022/" />
+                                        <AlumniCard name="Vikram Sareen" img={vikramsareen} position="Co-Founder, Chief Architect Blue Bricks Pvt Ltd" linkedin="https://www.linkedin.com/in/vikramsareen/" />
 
-                                        <AlumniCard name="Rohan Datta" img={rohandatta} position="CEO and Founder at Deep Info Lab" linkedin="https://www.linkedin.com/in/rohan-datta-ab930b150/" />
                                     </div>
                                     <div className='flex flex-col lg:ml-4 md:flex-row relative mx-auto  gap-20 md:gap-12'>
-                                        <AlumniCard name="Karan Rai" img={karanrai} position="Founder, Red Panda Innovation Labs" linkedin="https://www.linkedin.com/in/karanrai/" />
-                                        <AlumniCard name="Pallavi Tyagi" img={pallavimam} position="Founder, 26 Technology Services" linkedin="https://www.linkedin.com/in/pallavityagi/" />
+                                        <AlumniCard name="Vijender Yadav" img={vijenderyadav} position="Co-founder, Managing Director at Accops" linkedin="https://www.linkedin.com/in/vijenderyadav11/?originalSubdomain=in" />
+
+                                        <AlumniCard name="Varun Jain" img={varunjain} position="Co-Founder, UdChalo & UpCurve Software" linkedin="https://www.linkedin.com/in/varunjainpune/" />
                                     </div>
                                 </div>
                             </div>
@@ -77,11 +80,11 @@ const Alumni = () => {
                                 <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto '>
                                     <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
                                         <AlumniCard name="Sahil Uttekar" img={sahilsir} position="Founder & Head of Operations at Vir Bike" linkedin="https://www.linkedin.com/in/sahil-uttekar-909b861a0/" />
-                                        <AlumniCard name="Rahool Gadkari" position="Co-Founder, Neufin" img={rahool} linkedin="https://www.linkedin.com/in/rahoolgadkari/" />
+                                        <AlumniCard name="Tamanjit Bindra" position="Co-Founder at Kaagaz " img={tamanjitbindra} linkedin="https://www.linkedin.com/in/tamanjit/" />
 
                                     </div>
                                     <div className='flex flex-col lg:ml-4 md:flex-row relative mx-auto  gap-20 md:gap-12'>
-                                        <AlumniCard name="Varun Jain" img={varunjain} position="Co-Founder, UdChalo & UpCurve Software" linkedin="https://www.linkedin.com/in/varunjainpune/" />
+                                        <AlumniCard name="Pallavi Tyagi" img={pallavimam} position="Founder, 26 Technology Services" linkedin="https://www.linkedin.com/in/pallavityagi/" />
                                         <AlumniCard name="Deepak Yadav" img={deepakyadav} position="Co-Founder at Momentum Robotics" linkedin="https://www.linkedin.com/in/deepak-kr-ait/" />
                                     </div>
                                 </div>
@@ -89,9 +92,9 @@ const Alumni = () => {
                             <div className='flex flex-col nextline relative justify-center mb-28 gap-28  '>
                                 <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto '>
                                     <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
+                                        <AlumniCard name="Rahool Gadkari" position="Co-Founder, Neufin" img={rahool} linkedin="https://www.linkedin.com/in/rahoolgadkari/" />
                                         <AlumniCard name="Abhijeet Deogirikar" img={abhijeetsir} position="Founder at CopperCloud IOTech Pvt Ltd" linkedin="https://www.linkedin.com/in/abhijeet-deogirikar-ab5732a/" />
 
-                                        <AlumniCard name="Awanish Pandey" position="Founder, PostingChalo & CargoSync Pvt Ltd" img={awanishpandey} linkedin="https://www.linkedin.com/in/awanish-pandey-pmp%C2%AE-968aaab7/" />
 
                                     </div>
                                     <div className='flex flex-col lg:ml-4 md:flex-row relative mx-auto  gap-20 md:gap-12'>
@@ -108,7 +111,8 @@ const Alumni = () => {
 
                                     </div>
                                     <div className='flex flex-col lg:ml-4 md:flex-row relative mx-auto  gap-20 md:gap-12'>
-                                        <AlumniCard name="Vijender Yadav" img={vijenderyadav} position="Co-founder, Managing Director at Accops" linkedin="https://www.linkedin.com/in/vijenderyadav11/?originalSubdomain=in" />
+                                        <AlumniCard name="Karan Rai" img={karanrai} position="Founder, Red Panda Innovation Labs" linkedin="https://www.linkedin.com/in/karanrai/" />
+
                                         <AlumniCard name="Ankush Tiwari" img={ankushtiwari} position="Co-Founder and Legs of Engineering at zblocks" linkedin="https://www.linkedin.com/in/ankushtiwari/" />
                                     </div>
                                 </div>
@@ -116,13 +120,26 @@ const Alumni = () => {
                             <div className='flex flex-col nextline relative justify-center mb-28 gap-28  '>
                                 <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto '>
                                     <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                        <AlumniCard name="Nitish Rai" img={nitishrai} position="Founder and CEO FreightFox" linkedin="https://www.linkedin.com/in/aspiringnitish/" />
                                         <AlumniCard name="Vishwajeet Singh" position="Co-Founder, EZMove.in & Sensible Softwares " img={vishwajeet} linkedin="https://www.linkedin.com/in/singhvishwajeet/" />
+                                        <AlumniCard name="Rohan Datta" img={rohandatta} position="CEO and Founder at Deep Info Lab" linkedin="https://www.linkedin.com/in/rohan-datta-ab930b150/" />
 
                                     </div>
                                     <div className='flex flex-col lg:ml-4 md:flex-row relative mx-auto  gap-20 md:gap-12'>
                                         <AlumniCard name="Vinod Kulhari" img={vinodkulhari} position="Founder at SweeDesi" linkedin="https://www.linkedin.com/in/vinod-kulhari/" />
                                         <AlumniCard name="Sandeep Muley" img={sandeepm} position="Founder at Bharatrath" linkedin="https://www.linkedin.com/in/sandeepmuley/" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='flex flex-col nextline relative justify-center mb-28 gap-28  '>
+                                <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto '>
+                                    <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
+                                        <AlumniCard name="Pitambar Panda" img={pitambersir} position="Founder at Xefficient Pvt Ltd" linkedin="https://www.linkedin.com/in/pitambar-panda-a606941b2/" />
+                                        <AlumniCard name="Awanish Pandey" position="Founder, PostingChalo & CargoSync Pvt Ltd" img={awanishpandey} linkedin="https://www.linkedin.com/in/awanish-pandey-pmp%C2%AE-968aaab7/" />
+
+                                    </div>
+                                    <div className='flex flex-col lg:ml-4 md:flex-row relative mx-auto  gap-20 md:gap-12'>
+                                        {/* <AlumniCard name="Vinod Kulhari" img={vinodkulhari} position="Founder at SweeDesi" linkedin="https://www.linkedin.com/in/vinod-kulhari/" />
+                                        <AlumniCard name="Sandeep Muley" img={sandeepm} position="Founder at Bharatrath" linkedin="https://www.linkedin.com/in/sandeepmuley/" /> */}
                                     </div>
                                 </div>
                             </div>

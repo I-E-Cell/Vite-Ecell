@@ -137,7 +137,7 @@ const TeamScrap = () => {
                             <div className='flex flex-col gap-28 '>
                                 <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto   '>
                                     <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                        <Card name="Gulshan Singh" branch="SE COMP" img={gulshan} insta={"https://www.instagram.com/gulshansingh___/"} fb={""} linkedin={"https://www.linkedin.com/in/gulshan-singh-a64a4b247/"} domain="Webdev, Graphics" />
+                                        <Card name="Gulshan Singh" branch="SE COMP" img={gulshan} insta={"https://www.instagram.com/gulshansingh___/"} fb={""} linkedin={"https://www.linkedin.com/in/gulshansingh20/"} domain="Webdev, Graphics" />
                                         <Card name="Mitesh Maity" branch="SE ENTC" img={mitesh} domain="Webdev, Content" insta={"https://www.instagram.com/miteshmaity280603/"} fb={""} linkedin={"https://www.linkedin.com/in/mitesh-maity-3573201b7/"}/>
                                     </div>
                                     <div className='flex flex-col lg:ml-4 md:flex-row relative mx-auto  gap-20 md:gap-12'>
@@ -167,11 +167,11 @@ const TeamScrap = () => {
                                 </div>
                                 <div className='flex flex-col lg:flex-row relative  gap-20 nextline mx-auto  '>
                                     <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                        <Card name="Rishi Singh" branch="SE IT" img={rishi} domain="WebDev, Content" insta={"https://www.instagram.com/infinite_rishi37/"} fb={""} linkedin={"https://www.linkedin.com/in/rishi-kumar-singh-761074215/"}/>
+                                        <Card name="Gourav" branch="SE Comp" img={gourav} domain="Content, PR" insta={"https://www.instagram.com/vashist1563/"} fb={""} linkedin={"https://www.linkedin.com/in/gourav-vashist-713366259/"}/>
                                         <Card name="Aniket Patil" branch="SE Mech" img={aniket} domain="Graphics, PR" insta={"https://www.instagram.com/aniketpatil.1118/"} fb={""} linkedin={"https://www.linkedin.com/in/aniket-patil-853617265"}/>
                                     </div>
                                     <div className='flex flex-col lg:ml-4 relative mx-auto md:flex-row gap-20 md:gap-12'>
-                                        <Card name="Gourav" branch="SE Comp" img={gourav} domain="Content, PR" insta={"https://www.instagram.com/vashist1563/"} fb={""} linkedin={"https://www.linkedin.com/in/gourav-vashist-713366259/"}/>
+                                        {/* <Card name="Rishi Singh" branch="SE IT" img={rishi} domain="WebDev, Content" insta={"https://www.instagram.com/infinite_rishi37/"} fb={""} linkedin={"https://www.linkedin.com/in/rishi-kumar-singh-761074215/"}/> */}
 
                                     </div>
                                 </div>

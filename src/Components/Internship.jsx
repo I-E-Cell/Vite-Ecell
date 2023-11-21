@@ -74,15 +74,15 @@ const Internship = () => {
                                 <h1 className='lg:text-[37px] text-[30px] mx-auto w-[95%] md:w-[100%]  font-bold text-[#86C8D3]'>Drop us your Details if you have any Opportunity for us !!</h1>
                                 <hr className='max-w-[80%] mx-auto md:mx-0 bg-[#86C8D3] realtive px-4' />
                                 <div className='w-[90%] md:w-[80%] mx-auto md:mx-10 '>
-                                    <label className='text-base font-semibold text-white mr-[85px]' htmlFor="fname">Name :</label>
+                                    <label className='text-base font-semibold text-white md:mr-[85px]' htmlFor="fname">Name :</label>
                                     <input id='fname' className='mt-5 shadow-xl mb-3 rounded-lg  bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' name='Name' type="name" placeholder='Enter your Name' /> <br />
-                                    <label className='text-base mr-3 font-semibold text-white' htmlFor="Cname">Company Name :</label>
+                                    <label className='text-base md:mr-3 font-semibold text-white' htmlFor="Cname">Company Name :</label>
                                     <input id='Cname' className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="name" placeholder='Enter Company Name' /> <br />
-                                    <label className='text-base mr-[96px] font-semibold text-white' htmlFor="">Role :</label>
+                                    <label className='text-base md:mr-[96px] font-semibold text-white' htmlFor="">Role :</label>
                                     <input className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="name" placeholder='Enter the Role' /><br />
-                                    <label className='text-base  mr-[98px] font-semibold text-white' htmlFor="">Link :</label>
+                                    <label className='text-base  md:mr-[98px] font-semibold text-white' htmlFor="">Link :</label>
                                     <input className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="link" placeholder='Enter the link' /><br />
-                                    <label className='text-base mr-[89px] font-semibold text-white' htmlFor="">Email :</label>
+                                    <label className='text-base md:mr-[89px] font-semibold text-white' htmlFor="">Email :</label>
                                     <input className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="email" placeholder='Enter your E-mail' /><br />
 
                                 <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={pressed} className=' shadow-xl md:mx-0  bg-[#96D0DA] rounded-full px-8 py-[6px]  my-3 font-medium text-[#3E3126] flex relative '>{send}</motion.button>
