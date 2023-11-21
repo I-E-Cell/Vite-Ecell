@@ -15,9 +15,9 @@ function StartupCard (props) {
                                 <h1 className=' text-[15px] mx-auto text-white w-[100%] justify-center flex  mt-2 '>Founder : {props.founder}</h1>
                                 <h1 className=' text-[12px] mx-auto text-white text-center w-[80%] justify-center flex  mt-3 '>{props.discription}</h1>
 
-                                <div className='flex gap-2 md:gap-4 mt-5 justify-center'>
-                                <a href={props.linkedin}><motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}   className='  shadow-xl mx-auto md:mx-0  bg-[#96D0DA] rounded-full px-5 py-[5px]   font-sm text-[#3E3126] flex relative '>Linkedin</motion.button></a>
-                                <a href={props.insta}><motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}  className='  shadow-xl mx-auto md:mx-0  bg-[#96D0DA] rounded-full px-5 py-[5px]   font-sm text-[#3E3126] flex relative '>Instagram</motion.button></a>
+                                <div className='flex gap-2 md:gap-4 mt-5 w-[60%] mx-auto  justify-center'>
+                                <a className='w-[100%] ' href={props.linkedin}><motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}   className=' w-[100%] items-center justify-center shadow-xl mx-auto md:mx-0 text-center font-semibold  bg-[#96D0DA] rounded-full  py-[5px]   font-sm text-[#3E3126] flex relative '>Linkedin</motion.button></a>
+                                {/* <a href={props.insta}><motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}  className='  shadow-xl mx-auto md:mx-0  bg-[#96D0DA] rounded-full px-5 py-[5px]   font-sm text-[#3E3126] flex relative '>Instagram</motion.button></a> */}
 
                                 </div>
 
