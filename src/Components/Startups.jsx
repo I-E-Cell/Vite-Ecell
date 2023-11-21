@@ -39,20 +39,20 @@ const Startups = () => {
                     </div>
                     <div className='flex-col  -top-20 flex gap-10 relative  mx-auto '>
                         <div className='flex flex-col md:flex-row  mx-auto relative gap-10  md:gap-20 justify-center'>
-                        <StartupCard name="Dev Dynasty" img={dev} discription="lorem20 ufh ejfei fefe fjeife fe fejf efjefeif eifeifje fe ifei eie fieeif eif efi ejiefjeif eeifj" linkedin="https://www.linkedin.com/company/devdynasty/about/"/>
-                        <StartupCard name="Electrun Motors" founder="Sahil Uttekar" img={electrunmotors} discription="Electrun Motors is an automotive firm specialising in the retrofitting of existing vehicles and the development of new electric vehicles. The company's major goal is to supply society with cost-effective and innovative solutions." linkedin="https://www.linkedin.com/company/electrun-motors/about/" insta="https://www.linkedin.com/company/electrun-motors/about/"/>
+                        <StartupCard name="Dev Dynasty" img={dev}  linkedin="https://www.linkedin.com/company/devdynasty/about/"/>
+                        <StartupCard name="Electrun Motors" founder="Sahil Uttekar" img={electrunmotors}  linkedin="https://www.linkedin.com/company/electrun-motors/about/" />
                         </div>
                         <div className='flex flex-col md:flex-row  mx-auto relative gap-10 md:gap-20 justify-center'>
-                        <StartupCard name="VirBike" discription="" founder="Sahil Uttekar" img={virbike} linkedin="https://www.linkedin.com/company/virbike/" insta="https://www.instagram.com/virbike_official/"/>
-                        <StartupCard name="Deep Info Lab" discription="Deep Info Lab is a company that uses artificial intelligence, deep learning and machine learning to add value to businesses, professionals and individuals." img={deepinfolab} founder="Rohan Datta" linkedin="https://www.linkedin.com/company/deepinfolab/about/" insta="https://www.instagram.com/deepinfolab/"/>
+                        <StartupCard name="VirBike" discription="" founder="Sahil Uttekar" img={virbike} linkedin="https://www.linkedin.com/company/virbike/" />
+                        <StartupCard name="Deep Info Lab"  img={deepinfolab} founder="Rohan Datta" linkedin="https://www.linkedin.com/company/deepinfolab/about/" />
                         </div>
                         <div className='flex flex-col md:flex-row  mx-auto relative gap-10 md:gap-20 justify-center'>
-                        <StartupCard name="Skrolcart" img={skrolcart} founder="Pitambar Panda" insta="https://www.instagram.com/skrolcart" linkedin="https://www.skrolcart.com/"/>
-                        <StartupCard name="Nursery Live" founder="Satender Kumar" img={nurserylive} insta="https://www.instagram.com/nurserylive_" linkedin="https://www.linkedin.com/company/nurserylive/"/>
+                        <StartupCard name="Skrolcart" img={skrolcart} founder="Pitambar Panda"  linkedin="https://www.skrolcart.com/"/>
+                        <StartupCard name="Nursery Live" founder="Satender Kumar" img={nurserylive}  linkedin="https://www.linkedin.com/company/nurserylive/"/>
                         </div>
                         <div className='flex flex-col md:flex-row  mx-auto relative gap-10 md:gap-20 justify-center'>
-                        <StartupCard name="Momentum Robotics" founder="Rajendra Dixit" img={momentumrobotics} linkedin="https://www.linkedin.com/company/momentum-robotics/"/>
-                        <StartupCard name="Kaagaz" img={kagazz} founder="Gaurav Shrimal" insta="https://www.instagram.com/kaagazz_/" linkedin="https://www.linkedin.com/company/kaagazscanner/?originalSubdomain=in"/>
+                        <StartupCard name="Momentum Robotics" founder="Deepak Yadav" img={momentumrobotics} linkedin="https://www.linkedin.com/company/momentum-robotics/"/>
+                        <StartupCard name="Kaagaz" img={kagazz} founder="Gaurav Shrimal"  linkedin="https://www.linkedin.com/company/kaagazscanner/?originalSubdomain=in"/>
                         </div>
                         
                     </div>
