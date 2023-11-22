@@ -27,6 +27,8 @@ import vinodkulhari from '../assets/Alumni/vinodkulhari.jpeg'
 import sandeepm from '../assets/Alumni/sandeepm.jpeg'
 import pitambersir from '../assets/Alumni/pitambersir.jpg'
 import tamanjitbindra from '../assets/Alumni/tamanjitbindra.jpg'
+import piyushsharma from '../assets/Alumni/piyushsharma.jpg'
+
 const Alumni = () => {
     return (
         <div >
@@ -138,8 +140,8 @@ const Alumni = () => {
 
                                     </div>
                                     <div className='flex flex-col lg:ml-4 md:flex-row relative mx-auto  gap-20 md:gap-12'>
-                                        {/* <AlumniCard name="Vinod Kulhari" img={vinodkulhari} position="Founder at SweeDesi" linkedin="https://www.linkedin.com/in/vinod-kulhari/" />
-                                        <AlumniCard name="Sandeep Muley" img={sandeepm} position="Founder at Bharatrath" linkedin="https://www.linkedin.com/in/sandeepmuley/" /> */}
+                                        <AlumniCard name="Piyush Sharma" img={piyushsharma} position="Chief Technology Officer at Electrun Motors" linkedin="https://www.linkedin.com/in/piyush-sharma-02121997/" />
+                                        {/* <AlumniCard name="Sandeep Muley" img={sandeepm} position="Founder at Bharatrath" linkedin="https://www.linkedin.com/in/sandeepmuley/" /> */}
                                     </div>
                                 </div>
                             </div>

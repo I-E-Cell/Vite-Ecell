@@ -36,7 +36,7 @@ const Moto = () => {
                             transition={{ duration: 0.6 }}
 
                         >
-                            <h1 className='max-w-[10 0%] text-center text-sm left-[15%] z-10 top-12 relative vm_text'>
+                            <h1 className='max-w-[10 0%] text-center text-sm md:text-[15px] left-[15%] z-10 top-12 relative vm_text'>
                                 To be an important part of Government 's dream of 5 trillion economy, by contributing through startups of AIT students.
                             </h1>
                         </motion.div>
@@ -72,7 +72,7 @@ const Moto = () => {
                         <div className='w-[32%] h-[40%] bg-[#A1A6DC] relative top-[15px]   -skew-x-12 -left-[36px]'>
 
                         </div>
-                        <div className='relative min-w-[115%] text-sm -left-[22%] z-10 top-7  text-center'>
+                        <div className='relative min-w-[115%] text-sm md:text-[15px] -left-[22%] z-10 top-7  text-center'>
                             <motion.div
                                 initial={{ opacity: 0, x: 60 }}
                                 whileInView={{ opacity: 1, x: 0 }}

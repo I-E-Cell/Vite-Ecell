@@ -11,6 +11,9 @@ import Card_blue from './Card_blue';
 import Card_purple from './Card_purple';
 import mohitkumar from '../assets/Alumni/mohitkumar.jpeg'
 import satenderkumar from '../assets/Alumni/satenderkumar.jpeg'
+import piyushsharma from '../assets/Alumni/piyushsharma.jpg'
+import deepakyadav from '../assets/Alumni/deepakyadav.jpeg'
+
 
 export default () => {
   return (
@@ -32,7 +35,9 @@ export default () => {
         <SwiperSlide><Card_M  name="Mr. Mohit Kumar" img={mohitkumar} msg ="The I&E cell at AIT is really focused on helping people start businesses. I've been involved in this work and seen how dedicated we are and the progress we've made. These new plans are important and are helping AIT students' startups succeed in India. It's amazing to see the small ideas from my time now becoming successful businesses. A big round of applause to the team for working so hard, and here's to AIT becoming even better at supporting entrepreneurs!"/></SwiperSlide>
         <SwiperSlide><Card_blue img={awanishpandey} name="Mr. Awanish Pandey" msg="As a proud alumnus of AIT, witnessing the I&E cell's commitment to nurturing entrepreneurship is truly commendable. The array of initiatives undertaken in recent years promises a bright future for AITian startups, destined to make a mark in the Indian startup landscape. Wishing the I&E cell continued success and looking forward to seeing AIT alumni leading the way in innovation and entrepreneurship."/></SwiperSlide>
           
-          {/* <SwiperSlide><Card_purple /></SwiperSlide> */}
+        <SwiperSlide><Card_purple img={piyushsharma} name="Mr. Piyush Sharma" msg="AIT's IEC, under the guidance of Prof Oza, ma'am, went above and beyond during the COVID lockdown, offering crucial support to Electrun Motors and highlighting their dedication to an inclusive entrepreneurial ecosystem.The pivotal role played by the IEC in fostering connections between student entrepreneurs and alumni entrepreneurs is instrumental in propelling startups to success at AIT. "/></SwiperSlide>
+        <SwiperSlide ><Card_M name="Mr. Deepak Yadav" msg="Congratulations on the recent strides in hosting multiple events successfully, igniting the entrepreneurial spirit among current students. Student teams and Dr. Shraddha Oza's dedicated efforts as the faculty in charge have been instrumental in fostering a holistic and trustworthy environment. AIT Ecell commitment to recognizing and digitally connecting with entrepreneurs, both alumni and experts, is commendable." img={deepakyadav} /></SwiperSlide>
+
         </Swiper>
       </div>
      
