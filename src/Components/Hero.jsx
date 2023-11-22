@@ -8,6 +8,8 @@ import fb from '../assets/fb.png'
 import { BsArrowUpRight } from "react-icons/bs";
 import insta from '../assets/insta.png'
 import linkedin from '../assets/linkedin.png'
+import ecell_logo from '../assets/ecell_logo.png'
+
 
 
 
@@ -58,7 +60,12 @@ const Hero = () => {
 
                 </div>
                 <div className='flex text-[#0F1322]  flex-col lg:flex-row relative top-5 lg:-top-16  justify-around'>
-                    <div className='mx-auto lg:mx-0 -top-1 md:-top-8 lg:top-0 relative'>
+                    <div className='mx-auto lg:mx-0 -top-16 md:-top-8 lg:top-0 relative'>
+                        
+                        <div className='flex md:hidden mb-8 justify-center '>
+                            <img className='w-[8em]' src={ecell_logo} alt="" />
+                        </div>
+                        
                         <motion.div
                             initial={{ opacity: 0, x: -60 }}
                             whileInView={{ opacity: 1, x: 0 }}
@@ -87,7 +94,7 @@ const Hero = () => {
 
 
                         </div>
-                        <div className='flex top-32 md:top-16 justify-between md:mx-3 text-2xl md:text-3xl font-bold relative'>
+                        <div className='flex top-20 md:top-16 justify-between md:mx-3 text-2xl md:text-3xl font-bold relative'>
                             <div >
                                 <motion.span whileInView={animationClientsCount} ref={clientCount}>1200
 
