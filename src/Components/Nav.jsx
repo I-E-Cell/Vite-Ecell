@@ -83,11 +83,13 @@ const Navbar = () => {
                                 <RiGalleryLine size={23}/><a className='pl-4' href="">Gallery<br /></a>
                             </div>
                         </Link>
-
+                        <Link to="/startups">
                         <div className='flex pl-4 items-center flex-row gap-'>
 
                             <PiTargetBold size={23}/><a className='pl-4 b' href="">Initiatives<br /></a>
                         </div>
+                        </Link>
+
                         <Link to="/internship">
                             <div className='flex pl-4 items-center flex-row gap-'>
 
