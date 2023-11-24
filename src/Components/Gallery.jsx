@@ -18,6 +18,10 @@ import visit1 from '../assets/Event/Visits/visit1.jpg'
 import visit2 from '../assets/Event/Visits/visit2.jpg'
 import visit3 from '../assets/Event/Visits/visit3.jpg'
 import visit4 from '../assets/Event/Visits/visit4.jpg'
+import visit5 from '../assets/Event/Visits/visit5.jpg'
+import visit6 from '../assets/Event/Visits/visit6.jpg'
+import visit7 from '../assets/Event/Visits/visit7.jpeg'
+
 
 
 
@@ -148,10 +152,11 @@ const Gallery = () => {
                     {visits ? <Images
 
                         img2={visit1}
-                        img1={visit2}
+                        img1={visit5}
                         img3={visit3}
                         img4={visit4}
                         img5={visit2}
+                        img6={visit6}
 
                     /> : null}
 
