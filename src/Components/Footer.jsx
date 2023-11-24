@@ -22,7 +22,7 @@ const Footer = () => {
                         <div className='text-white  mx-auto w-[80%] justify-center rounded-xl'>
 
                             <div className="mx-auto rounded-xl overflow-x-hidden justigy-center">
-                                <iframe className='rounded-xl  mb-10 mx-auto ' src="https://maps.google.com/maps?q=ait pune&t=k&z=16&ie=UTF8&iwloc=&output=embed"></iframe>
+                                <iframe className='rounded-xl  mb-10 mx-auto ' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.64883570219!2d73.87434400449611!3d18.607325966357873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c70090000001%3A0x160a20f3d0273495!2sArmy%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1700741837638!5m2!1sen!2sin"></iframe>
                             
                             </div>
                             <h1 className='w-[80%]  mx-auto text-center textt '>Army Institute of Technology,Pune
@@ -94,9 +94,9 @@ const Footer = () => {
                 {/* FOOTER  */}
             </div>
             <div className='h-6 mx-aua flex align-middle items-center  bg-[#B8BFFF]'>
-                <hr className='w-[15%] sm:w-[30%] h-[2.5px] flex justify-center bg-black' />
+                
                 <h1 className='flex text-[sm] mx-auto justify-center '> Made with  <FaHeart color='red' className=' mt-1 mx-2' />   by I&E Cell</h1>
-                <hr className='w-[15%] sm:w-[30%] h-[2.5px] flex justify-center bg-black' />
+                
 
             </div>
         </div>

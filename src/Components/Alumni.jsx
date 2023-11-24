@@ -33,8 +33,8 @@ const Alumni = () => {
     return (
         <div >
             <Nav />
-            <div className='relative w-[100%]   bg-[#0F1322]'>
-                <div className='relative mx-auto justify-center align-middle top-[95px] pb-1 mb-3   w-[94%]  rounded-3xl bg-[#86C8D3]'>
+            <div className='relative w-[100%]  bg-[#0F1322]'>
+                <div className='relative mx-auto justify-center align-middle top-[95px]    w-[94%]  rounded-3xl bg-[#86C8D3]'>
                     <div className=' relative w-[28%]  h-[10em] rounded-3xl left-[72%] -top-[75px]  bg-[#86C8D3]'>
                         <div className='s_box rounded-sm w-[68%] lg:-left-[26.5px] -left-[28px] top-[6px]  h-[60%] bg-[#86C8D3]'>
 
@@ -44,7 +44,7 @@ const Alumni = () => {
 
                     </div>
 
-                    <div className='relative -top-28 flex flex-col max-w-[98%] gap-28 mx-auto'>
+                    <div className='relative -top-28  flex flex-col max-w-[98%] gap-28 mx-auto'>
 
 
 
@@ -152,8 +152,7 @@ const Alumni = () => {
 
                 </div>
             </div>
-
-
+                      
         </div>
     )
 }
