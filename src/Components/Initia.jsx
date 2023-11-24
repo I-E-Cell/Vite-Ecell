@@ -11,6 +11,7 @@ import ecell_logo from "../assets/ecell.png";
 import StartupSaga from './Events/StartupSaga';
 import Unnati from './Events/Unnati';
 import DecodeBranding from './Events/DecodeBranding'
+import Impression from './Events/Impression'
 import { BsArrowUpRight } from "react-icons/bs";
 
 
@@ -20,21 +21,34 @@ const Initia = () => {
 
   const [show, setShow] = useState(true)
   const [showU, setShowU] = useState(false)
+  
   const [showdb, setShowdb] = useState(false)
+  const [showI, setShowI] = useState(false)
 
   const dbranding = () => {
     setShowdb(true)
     setShowU(false)
     setShow(false)
+    setShowI(false)
   }
   const StartupSagaa = () => {
     setShowdb(false)
     setShowU(false)
     setShow(true)
+    setShowI(false)
+
   }
   const unnati = () => {
     setShowdb(false)
     setShowU(true)
+    setShow(false)
+    setShowI(false)
+
+  }
+  const impression = () => {
+    setShowdb(false)
+    setShowI(true)
+    setShowU(false)
     setShow(false)
   }
 
@@ -68,7 +82,7 @@ const Initia = () => {
 
 
           <div className=' relative z-20 -top-[9em] md:-top-[8.6em] left-3 lg:left-3 w-[98%] sm:w-[86%]  lg:w-[85%] mx-auto flex ' >
-            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={dbranding} className='px-2 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={impression} className='px-2 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               August
             </motion.button>
             <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={unnati} className='px-4 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
@@ -98,6 +112,7 @@ const Initia = () => {
           }
           {showU ? <Unnati /> : null}
           {showdb ? <DecodeBranding /> : null}
+          {showI? <Impression /> : null}
 
         </div>
       </div>

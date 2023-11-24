@@ -75,7 +75,7 @@ const Internship = () => {
                                 <hr className='max-w-[80%] mx-auto md:mx-0 bg-[#86C8D3] realtive px-4' />
                                 <div className='w-[90%] md:w-[80%] mx-auto md:mx-10 '>
                                     <label className='text-base font-semibold text-white md:mr-[85px]' htmlFor="fname">Name :</label>
-                                    <input id='fname' className='mt-5 shadow-xl mb-3 rounded-lg  bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' name='Name' type="name" placeholder='Enter your Name' /> <br />
+                                    <input id='fname' className='mt-2 md:mt-5 shadow-xl mb-3 rounded-lg  bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' name='Name' type="name" placeholder='Enter your Name' /> <br />
                                     <label className='text-base md:mr-3 font-semibold text-white' htmlFor="Cname">Company Name :</label>
                                     <input id='Cname' className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="name" placeholder='Enter Company Name' /> <br />
                                     <label className='text-base md:mr-[96px] font-semibold text-white' htmlFor="">Role :</label>
