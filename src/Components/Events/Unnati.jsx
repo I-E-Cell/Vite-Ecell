@@ -20,7 +20,7 @@ const Unnati = () => {
 
 
             <div>
-                <h3 className='text_inni_main text-center min-w-[110%] relative left-[28px] text-sm lg:text:lg'>A fantastic event to showcase the art of creative marketing and persuade others of a product and service's value in today's ever- evolving market. </h3>
+                <h3 className='text_inni_main text-center min-w-[115%] md:min-w-[110%] relative left-4 md:left-[28px] text-[15px] lg:text:lg'>A fantastic event to showcase the art of creative marketing and persuade others of a product and service's value in today's ever- evolving market. </h3>
 
             </div>
 

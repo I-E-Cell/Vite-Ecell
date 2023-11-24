@@ -42,6 +42,9 @@ const Hero = () => {
             onUpdate: (v) => (reachCount.current.textContent = v.toFixed()),
         });
     }
+    const handleClick =() =>{
+        window.scrollTo(0,750);
+    };
 
 
 
@@ -81,12 +84,12 @@ const Hero = () => {
                         </div>
 
                         <div className='relative mx-auto  pt-16 flex justify-center lg:justify-start left-0 overflow-hidden  lg:left-2'>
-                            <a target='_blank' href="https://www.aitpune.com/"><button id='kuchbhe'  className='explore btn  items-center bg-[#0F1322] flex rounded-3xl  relative   w-36  h-10'>
+                            <button id='kuchbhe' onClick={handleClick}  className='explore btn  items-center bg-[#0F1322] flex rounded-3xl  relative   w-36  h-10'>
                                 <div className='haikuch absolute w-[2em] h-[2em] bg-[#86C8D3] left-1 rounded-full'>
                                 <BsArrowUpRight size={22} className=' relative left-1 top-1'/>
                                 </div>
                                 <h1 className='yebhe text-white  text-center relative justify-center left-2 text-lg mx-auto '>Explore</h1>
-                            </button></a>
+                            </button>
                             
 
 

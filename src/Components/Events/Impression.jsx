@@ -3,7 +3,7 @@ import impression from '../../assets/Event/impression.png'
 
 const Impression = () => {
   return (
-    <div className='absolute flex flex-col  gap-5  w-[80%] top-[30px] mx-auto'>
+    <div className='absolute flex flex-col  gap-5  w-[80%] top-[20px] mx-auto'>
     <div className='relative left-[5%] lg:left-[13%] flex gap-4 md:gap-10 lg:gap-16'>
         <img className='relative left-10 logo_inni h-[11em] lg:w-[3.5em]' src={impression} alt="" />
         <div className='flex flex-col gap-5'>
@@ -20,7 +20,7 @@ const Impression = () => {
 
 
     <div>
-        <h3 className='text_inni_main text-center min-w-[110%] relative left-[28px] text-sm lg:text:lg'>"Lend a hand , to save a brand!" Initiate your intellect and creative side to present some out of the box ideas for the problems  faced by some sinking startups.
+        <h3 className='text_inni_main text-center min-w-[115%] md:min-w-[110%] relative left-4 md:left-[28px] text-[15px] lg:text:lg'>"Lend a hand , to save a brand!" Initiate your intellect and creative side to present some out of the box ideas for the problems  faced by some sinking startups.
  </h3>
 
     </div>
