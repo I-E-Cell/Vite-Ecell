@@ -21,7 +21,8 @@ import visit4 from '../assets/Event/Visits/visit4.jpg'
 import visit5 from '../assets/Event/Visits/visit5.jpg'
 import visit6 from '../assets/Event/Visits/visit6.jpg'
 import visit7 from '../assets/Event/Visits/visit7.jpeg'
-
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 
 
@@ -69,6 +70,8 @@ const Gallery = () => {
         setVisits(true)
     }
 
+
+    mixpanel.track('Gallery loaded');
 
 
 

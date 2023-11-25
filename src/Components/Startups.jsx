@@ -13,7 +13,8 @@ import momentumrobotics from '../assets/Startups/momentumrobotics.jpeg'
 import kagazz from '../assets/Startups/kaagazz.jpeg'
 import myaimate from '../assets/Startups/myaimate.jpg'
 import xefficient from '../assets/Startups/xefficient.webp'
-
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 const Startups = () => {
    

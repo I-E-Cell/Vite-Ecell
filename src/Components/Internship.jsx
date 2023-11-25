@@ -6,7 +6,8 @@ import ComIntern from './ComIntern'
 import { motion } from 'framer-motion'
 import Popup from './Popup'
 import { BsArrowUpRight } from "react-icons/bs";
-
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 const Internship = () => {
     const [send, setSend] = useState("Send")
@@ -25,6 +26,7 @@ const Internship = () => {
 
    
   
+    mixpanel.track('Internship Page loaded');
     return (
         <div >
             <Nav />
