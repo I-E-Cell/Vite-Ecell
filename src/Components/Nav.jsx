@@ -12,6 +12,8 @@ import { IoIosContacts } from "react-icons/io";
 import { RiGalleryLine } from "react-icons/ri";
 import { IoIosLaptop } from "react-icons/io";
 import { PiTargetBold } from "react-icons/pi";
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 const Navbar = () => {
     const [nav, setNav] = useState(true)
@@ -27,22 +29,22 @@ const Navbar = () => {
                 <img className='h-[50px]   my-2' src={ait} alt="ait_logo" />
                 <div className='hidden text-white font-normal  md:flex my-auto lg:gap-10 md:gap-6'>
                     <Link to="/" >
-                        <a className='hover:text-[#86C8D3]  md:text-[16px]  lg:text-[17.5px] duration-300 ' href="#home">Home</a>
+                        <a  onClick={mixpanel.track('HomePage loaded')} className='hover:text-[#86C8D3]  md:text-[16px]  lg:text-[17.5px] duration-300 ' href="#home">Home</a>
                     </Link>
                     <Link to="/team" >
-                        <a className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="">Team</a>
+                        <a onClick={mixpanel.track('TeamPage loaded')} className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="">Team</a>
                     </Link>
                     <Link to='/alumni'>
-                        <a className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="">Alumni</a>
+                        <a onClick={mixpanel.track('AlumniPage loaded')} className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="">Alumni</a>
                     </Link>
                     <Link to="/gallery">
-                        <a className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="">Gallery</a>
+                        <a onClick={mixpanel.track('Gallery loaded')} className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="">Gallery</a>
                     </Link>
                     <Link to="/startups">
-                    <a className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="">Initiatives</a>
+                    <a onClick={mixpanel.track('innitiativesPage loaded')} className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="">Initiatives</a>
                     </Link>
                     <Link to="/internship">
-                        <a className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="#contact">Internship</a>
+                        <a onClick={mixpanel.track('InternPage loaded')} className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="#contact">Internship</a>
                     </Link>
                 </div>
 
@@ -62,38 +64,38 @@ const Navbar = () => {
                     <div className=' gap-8 text-white font-normal text-base flex flex-col '>
                         <Link to="/" >
                             <div className='flex pl-4 items-center flex-row '>
-                                <FaHome size={23}/><a className='pl-4  flex  ' href="">Home<br /> </a>
+                                <FaHome size={23}/><a onClick={mixpanel.track('HomePage loaded')} className='pl-4  flex  ' href="">Home<br /> </a>
                             </div>
                         </Link>
                         <Link to="/team" >
                             <div className='flex pl-4 items-center flex-row gap-'>
 
-                                <RiTeamFill size={23}/><a className='pl-4 ' href="">Team<br /></a>
+                                <RiTeamFill size={23}/><a onClick={mixpanel.track('TeamPage loaded')} className='pl-4 ' href="">Team<br /></a>
                             </div>
                         </Link>
                         <Link to='/alumni'>
                             <div className='flex pl-4 items-center flex-row gap-'>
 
-                                <IoIosContacts size={23}/><a className='pl-4 ' href="">Alumni<br /></a>
+                                <IoIosContacts size={23}/><a onClick={mixpanel.track('AlumniPage loaded')} className='pl-4 ' href="">Alumni<br /></a>
                             </div>
                         </Link>
                         <Link to="/gallery">
                             <div className='flex pl-4 items-center flex-row gap-'>
 
-                                <RiGalleryLine size={23}/><a className='pl-4' href="">Gallery<br /></a>
+                                <RiGalleryLine size={23}/><a onClick={mixpanel.track('Gallery loaded')} className='pl-4' href="">Gallery<br /></a>
                             </div>
                         </Link>
                         <Link to="/startups">
                         <div className='flex pl-4 items-center flex-row gap-'>
 
-                            <PiTargetBold size={23}/><a className='pl-4 b' href="">Initiatives<br /></a>
+                            <PiTargetBold size={23}/><a onClick={mixpanel.track('innitiativesPage loaded')} className='pl-4 b' href="">Initiatives<br /></a>
                         </div>
                         </Link>
 
                         <Link to="/internship">
                             <div className='flex pl-4 items-center flex-row gap-'>
 
-                                <IoIosLaptop size={23}/><a className='pl-4' href="">Internship<br /></a>
+                                <IoIosLaptop size={23}/><a onClick={mixpanel.track('InternPage loaded')} className='pl-4' href="">Internship<br /></a>
                             </div>
                         </Link>
                     </div>
