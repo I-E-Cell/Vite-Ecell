@@ -110,12 +110,12 @@ const Gallery = () => {
                                 </div>
                                 <h1 className='yebhe text-white  text-center relative justify-center left-2  mx-auto '>Visits</h1>
                             </button>
-                            <button id='kuchbhe' onClick={displayUs_bhai_us} className='explore btn  items-center bg-[#0F1322] flex rounded-3xl  relative   w-36  h-10'>
+                            {/* <button id='kuchbhe' onClick={displayUs_bhai_us} className='explore btn  items-center bg-[#0F1322] flex rounded-3xl  relative   w-36  h-10'>
                                 <div className='haikuch absolute w-[2em] h-[2em] bg-[#86C8D3] left-1 rounded-full'>
                                     <BsArrowUpRight size={22} className=' relative left-1 top-1' />
                                 </div>
                                 <h1 className='yebhe text-white  text-center relative justify-center left-2  mx-auto '>Moments</h1>
-                            </button>
+                            </button> */}
 
                         </div>
 
