@@ -32,13 +32,12 @@ import aniket from '../assets/Team/aniket.png'
 import akhileshsir from "../assets/Team/akhilesh.jpg"
 import rishi from '../assets/Team/rishi.png'
 import gourav from '../assets/Team/gourav.jpg'
-
-
-
 import NewCard from './NewCard';
-
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 const TeamScrap = () => {
+    mixpanel.track('TeamPage loaded');
     return (
         <div >
             <Nav />

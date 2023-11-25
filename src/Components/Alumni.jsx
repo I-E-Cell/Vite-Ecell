@@ -28,8 +28,11 @@ import sandeepm from '../assets/Alumni/sandeepm.jpeg'
 import pitambersir from '../assets/Alumni/pitambersir.jpg'
 import tamanjitbindra from '../assets/Alumni/tamanjitbindra.jpg'
 import piyushsharma from '../assets/Alumni/piyushsharma.jpg'
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 const Alumni = () => {
+    mixpanel.track('Alumni Page loaded');
     return (
         <div >
             <Nav />
