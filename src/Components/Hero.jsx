@@ -38,7 +38,7 @@ const Hero = () => {
         });
     }
     const animationReachCount = () => {
-        animate(0, 30, {
+        animate(0, 45, {
             duration: 2,
             onUpdate: (v) => (reachCount.current.textContent = v.toFixed()),
         });
@@ -105,12 +105,15 @@ const Hero = () => {
                             </div>
                             <div>
                                 <motion.span ref={projectCount} whileInView={animationProjectCount}>11000</motion.span>+
-                                <h1 className='text-base md:text-lg font-semibold relative left-1 mt-1'>Reach</h1>
+                                <h1 className='text-base md:text-lg font-semibold relative left-1 mt-1'>Social Reach</h1>
+                                
 
                             </div>
                             <div>
-                                <motion.span ref={reachCount} whileInView={animationReachCount}>30</motion.span>+
-                                <h1 className='text-base md:text-lg font-semibold relative left-1 mt-1'>StartUps</h1>
+                                <motion.span ref={reachCount} whileInView={animationReachCount}>45</motion.span>+
+                                <h1 className='text-base md:text-lg font-semibold relative left-1 mt-1'>StartUp </h1>
+                                <h1 className='text-base md:text-lg font-semibold -top-[14px] relative left-1 mt-1'>Connections </h1>
+
 
                             </div>
                         </div>
