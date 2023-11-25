@@ -52,7 +52,7 @@ const Newsletter = () => {
                     <h1 className='md:text-[45px] text-[35px]   font-bold text-[#3E3126]'>Sign up for our newsletter</h1>
                 </motion.div>
                 <hr className='max-w-[80%] mx-auto md:mx-0 bg-[#3E3126] realtive px-4' />
-                <p className='max-w-sm vm_text text-sm my-3'>Stay informed and inspired! Sign up for our newsletter to receive exclusive content, Don't miss out on the latest insights. Join our community today!</p>
+                <p className='w-[92%] mx-auto md:mx-0 flex md:max-w-sm vm_text text-sm my-3'>Stay informed and inspired! Sign up for our newsletter to receive exclusive content, Don't miss out on the latest insights. Join our community today!</p>
                 <form ref={form} onSubmit={sendEmail}>
                     <input id='input' name='email' required className='mt-6 shadow-xl mb-6 rounded-lg bg-[#D4D6ED] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="email" placeholder='Enter your E-mail' />
 

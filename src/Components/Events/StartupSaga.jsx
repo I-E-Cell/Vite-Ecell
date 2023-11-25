@@ -7,7 +7,7 @@ const StartupSaga = () => {
     return (
 
 
-        <div className='absolute flex flex-col  gap-5  w-[80%] top-[60px] mx-auto'>
+        <div className='absolute flex flex-col  gap-5  w-[80%] top-[45px] md:top-[60px] mx-auto'>
             <div className='relative left-[5%] lg:left-[13%] flex gap-4 md:gap-10 lg:gap-16'>
                 <img className='relative logo_inni w-[9em] lg:w-[11em]' src={sslogo} alt="" />
                 <div className='flex flex-col gap-5'>
@@ -24,7 +24,7 @@ const StartupSaga = () => {
 
 
             <div>
-                <h3 className='text_inni_main text-center min-w-[115%] md:min-w-[110%] relative left-4 md:left-[28px] text-[15px] lg:text:lg'>To build an ecosystem to identify, nurture innovation and entrepreneurship skills amongst students and to generate successful commercial enterprise contributing towards significant </h3>
+                <h3 className='text_inni_main text-center min-w-[115%] md:min-w-[110%] relative left-4 md:left-[28px] text-[15px] lg:text:lg'>To build an ecosystem to identify, nurture innovation and entrepreneurship skills amongst students and to generate successful commercial enterprise contributing towards significant overall growth. </h3>
 
             </div>
 
