@@ -10,7 +10,8 @@ import insta from '../assets/insta.png'
 import linkedin from '../assets/linkedin.png'
 import ecell_logo from '../assets/ecell_logo.png'
 
-
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 
 const Hero = () => {
@@ -37,7 +38,7 @@ const Hero = () => {
         });
     }
     const animationReachCount = () => {
-        animate(0, 100, {
+        animate(0, 30, {
             duration: 2,
             onUpdate: (v) => (reachCount.current.textContent = v.toFixed()),
         });
@@ -84,7 +85,7 @@ const Hero = () => {
                         </div>
 
                         <div className='relative mx-auto  pt-16 flex justify-center lg:justify-start left-0 overflow-hidden  lg:left-2'>
-                            <button id='kuchbhe' onClick={handleClick}  className='explore btn  items-center bg-[#0F1322] flex rounded-3xl  relative   w-36  h-10'>
+                            <button id='kuchbhe' onClick={()=>{handleClick(); mixpanel.track('Explore button Clicked') }}className='explore btn  items-center bg-[#0F1322] flex rounded-3xl  relative   w-36  h-10'>
                                 <div className='haikuch absolute w-[2em] h-[2em] bg-[#86C8D3] left-1 rounded-full'>
                                 <BsArrowUpRight size={22} className=' relative left-1 top-1'/>
                                 </div>
@@ -108,7 +109,7 @@ const Hero = () => {
 
                             </div>
                             <div>
-                                <motion.span ref={reachCount} whileInView={animationReachCount}>100</motion.span>+
+                                <motion.span ref={reachCount} whileInView={animationReachCount}>30</motion.span>+
                                 <h1 className='text-base md:text-lg font-semibold relative left-1 mt-1'>StartUps</h1>
 
                             </div>

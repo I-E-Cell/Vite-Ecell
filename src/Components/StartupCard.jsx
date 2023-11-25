@@ -6,8 +6,8 @@ import { motion } from 'framer-motion'
 function StartupCard (props) {
   return (
     <div className='py-8 w-[19em] md:w-[20em] lg:w-[22em]   justify-center gap-5 flex flex-col  bg-[#1C1F2B] rounded-3xl mx-auto  '>
-                            <div className='relative flex items-center w-[69%] top-3 mx-auto'>
-                                <img className='mx-auto rounded-2xl  w-[100%] relative flex items-center' src={props.img} alt="" />
+                            <div className='relative flex items-center h-[14.5em] w-[14.5em] top-3 mx-auto'>
+                                <img className='mx-auto rounded-2xl  w-[100%] h-[100%] relative flex items-center' src={props.img} alt="" />
                             </div>
                             <div className='  relative mx-auto md:mx-0 text-center md:text-start'>
                                 <h1 className=' text-[30px] mx-auto w-[95%] md:w-[100%] justify-center flex  font-bold text-[#86C8D3]'>{props.name}</h1>

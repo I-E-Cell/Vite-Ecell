@@ -22,9 +22,12 @@ import Udyamita from "./Components/Udyamita";
 import Startups from "./Components/Startups";
 import Popup from "./Components/Popup";
 // import LineChart from "./Components/LineChart";
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 
 function LandingPage() {
+  mixpanel.track('HomePage loaded');
   return (
     <div>
       <Nav />
