@@ -72,6 +72,7 @@ const Initia = () => {
             <div className='  relative flex flex-row gap-2 top-1 '>
               <h1 className='rounded-full top-1 left-2 relative shadow-white shadow-sm xl border-[0.5px] p-1 px-3 text-sm border-[#656565] text-white font-thin'>Event Timeline </h1>
             </div>
+            <h1 className='relative text-gray-500 top-2 left-7'>2022-23</h1>
 
           </div>
           <div className='absolute lg:left-[86%] left-[82%] md:left-[80%]   border-[12px] border-[#0F1322] lg:w-[15.5%] w-[23%] h-[5.5em] -top-[5.5em] bg-[#1C1F2B] rounded-3xl'>
