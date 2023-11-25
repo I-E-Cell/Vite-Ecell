@@ -2,7 +2,8 @@ import React,{useState} from 'react'
 import { motion } from 'framer-motion'
 import Popup from './Popup'
 import cv from '../assets/CV.png'
-
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 const StuIntern = () => {
     const [send, setSend] = useState("Send")
@@ -36,7 +37,7 @@ const StuIntern = () => {
                     <form action="">
                         <input id='input' name='email_stu' required className='mt-6 shadow-xl mb-6 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="email" placeholder='Enter a vaild E-mail' />
 
-                        <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={pressed} className='  shadow-xl mx-auto md:mx-0  bg-[#96D0DA] rounded-full px-8 py-[6px]  my-3 font-medium text-[#3E3126] flex relative '>{send}</motion.button>
+                        <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={()=>{pressed(),mixpanel.track('Send btn intern presses by student')}} className='  shadow-xl mx-auto md:mx-0  bg-[#96D0DA] rounded-full px-8 py-[6px]  my-3 font-medium text-[#3E3126] flex relative '>{send}</motion.button>
                     </form>
                 </div>
 

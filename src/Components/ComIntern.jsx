@@ -2,6 +2,8 @@ import React, { useState ,useRef} from 'react'
 import emailjs from '@emailjs/browser';
 import Popup from './Popup';
 import { motion } from 'framer-motion'
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 const ComIntern = () => {
     const [send, setSend] = useState("Send")
@@ -46,7 +48,7 @@ const ComIntern = () => {
                             <label className='text-base md:mr-[89px] font-semibold text-white' htmlFor="">Email :</label>
                             <input required name='email' id='input' className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="email" placeholder='Enter your E-mail' /><br />
 
-                            <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={pressed} className=' shadow-xl md:mx-0  bg-[#96D0DA] rounded-full px-8 py-[6px]  my-3 font-medium text-[#3E3126] flex relative '>{send}</motion.button>
+                            <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={()=>{pressed(), mixpanel.track('Send btn intern presses by company')}} className=' shadow-xl md:mx-0  bg-[#96D0DA] rounded-full px-8 py-[6px]  my-3 font-medium text-[#3E3126] flex relative '>{send}</motion.button>
                         </form>
                     </div>
                 </div>

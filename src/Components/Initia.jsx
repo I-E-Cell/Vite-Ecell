@@ -84,16 +84,16 @@ const Initia = () => {
 
 
           <div className=' relative z-20 -top-[9em] md:-top-[8.6em] left-3 lg:left-3 w-[98%] sm:w-[86%]  lg:w-[85%] mx-auto flex ' >
-            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={()=>{impression()}} className='px-2 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={()=>{impression(), mixpanel.track('Event button Clicked')}} className='px-2 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               August
             </motion.button>
-            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={unnati} className='px-4 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={()=>{unnati(), mixpanel.track('Event button Clicked')}} className='px-4 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               Sept
             </motion.button>
-            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={dbranding} className='px-4 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}  onClick={()=>{dbranding(), mixpanel.track('Event button Clicked')}} className='px-4 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               Nov
             </motion.button>
-            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}   onClick={StartupSagaa} className='px-3 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
+            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}}   onClick={()=>{StartupSagaa(), mixpanel.track('Event button Clicked')}} className='px-3 py-[3px] text-xs text-[#c0c0c0] relative mx-auto rounded-md bg-[#373737]'>
               April
             </motion.button>
 

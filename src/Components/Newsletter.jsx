@@ -3,6 +3,8 @@ import emailjs from '@emailjs/browser';
 import letter from '../assets/letter.png'
 import { motion } from 'framer-motion'
 import Popup from './Popup'
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 const Newsletter = () => {
     const [submit, setSubmit] = useState("Sign to Newsletter")
@@ -56,7 +58,7 @@ const Newsletter = () => {
                 <form ref={form} onSubmit={sendEmail}>
                     <input id='input' name='email' required className='mt-6 shadow-xl mb-6 rounded-lg bg-[#D4D6ED] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="email" placeholder='Enter your E-mail' />
 
-                    <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={pressed} className='  shadow-xl mx-auto md:mx-0  bg-[#C6C9E3] rounded-full px-6 py-[6px]  my-3 font-medium text-[#3E3126] flex relative '>{submit}</motion.button>
+                    <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={()=>{pressed(), mixpanel.track('NewsletterSubmit button Clicked')}} className='  shadow-xl mx-auto md:mx-0  bg-[#C6C9E3] rounded-full px-6 py-[6px]  my-3 font-medium text-[#3E3126] flex relative '>{submit}</motion.button>
                 </form>
             </div>
             {(popup2 && input.value != '') ? <Popup /> : null}
