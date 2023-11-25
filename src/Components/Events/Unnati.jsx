@@ -1,6 +1,7 @@
 import React from 'react'
 import unnati from "../../assets/Unnati.svg"
-
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 const Unnati = () => {
     return (
@@ -12,7 +13,7 @@ const Unnati = () => {
 
                     <h1 className='text_inni text-3xl lg:text-4xl my-auto font-bold'>Unnati</h1>
                     <a href="https://www.unnati3.in/" target='_blank'>
-                        <button className='btn_inni bg-[#31ABD4] rounded-lg text-white font-semibold  relative   w-24 border-white border-1 h-9'>
+                        <button onClick={mixpanel.track('Unnati Site Visited')} className='btn_inni bg-[#31ABD4] rounded-lg text-white font-semibold  relative   w-24 border-white border-1 h-9'>
                             Explore
                         </button></a>
                 </div>

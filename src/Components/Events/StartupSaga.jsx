@@ -1,6 +1,7 @@
 import React from 'react'
 import sslogo from "../../assets/sslogo.png"
-
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 
 const StartupSaga = () => {
@@ -15,7 +16,7 @@ const StartupSaga = () => {
 
                     <h1 className='text_inni text-3xl lg:text-4xl my-auto font-bold'>StartUP Saga</h1>
                     <a href="https://www.startupsaga.in/" target='_blank'>
-                        <button className=' btn_inni bg-[#27096D] rounded-lg flex justify-center items-center font-semibold relative  text-white  w-24 border-white border-1 h-9'>
+                        <button onClick={mixpanel.track('StartUP saga site Visited')} className=' btn_inni bg-[#27096D] rounded-lg flex justify-center items-center font-semibold relative  text-white  w-24 border-white border-1 h-9'>
                             Explore
                         </button>
                     </a>
