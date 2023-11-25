@@ -12,7 +12,7 @@ function StartupCard (props) {
                             <div className='  relative mx-auto md:mx-0 text-center md:text-start'>
                                 <h1 className=' text-[30px] mx-auto w-[95%] md:w-[100%] justify-center flex  font-bold text-[#86C8D3]'>{props.name}</h1>
                                 <hr className='w-[60%] border-none rounded-3xl mx-auto h-[1.7px]  bg-[#86C8D3] realtive px-4 ' />
-                                <h1 className=' text-[15px] mx-auto text-white w-[100%] justify-center flex  mt-2 '>Founder : {props.founder}</h1>
+                                <h1 className=' text-[15px] mx-auto text-white w-[65%] justify-center flex  mt-2 '>Founder : {props.founder}</h1>
                                 <h1 className=' text-[12px] mx-auto text-white text-center w-[80%] justify-center flex  mt-3 '>{props.discription}</h1>
 
                                 <div className='flex gap-2 md:gap-4 mt-5 w-[60%] mx-auto  justify-center'>
