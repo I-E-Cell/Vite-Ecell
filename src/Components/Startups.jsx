@@ -18,7 +18,7 @@ mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: 
 
 const Startups = () => {
    
-
+    mixpanel.track('StartupPage Page loaded');
 
     return (
         <div >
