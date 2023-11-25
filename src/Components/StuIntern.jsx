@@ -7,8 +7,8 @@ import cv from '../assets/CV.png'
 const StuIntern = () => {
     const [send, setSend] = useState("Send")
     const [popup2, setPopup2] = useState(false)
-    function pressed() {
-        
+    function pressed(e) {
+        e.preventDefault();
         setPopup2(!popup2);
         // alert("Your e-mail has been registered!!");
     }
@@ -34,14 +34,14 @@ const StuIntern = () => {
                     <h1 className='lg:text-[37px] text-[30px] mx-auto w-[95%] md:w-[100%]  font-bold text-[#86C8D3]'>Drop us your e-mail and We’ll Contact you with an Opportunity !!</h1>
                     <hr className='max-w-[80%] mx-auto md:mx-0 bg-[#86C8D3] realtive px-4' />
                     <form action="">
-                        <input id='input' name='email_stu' required className='mt-6 shadow-xl mb-6 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="email" placeholder='Enter your E-mail' />
+                        <input id='input' name='email_stu' required className='mt-6 shadow-xl mb-6 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="email" placeholder='Enter a vaild E-mail' />
 
                         <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={pressed} className='  shadow-xl mx-auto md:mx-0  bg-[#96D0DA] rounded-full px-8 py-[6px]  my-3 font-medium text-[#3E3126] flex relative '>{send}</motion.button>
                     </form>
                 </div>
 
             </div>
-
+            {(popup2 && input.value!='') ? <Popup /> : null}
         </div>
     )
 }

@@ -79,7 +79,7 @@ const Internship = () => {
 
                 </div>
             </div>
-            {(popup2 && input.value!='') ? <Popup /> : null}
+            {/* {(popup2 && input.value!='') ? <Popup /> : null} */}
 
         </div>
     )

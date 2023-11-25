@@ -4,15 +4,15 @@ import { motion } from 'framer-motion'
 const ComIntern = () => {
     const [send, setSend] = useState("Send")
     const [popup2, setPopup2] = useState(false)
-    function pressed() {
-        
+    function pressed(e) {
+        e.preventDefault();
         setPopup2(!popup2);
         // alert("Your e-mail has been registered!!");
     }
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_huw9exb', 'template_j2pwwyf', form.current, 'VXKelifARxvSAxp8I')
+        emailjs.sendForm('service_huw9exb', 'template_m9jn368', form.current, 'VXKelifARxvSAxp8I')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -32,15 +32,15 @@ const ComIntern = () => {
                                 <div className='w-[90%] md:w-[80%] mx-auto md:mx-10 '>
                                     <form action="">
                                     <label className='text-base font-semibold text-white md:mr-[85px]' htmlFor="fname">Name :</label>
-                                    <input required id='input' className='mt-2 md:mt-5 shadow-xl mb-3 rounded-lg  bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' name='Name' type="name" placeholder='Enter your Name' /> <br />
+                                    <input required name='name'  id='input' className='mt-2 md:mt-5 shadow-xl mb-3 rounded-lg  bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="name" placeholder='Enter your Name' /> <br />
                                     <label className='text-base md:mr-3 font-semibold text-white' htmlFor="Cname">Company Name :</label>
-                                    <input required id='input' className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="name" placeholder='Enter Company Name' /> <br />
+                                    <input required name='c_name' id='input' className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="name" placeholder='Enter Company Name' /> <br />
                                     <label className='text-base md:mr-[96px] font-semibold text-white' htmlFor="">Role :</label>
-                                    <input required id='input' className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="name" placeholder='Enter the Role' /><br />
+                                    <input required name='role' id='input' className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="name" placeholder='Enter the Role' /><br />
                                     <label  className='text-base  md:mr-[98px] font-semibold text-white' htmlFor="">Link :</label>
-                                    <input required  id='input' className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="link" placeholder='Enter the link' /><br />
+                                    <input required name='link'  id='input' className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="link" placeholder='Enter the link' /><br />
                                     <label className='text-base md:mr-[89px] font-semibold text-white' htmlFor="">Email :</label>
-                                    <input required id='input' className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="email" placeholder='Enter your E-mail' /><br />
+                                    <input required name='email' id='input' className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="email" placeholder='Enter your E-mail' /><br />
 
                                     <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={pressed} className=' shadow-xl md:mx-0  bg-[#96D0DA] rounded-full px-8 py-[6px]  my-3 font-medium text-[#3E3126] flex relative '>{send}</motion.button>
                                     </form>
@@ -48,6 +48,7 @@ const ComIntern = () => {
                             </div>
 
                         </div>
+                        {(popup2 && input.value!='') ? <Popup /> : null}
 
                     </div>
   )
