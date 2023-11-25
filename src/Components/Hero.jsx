@@ -37,7 +37,7 @@ const Hero = () => {
         });
     }
     const animationReachCount = () => {
-        animate(0, 100, {
+        animate(0, 30, {
             duration: 2,
             onUpdate: (v) => (reachCount.current.textContent = v.toFixed()),
         });
@@ -108,7 +108,7 @@ const Hero = () => {
 
                             </div>
                             <div>
-                                <motion.span ref={reachCount} whileInView={animationReachCount}>100</motion.span>+
+                                <motion.span ref={reachCount} whileInView={animationReachCount}>30</motion.span>+
                                 <h1 className='text-base md:text-lg font-semibold relative left-1 mt-1'>StartUps</h1>
 
                             </div>

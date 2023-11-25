@@ -12,6 +12,7 @@ import nurserylive from '../assets/Startups/nurserylive.jpeg'
 import momentumrobotics from '../assets/Startups/momentumrobotics.jpeg'
 import kagazz from '../assets/Startups/kaagazz.jpeg'
 import myaimate from '../assets/Startups/myaimate.jpg'
+import xefficient from '../assets/Startups/xefficient.webp'
 
 
 const Startups = () => {
@@ -24,7 +25,7 @@ const Startups = () => {
             <Nav />
 
             <div className='relative w-[100%]   bg-[#0F1322]'>
-                <div className='relative mx-auto   justify-center align-middle top-[95px] h-[270em]  md:h-[155em]   w-[94%]  rounded-3xl bg-[#86C8D3]'>
+                <div className='relative mx-auto   justify-center align-middle top-[95px] h-[305em]  md:h-[165em]   w-[94%]  rounded-3xl bg-[#86C8D3]'>
                     <div className=' relative w-[28%]  h-[10em] rounded-3xl left-[72%] -top-[75px]  bg-[#86C8D3]'>
                         <div className='s_box rounded-sm w-[68%] lg:-left-[26.5px] -left-[28px] top-[6px]  h-[60%] bg-[#86C8D3]'>
 
@@ -57,7 +58,7 @@ const Startups = () => {
                         <StartupCard name="MyAImate" founder="" img={myaimate} linkedin="https://www.linkedin.com/company/myaimate/"/>
                         </div>
                         <div className='flex flex-col md:flex-row  mx-auto relative gap-10 md:gap-20 justify-center'>
-                        <StartupCard name="Xefficient"  founder="Pitambar Panda"  linkedin="https://www.xefficient.in/"/>
+                        <StartupCard name="Xefficient" img={xefficient} founder="Pitambar Panda"  linkedin="https://www.xefficient.in/"/>
                         {/* <StartupCard name="Kaagaz" img={kagazz} founder="Gaurav Shrimal"  linkedin="https://www.linkedin.com/company/kaagazscanner/?originalSubdomain=in"/> */}
                         </div>
                         
