@@ -21,8 +21,15 @@ import visit4 from '../assets/Event/Visits/visit4.jpg'
 import visit5 from '../assets/Event/Visits/visit5.jpg'
 import visit6 from '../assets/Event/Visits/visit6.jpg'
 import visit7 from '../assets/Event/Visits/visit7.jpeg'
+import moments1 from '../assets/Event/moments/moments1.jpg'
+import moments2 from '../assets/Event/moments/moments2.jpg'
+import moments3 from '../assets/Event/moments/moments3.jpg'
+import moments4 from '../assets/Event/moments/moments4.jpg'
+import moments5 from '../assets/Event/moments/moments5.jpg'
+import moments6 from '../assets/Event/moments/moments6.jpg'
+
 import mixpanel from 'mixpanel-browser';
-mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', { debug: true, track_pageview: true, persistence: 'localStorage' });
 
 
 
@@ -113,12 +120,12 @@ const Gallery = () => {
                                 </div>
                                 <h1 className='yebhe text-white  text-center relative justify-center left-2  mx-auto '>Visits</h1>
                             </button>
-                            {/* <button id='kuchbhe' onClick={displayUs_bhai_us} className='explore btn  items-center bg-[#0F1322] flex rounded-3xl  relative   w-36  h-10'>
+                            <button id='kuchbhe' onClick={displayUs_bhai_us} className='explore btn  items-center bg-[#0F1322] flex rounded-3xl  relative   w-36  h-10'>
                                 <div className='haikuch absolute w-[2em] h-[2em] bg-[#86C8D3] left-1 rounded-full'>
                                     <BsArrowUpRight size={22} className=' relative left-1 top-1' />
                                 </div>
                                 <h1 className='yebhe text-white  text-center relative justify-center left-2  mx-auto '>Moments</h1>
-                            </button> */}
+                            </button>
 
                         </div>
 
@@ -160,6 +167,17 @@ const Gallery = () => {
                         img4={visit4}
                         img5={visit2}
                         img6={visit6}
+
+                    /> : null}
+
+                    {us_bhai_us ? <Images
+
+                        img2={moments1}
+                        img1={moments5}
+                        img3={moments3}
+                        img4={moments4}
+                        img5={moments2}
+                        img6={moments6}
 
                     /> : null}
 
