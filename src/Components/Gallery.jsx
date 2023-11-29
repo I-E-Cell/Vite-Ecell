@@ -173,10 +173,10 @@ const Gallery = () => {
                     {us_bhai_us ? <Images
 
                         img2={moments1}
-                        img1={moments5}
+                        img1={moments2}
                         img3={moments3}
                         img4={moments4}
-                        img5={moments2}
+                        img5={moments5}
                         img6={moments6}
 
                     /> : null}
