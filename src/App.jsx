@@ -34,7 +34,7 @@ function LandingPage() {
       <Hero />
       <Moto />
       <Initia />
-      {/* <Udyamita /> */}
+      <Udyamita />
       <Newsletter />
       <CarouselDisplay />
       <Footer />
