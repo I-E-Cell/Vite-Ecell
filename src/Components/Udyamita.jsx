@@ -9,7 +9,7 @@ const Udyamita = () => {
   return (
     <div>
       <h1 className='relative mx-auto text-center text-white mt-20 font-semibold sm:text-5xl text-3xl   '>Udyamita</h1>
-      <div className='w-[91%] md:w-[84.4%] mt-8  justify-center  gap-10 lg:gap-2 relative flex flex-col md:flex-row   mx-auto  rounded-2xl bg-[#1C1F2B] md:px-16 py-5' >
+      <div className='w-[91%] overflow-hidden md:w-[84.4%] mt-8  justify-center  gap-10 lg:gap-2 relative flex flex-col md:flex-row   mx-auto  rounded-2xl bg-[#1C1F2B] md:px-16 py-5' >
         <div className='w-[84%] relative top-7 lg:top-14 mx-auto md:w-[42%]  flex flex-col text-center md:text-left text-white '>
           <h1 className='text-[13px] font-semibold text-[#86C8D3]'>MORE THAN JUST A NEWSLETTER</h1>
           <img className='w-[20em] mx-auto md:mx-0 z-10  top-6 md:top-1 lg:top-6 relative' src={name} alt="" />
@@ -18,11 +18,11 @@ const Udyamita = () => {
             <h1 className='text-[13px] font-semibold text-[#86C8D3]'>EDITION - II </h1>
 
           </div>
-          <h1 className='  md:max-w-[31em] md:left-2 top-9 md:top-3 lg:top-9 relative font-thin text-gray-400 text-[12px]'>We the Innovation and entrepreneurship cell of Army Institute Of Technology are delighted to present second edition of our newsletter "Udyamita". </h1>
-          <h1 className=' md:max-w-[31em] md:left-2 top-12 md:top-5 lg:top-12 relative font-thin text-gray-400 text-[12px]'>This newsletter includes all event details occurred in e-cell this year. (2022-2023) </h1>
+          <h1 className='  md:max-w-[31em] md:left-2 top-9 md:top-3 lg:top-9 relative font-thin text-gray-400 text-[13px]'>We the Innovation and entrepreneurship cell of Army Institute Of Technology are delighted to present second edition of our newsletter "Udyamita". </h1>
+          <h1 className=' md:max-w-[31em] md:left-2 top-12 md:top-5 lg:top-12 relative font-thin text-gray-400 text-[13px]'>This newsletter includes all event details occurred in e-cell this year. (2022-2023) </h1>
           <a target='_blank' href={udaymita2}><button className='w-[50%] mt-7 md:mt-1 lg:mt-10 bg-[#86C8D3] text-black border-none hover:scale-105 duration-200 h-8 text-sm lg:text-base top-8 left-2 relative rounded-xl mx-auto pt'>View Udyamita</button></a>
         </div>
-        <div className='w-[84%] pb-10 relative top-10 md:top-4 lg:top-10 lg:10  mx-auto md:w-[40%] lg:w-[48%]'>
+        <div className='w-[84%] pb-10 relative top-10 md:top-4 lg:top-6 lg:10  mx-auto md:w-[40%] lg:w-[48%]'>
           <div className='relative flex justify-center mx-auto'>
 
             <div className='absolute  top-[3.5em] z-0 w-[18em] h-[18em] lg:w-[24em] lg:h-[24em] rounded-full bg-[#86C8D3] '>
