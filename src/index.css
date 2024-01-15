@@ -323,7 +323,9 @@ input {
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
+    
     width: 6px;
+    height: 6px;
 }
 
 *::-webkit-scrollbar-track {
@@ -332,7 +334,7 @@ input {
 
 *::-webkit-scrollbar-thumb {
     background-color: #86C8D3;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 0px solid #0F1322;
 }
 
