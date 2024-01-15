@@ -24,7 +24,7 @@ const StuIntern = () => {
             });
     }; 
     return (
-        <div className='flex justify-center w-[100%] absolute top-[120px]'>
+        <div className='flex justify-center w-[100%] relative '>
 
             <div className='py-16 w-[91%] md:w-[87.4%] lg:w-[78.4%] justify-center gap-6  lg:gap-32 flex flex-col-reverse md:flex-row bg-[#1C1F2B] rounded-2xl mx-auto relative '>
 

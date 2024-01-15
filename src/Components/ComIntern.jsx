@@ -27,7 +27,7 @@ const ComIntern = () => {
     };
 
     return (
-        <div className='flex justify-center w-[100%] absolute top-[120px]'>
+        <div className='flex justify-center w-[100%] relative'>
 
             <div className='py-6 w-[91%] md:w-[87.4%] lg:w-[78.4%] justify-center gap-6  lg:gap-32 flex flex-col-reverse md:flex-row bg-[#1C1F2B] rounded-2xl mx-auto relative '>
 
@@ -48,7 +48,7 @@ const ComIntern = () => {
                             <label className='text-base md:mr-[89px] font-semibold text-white' htmlFor="">Email :</label>
                             <input required name='email' id='input' className='mt-2 shadow-xl mb-3 rounded-lg bg-[#B8D9DE] border-[1.5px] md:w-[70%] w-[90%] h-[40px] border-[#3E3126]' type="email" placeholder='Enter your E-mail' /><br />
 
-                            <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={()=>{pressed(), mixpanel.track('Send btn intern presses by company')}} className=' shadow-xl md:mx-0  bg-[#96D0DA] rounded-full px-8 py-[6px]  my-3 font-medium text-[#3E3126] flex relative '>{send}</motion.button>
+                            <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={()=>{pressed(), mixpanel.track('Send btn intern presses by company')}} className=' shadow-xl md:mx-0 mx-auto bg-[#96D0DA] rounded-full px-8 py-[6px]  my-3 font-medium text-[#3E3126] flex relative '>{send}</motion.button>
                         </form>
                     </div>
                 </div>
