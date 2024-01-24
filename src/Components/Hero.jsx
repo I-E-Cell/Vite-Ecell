@@ -68,9 +68,9 @@ const Hero = () => {
                         </div>
                         
                         <motion.div
-                            initial={{ opacity: 0, x: 60  }}
+                            initial={{ opacity: 0, x: -60  }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 6 }}
+                            transition={{ duration: 2 }}
 
                         >
                             <h1 className='textt font-semibold  text-center lg:text-start md:text-[60px] text-[40px] sm:text-[50px] lg:text-[70px]'>
