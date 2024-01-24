@@ -30,7 +30,7 @@ const Internship = () => {
         <div >
             <Nav />
             <div className='relative w-[100%] pb-[8em]  bg-[#0F1322]'>
-                <div className='relative mx-auto justify-center align-middle top-[95px] h-[85em]   md:h-[75em]   w-[94%]  rounded-3xl bg-[#86C8D3]'>
+                <div className='relative mx-auto justify-center align-middle top-[95px] h-[93em]   md:h-[76em]   w-[94%]  rounded-3xl bg-[#86C8D3]'>
                     <div className=' relative w-[28%]  h-[7.5em] rounded-3xl left-[72%] -top-[75px]  bg-[#86C8D3]'>
                         <h1 className='absolute  ] z-10 text-3xl md:text-4xl hidden md:flex justify-center text-center md:left-[16%] lg:left-[28%] font-bold top-3'>Internship</h1>
 
@@ -84,11 +84,7 @@ const Internship = () => {
                             <div className='flex left-5 md:left-7 relative bg-gray-800  h-[2.5em] w-[2.5em] md:h-[3.5em] md:w-[3.5em] rotate-45'></div>
                         </div>
                         <div className='h-[0.2em] flex justify-end items-center mt-1 bg-gray-800 mx-auto w-[62.5%]'> </div>
-                        {/* <div className='h-[5em] flex  items-center relative left-[40%] mt-4 bg-[#0F1322] w-[60%]'>
-
-                            <div className='flex -left-7  relative bg-[#0F1322] h-[3.5em] w-[3.5em] rotate-45'></div>
-                            <h1 className='font-bold text-4xl text-[#86C8D3]'>Entrepreneurship Cell</h1>
-                        </div> */}
+                        
 
 
 
@@ -114,72 +110,87 @@ const Internship = () => {
                                 <tbody>
                                     <tr class="border-b border-gray-200 dark:border-gray-700">
                                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                                            Gulshan Singh
+                                            Adarsh Kumar
                                         </th>
                                         <td class="px-6 py-4 text-gray-700">
-                                            Computer
+                                            ENTC
                                         </td>
                                         <td class="px-6 py-4 text-gray-300 bg-gray-800">
-                                            Second
+                                            Third
                                         </td>
                                         <td class="px-6 py-4 text-gray-700">
-                                            XYX
+                                            Start up Company
                                         </td>
                                     </tr>
                                     <tr class="border-b border-gray-200 dark:border-gray-700">
                                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                                            Gulshan Singh
+                                            Birendra Mohapatra
                                         </th>
                                         <td class="px-6 py-4 text-gray-700">
-                                            Computer
+                                            ENTC
                                         </td>
                                         <td class="px-6 py-4 text-gray-300 bg-gray-800">
-                                            Second
+                                            Third
                                         </td>
                                         <td class="px-6 py-4 text-gray-700">
-                                            XYX
+                                            Kaagaz
                                         </td>
                                     </tr>
                                     <tr class="border-b border-gray-200 dark:border-gray-700">
                                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                                            Gulshan Singh
+                                            Fense N Raju
                                         </th>
                                         <td class="px-6 py-4 text-gray-700">
-                                            Computer
+                                            ENTC
                                         </td>
                                         <td class="px-6 py-4 text-gray-300 bg-gray-800">
-                                            Second
+                                            Third
                                         </td>
                                         <td class="px-6 py-4 text-gray-700">
-                                            XYX
+                                            Credio
                                         </td>
                                     </tr>
                                     <tr class="border-b border-gray-200 dark:border-gray-700">
                                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                                            Gulshan Singh
+                                            GV Sai Sinsindra Reddy
                                         </th>
                                         <td class="px-6 py-4 text-gray-700">
-                                            Computer
+                                            ENTC
                                         </td>
                                         <td class="px-6 py-4 text-gray-300 bg-gray-800">
-                                            Second
+                                            Third
                                         </td>
                                         <td class="px-6 py-4 text-gray-700">
-                                            XYX
+                                        Start up Company
                                         </td>
                                     </tr>
                                     <tr class="border-b border-gray-200 dark:border-gray-700">
                                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                                            Gulshan Singh
+                                            Praveen Kumar S
                                         </th>
                                         <td class="px-6 py-4 text-gray-700">
-                                            Computer
+                                            ENTC
                                         </td>
                                         <td class="px-6 py-4 text-gray-300 bg-gray-800">
-                                            Second
+                                            Third
                                         </td>
                                         <td class="px-6 py-4 text-gray-700">
-                                            XYX
+                                            Oxfin Technologies Pvt Ltd
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b border-gray-200 dark:border-gray-700">
+                                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                                            Sourav Nath
+                                        </th>
+                                        <td class="px-6 py-4 text-gray-700">
+                                            ENTC
+                                        </td>
+                                        <td class="px-6 py-4 text-gray-300 bg-gray-800">
+                                            Third
+                                        </td>
+                                        <td class="px-6 py-4 text-gray-700">
+                                        Start up Company
+                                            
                                         </td>
                                     </tr>
                                     
