@@ -3,7 +3,7 @@ import cover from '../assets/udyamita/cover.png'
 import name from '../assets/udyamita/name.png'
 
 import udaymita2 from '../assets/udyamita/udaymita2.0.pdf'
-import udaymita3 from '../assets/udyamita/udaymita.pdf'
+import udaymita3 from '../assets/udyamita/Udaymita.pdf'
 
 import udyamita2cover from '../assets/udyamita/udyamita3.png'
 
