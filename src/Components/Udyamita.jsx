@@ -5,7 +5,7 @@ import name from '../assets/udyamita/name.png'
 import udaymita2 from '../assets/udyamita/udaymita2.0.pdf'
 import udaymitaedition3 from '../assets/udyamita/Udaymita.pdf'
 
-import udyamita2cover from '../assets/udyamita/udyamita3.png'
+import udyamita2cover from '../assets/udyamita/Udyamita3.png'
 
 const Udyamita = () => {
   return (
