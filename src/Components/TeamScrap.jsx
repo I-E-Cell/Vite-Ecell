@@ -115,7 +115,7 @@ const TeamScrap = () => {
                                         <Card name="Aaryan Thakur" branch="TE Comp" img={aryansir} domain='Graphics Head' insta={"https://www.instagram.com/ryan_.o2/"} fb={""} linkedin={"https://www.linkedin.com/in/aaryan-thakur-75b619223"}/>
                                     </div>
                                     <div className='flex flex-col lg:ml-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                        <Card name="Devesh Tiwari" branch="TE IT" img={deveshsir} domain='Media Head' insta={"https://www.instagram.com/believer._69/"} fb={""} linkedin={"https://www.linkedin.com/in/deveshtiwarii/"}/>
+                                        <Card name="Devesh Tiwari" branch="TE IT" img={deveshsir} domain='Outreach Head' insta={"https://www.instagram.com/believer._69/"} fb={""} linkedin={"https://www.linkedin.com/in/deveshtiwarii/"}/>
                                         <Card name="Vignesh Hari B" branch="TE Mech" img={vigneshsir} domain='Content Head' insta={"https://www.instagram.com/vigneshhari_02/"} fb={""} linkedin={"https://www.linkedin.com/in/vignesh2003/"}/>
                                     </div>
                                     
