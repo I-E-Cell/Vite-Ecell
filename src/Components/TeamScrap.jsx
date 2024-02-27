@@ -9,7 +9,7 @@ import tanishk from '../assets/Team/tanishk.jpg'
 import navjot from '../assets/Team/navjot.jpg'
 import abhinav from '../assets/Team/abhinav.jpg'
 import neha from '../assets/Team/neha.jpeg'
-import ashi from '../assets/Team/ashi.png'
+// import ashi from '../assets/Team/ashi.png'
 import sumit from '../assets/Team/sumit.jpg'
 import taniya from '../assets/Team/taniya.jpg'
 import arshia from '../assets/Team/arshia.jpg'
@@ -99,8 +99,8 @@ const TeamScrap = () => {
                             <div className='flex flex-col gap-28 '>
                                 <div className='flex flex-col lg:flex-row relative gap-20  nextline mx-auto  '>
                                     <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
+                                        <Card name="Devesh Tiwari" branch="TE IT" img={deveshsir} domain='Outreach Head' insta={"https://www.instagram.com/believer._69/"} fb={""} linkedin={"https://www.linkedin.com/in/deveshtiwarii/"}/>
                                         <Card name="Shivank Singh" branch="TE IT" img={shivank} domain="Finance, Management" insta={"https://www.instagram.com/nasablackberry/"} fb={""} linkedin={"https://www.linkedin.com/in/nasablackberry/"}/>
-                                        <Card name="Umang Singh" branch="TE ENTC" img={umangsir} domain='Sponsorship Head' insta={"https://www.instagram.com/phhheeeewwwwww/"} fb={""} linkedin={"https://www.linkedin.com/in/umang-singh-514a4a1ab/"}/>
                                     </div>
                                     <div className='flex flex-col lg:ml-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
                                         <Card name="Nikita Kumari" branch="TE ENTC" img={nikitamam} domain='Design Head' insta={"https://www.instagram.com/sugarplum_1203/"} fb={""} linkedin={""}/>
@@ -115,7 +115,7 @@ const TeamScrap = () => {
                                         <Card name="Aaryan Thakur" branch="TE Comp" img={aryansir} domain='Graphics Head' insta={"https://www.instagram.com/ryan_.o2/"} fb={""} linkedin={"https://www.linkedin.com/in/aaryan-thakur-75b619223"}/>
                                     </div>
                                     <div className='flex flex-col lg:ml-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                        <Card name="Devesh Tiwari" branch="TE IT" img={deveshsir} domain='Outreach Head' insta={"https://www.instagram.com/believer._69/"} fb={""} linkedin={"https://www.linkedin.com/in/deveshtiwarii/"}/>
+                                        <Card name="Umang Singh" branch="TE ENTC" img={umangsir} domain='Sponsorship Head' insta={"https://www.instagram.com/phhheeeewwwwww/"} fb={""} linkedin={"https://www.linkedin.com/in/umang-singh-514a4a1ab/"}/>
                                         <Card name="Vignesh Hari B" branch="TE Mech" img={vigneshsir} domain='Content Head' insta={"https://www.instagram.com/vigneshhari_02/"} fb={""} linkedin={"https://www.linkedin.com/in/vignesh2003/"}/>
                                     </div>
                                     
@@ -151,7 +151,8 @@ const TeamScrap = () => {
                                     </div>
                                     <div className='flex flex-col lg:ml-4 relative mx-auto md:flex-row gap-20 md:gap-12'>
                                         <Card name="Neha Sharma" branch="SE ENTC" img={neha} domain=" Graphics, PR" insta={"https://www.instagram.com/nehusharma145/"} fb={""} linkedin={"https://www.linkedin.com/in/neha-sharma-b64408255/"}/>
-                                        <Card name="Ashi Singh" branch="SE ENTC" img={ashi} domain="Content, Social Media" insta={"https://www.instagram.com/_.aashe/"} fb={""} linkedin={"https://www.linkedin.com/in/ashi-singh-3a36a2257/"}/>
+{/*                                         <Card name="Ashi Singh" branch="SE ENTC" img={ashi} domain="Content, Social Media" insta={"https://www.instagram.com/_.aashe/"} fb={""} linkedin={"https://www.linkedin.com/in/ashi-singh-3a36a2257/"}/> */}
+                                        <Card name="Gourav" branch="SE Comp" img={gourav} domain="Content, PR" insta={"https://www.instagram.com/vashist1563/"} fb={""} linkedin={"https://www.linkedin.com/in/gourav-vashist-713366259/"}/>
                                     </div>
                                 </div>
                                 <div className='flex flex-col lg:flex-row relative  gap-20 nextline mx-auto  '>
@@ -166,7 +167,6 @@ const TeamScrap = () => {
                                 </div>
                                 <div className='flex flex-col lg:flex-row relative  gap-20 nextline mx-auto  '>
                                     <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                        <Card name="Gourav" branch="SE Comp" img={gourav} domain="Content, PR" insta={"https://www.instagram.com/vashist1563/"} fb={""} linkedin={"https://www.linkedin.com/in/gourav-vashist-713366259/"}/>
                                         <Card name="Aniket Patil" branch="SE Mech" img={aniket} domain="Graphics, PR" insta={"https://www.instagram.com/aniketpatil.1118/"} fb={""} linkedin={"https://www.linkedin.com/in/aniket-patil-853617265"}/>
                                     </div>
                                     <div className='flex flex-col lg:ml-4 relative mx-auto md:flex-row gap-20 md:gap-12'>
