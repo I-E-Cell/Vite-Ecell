@@ -4,8 +4,9 @@ import ait from "../assets/aitb.png"
 import ecell_logo from "../assets/ecell.png";
 import mouLemonIdeas from '../assets/docs/LemonIdeas.pdf'
 import mouBhau from '../assets/docs/BhauInstitute.pdf'
-import SopIsf from '../assets/docs/SOP-ISF.pdf'
-import StartPolicy from '../assets/docs/StartPolicy.pdf'
+import startupPolicy from '../assets/docs/AITStartupPolicy_2022.pdf'
+import sop from '../assets/docs/SOP-InnovationSeedFund.pdf'
+
 
 const Documents = () => {
     return (
@@ -88,14 +89,6 @@ const Documents = () => {
                                     <div className='w-[32%] h-[40%] bg-[#A1A6DC] relative top-[15px]   -skew-x-12 -left-[36px]'>
 
                                     </div>
-                                    <div className='relative mt-2 min-w-[115%] text-sm md:text-[15px] lg:text-[17px] -left-[22%] z-10 top-7  text-center'>
-                                        <div className='flex flex-col gap-4'>
-                                            <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href={StartPolicy}>Startup Policy (Ver 1.0)</a>
-                                            <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href={SopIsf}>SOP for Innovation Seed Fund</a>
-
-                                        </div>
-
-                                    </div>
                                     <div className='relative min-w-[115%] text-sm md:text-[15px] lg:text-[17px] -left-[22%] z-10 top-7  text-center'>
                                         <div className='flex flex-col gap-4'>
                                             <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href={startupPolicy}>AIT StartupPolicy</a>
@@ -115,7 +108,7 @@ const Documents = () => {
 
 
 
-
+                    <div></div>
 
 
 
