@@ -4,8 +4,8 @@ import ait from "../assets/aitb.png"
 import ecell_logo from "../assets/ecell.png";
 import mouLemonIdeas from '../assets/docs/LemonIdeas.pdf'
 import mouBhau from '../assets/docs/BhauInstitute.pdf'
-import SopIsf from '../assets/docs/SOP-ISF.pdf'
-import StartPolicy from '../assets/docs/StartPolicy.pdf'
+import sop from '../assets/docs/SOP-ISF.pdf'
+import startupPolicy from '../assets/docs/StartPolicy.pdf'
 
 const Documents = () => {
     return (
@@ -27,7 +27,9 @@ const Documents = () => {
                                 <div className='w-[76%] relative left-[24%] -top-12 h-[10em] rounded-2xl bg-[#A1A6DC]'>
                                     <div className='absolute flex flex-row gap-2 left-[63%]  md:left-[70%] top-2 justify-end'>
                                         <img className='w-9 h-6' src={ait} alt="" />
+                                        
                                         <img className='w-10 h-6' src={ecell_logo} alt="" />
+
                                     </div>
                                     <div className='absolute top-9 left-[36%] translate-x-[-50%]  font-bold z-10 text-lg md:text-2xl'>
                                         <div
@@ -88,14 +90,7 @@ const Documents = () => {
                                     <div className='w-[32%] h-[40%] bg-[#A1A6DC] relative top-[15px]   -skew-x-12 -left-[36px]'>
 
                                     </div>
-                                    <div className='relative mt-2 min-w-[115%] text-sm md:text-[15px] lg:text-[17px] -left-[22%] z-10 top-7  text-center'>
-                                        <div className='flex flex-col gap-4'>
-                                            <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href={StartPolicy}>AIT Startup Policy</a>
-                                            <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href={SopIsf}>SOP for Innovation Seed Fund</a>
 
-                                        </div>
-
-                                    </div>
                                     <div className='relative min-w-[115%] text-sm md:text-[15px] lg:text-[17px] -left-[22%] z-10 top-7  text-center'>
                                         <div className='flex flex-col gap-4'>
                                             <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href={startupPolicy}>AIT StartupPolicy</a>
