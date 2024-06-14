@@ -1,4 +1,4 @@
-// ------------------------------Navbar----------------------------------//
+\// ------------------------------Navbar----------------------------------//
 
 import React, { useState } from 'react';
 import ait_logo from "../assets/AIT LOGO 7 (1).svg";
@@ -28,7 +28,6 @@ const Navbar = () => {
                 <img className='h-[50px]   my-2' src={ait} alt="ait_logo" />
                 <div className='hidden text-white font-normal  md:flex my-auto lg:gap-7 md:gap-5'>
                     <Link to="/" >
-
                         <a className='hover:text-[#86C8D3]  md:text-[14.5x]  lg:text-[16.5px] duration-300 ' href="#home">Home</a>
                     </Link>
                     <Link to="/team" >
@@ -48,7 +47,6 @@ const Navbar = () => {
                     </Link>
                     <Link to="/document">
                         <a className='hover:text-[#86C8D3] md:text-[14.5px] lg:text-[16.5px] duration-300' href="#contact">Docs</a>
-
                     </Link>
                 </div>
 
