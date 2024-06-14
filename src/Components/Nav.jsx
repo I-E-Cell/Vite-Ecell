@@ -12,6 +12,7 @@ import { IoIosContacts } from "react-icons/io";
 import { RiGalleryLine } from "react-icons/ri";
 import { IoIosLaptop } from "react-icons/io";
 import { PiTargetBold } from "react-icons/pi";
+import { IoDocumentAttach } from "react-icons/io5";
 
 const Navbar = () => {
     const [nav, setNav] = useState(true)
@@ -23,26 +24,29 @@ const Navbar = () => {
     return (
         <div className='mx-auto top-6 absolute  w-[100%] '>
 
-            <div className=' bg-transparent  top-9 justify-between md:justify-normal mx-0  lg:mx-20 my-auto flex text sticky z-50  gap-20 px-8'>
+            <div className=' bg-transparent  top-9 justify-between md:justify-normal mx-0  lg:mx-20 my-auto flex text sticky z-50  gap-7 px-8'>
                 <img className='h-[50px]   my-2' src={ait} alt="ait_logo" />
-                <div className='hidden text-white font-normal  md:flex my-auto lg:gap-10 md:gap-6'>
+                <div className='hidden text-white font-normal  md:flex my-auto lg:gap-7 md:gap-5'>
                     <Link to="/" >
-                        <a className='hover:text-[#86C8D3]  md:text-[16px]  lg:text-[17.5px] duration-300 ' href="#home">Home</a>
+                        <a className='hover:text-[#86C8D3]  md:text-[14.5x]  lg:text-[16.5px] duration-300 ' href="#home">Home</a>
                     </Link>
                     <Link to="/team" >
-                        <a className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="">Team</a>
+                        <a className='hover:text-[#86C8D3] md:text-[14.5px] lg:text-[16.5px] duration-300' href="">Team</a>
                     </Link>
                     <Link to='/alumni'>
-                        <a className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="">Alumni</a>
+                        <a className='hover:text-[#86C8D3] md:text-[14.5px] lg:text-[16.5px] duration-300' href="">Alumni</a>
                     </Link>
                     <Link to="/gallery">
-                        <a className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="">Gallery</a>
+                        <a className='hover:text-[#86C8D3] md:text-[14.5px] lg:text-[16.5px] duration-300' href="">Gallery</a>
                     </Link>
                     <Link to="/startups">
-                    <a className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="">Initiatives</a>
+                    <a className='hover:text-[#86C8D3] md:text-[14.5px] lg:text-[16.5px] duration-300' href="">Initiatives</a>
                     </Link>
                     <Link to="/internship">
-                        <a className='hover:text-[#86C8D3] md:text-[16px] lg:text-[17.5px] duration-300' href="#contact">Internship</a>
+                        <a className='hover:text-[#86C8D3] md:text-[14.5px] lg:text-[16.5px] duration-300' href="#contact">Internship</a>
+                    </Link>
+                    <Link to="/document">
+                        <a className='hover:text-[#86C8D3] md:text-[14.5px] lg:text-[16.5px] duration-300' href="#contact">Docs</a>
                     </Link>
                 </div>
 
@@ -94,6 +98,12 @@ const Navbar = () => {
                             <div className='flex pl-4 items-center flex-row gap-'>
 
                                 <IoIosLaptop size={23}/><a className='pl-4' href="">Internship<br /></a>
+                            </div>
+                        </Link>
+                        <Link to="/document">
+                            <div className='flex pl-4 items-center flex-row gap-'>
+
+                                < IoDocumentAttach size={20}/><a className='pl-4' href="">Docs<br /></a>
                             </div>
                         </Link>
                     </div>
