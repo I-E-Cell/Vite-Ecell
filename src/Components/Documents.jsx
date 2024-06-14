@@ -90,7 +90,7 @@ const Documents = () => {
                                     <div className='w-[32%] h-[40%] bg-[#A1A6DC] relative top-[15px]   -skew-x-12 -left-[36px]'>
 
                                     </div>
-                                    
+
                                     <div className='relative min-w-[115%] text-sm md:text-[15px] lg:text-[17px] -left-[22%] z-10 top-7  text-center'>
                                         <div className='flex flex-col gap-4'>
                                             <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href={startupPolicy}>AIT StartupPolicy</a>
