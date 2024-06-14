@@ -22,8 +22,8 @@ const Udyamita = () => {
           </div>
           <h1 className='  md:max-w-[31em] md:left-2 top-9 md:top-3 lg:top-9 relative font-thin text-gray-400 text-[13px]'>We the Innovation and entrepreneurship cell of Army Institute Of Technology are delighted to present second edition of our newsletter "Udyamita". </h1>
           <h1 className=' md:max-w-[31em] md:left-2 top-12 md:top-5 lg:top-12 relative font-thin text-gray-400 text-[13px]'>This newsletter includes all event details occurred in e-cell this year. (2022-2023) </h1>
-          <a target='_blank' href={udaymita2}><button className='w-[70%] md:w-[60%] mt-7 md:mt-1 lg:mt-10 bg-[#86C8D3] text-black border-none hover:scale-105 duration-200 h-8 text-sm lg:text-base top-8 left-2 relative rounded-xl mx-auto pt'>Udyamita Previous</button></a>
-          <a target='_blank' href={udaymitaedition3}><button className='w-[70%] md:w-[60%] mt-4 md:mt-1 lg:mt-4 bg-[#86C8D3] text-black border-none hover:scale-105 duration-200 h-8 text-sm lg:text-base top-8 left-2 relative rounded-xl mx-auto pt'>Udyamita Current</button></a>
+          <a target='_blank' href='https://drive.google.com/drive/folders/1TBLIZ2gV5IesBSoFAVGWHbPYQN2fH20o?usp=sharing'><button className='w-[70%] md:w-[60%] mt-7 md:mt-1 lg:mt-10 bg-[#86C8D3] text-black border-none hover:scale-105 duration-200 h-8 text-sm lg:text-base top-8 left-2 relative rounded-xl mx-auto pt'>Previous Editions</button></a>
+          <a target='_blank' href={udaymitaedition3}><button className='w-[70%] md:w-[60%] mt-4 md:mt-1 lg:mt-4 bg-[#86C8D3] text-black border-none hover:scale-105 duration-200 h-8 text-sm lg:text-base top-8 left-2 relative rounded-xl mx-auto pt'>Current Edition</button></a>
         
         </div>
         <div className='w-[84%] pb-10 relative top-10 md:top-4 lg:top-6 lg:10  mx-auto md:w-[40%] lg:w-[48%]'>
