@@ -28,7 +28,9 @@ const Documents = () => {
                                 <div className='w-[76%] relative left-[24%] -top-12 h-[10em] rounded-2xl bg-[#A1A6DC]'>
                                     <div className='absolute flex flex-row gap-2 left-[63%]  md:left-[70%] top-2 justify-end'>
                                         <img className='w-9 h-6' src={ait} alt="" />
+                                        
                                         <img className='w-10 h-6' src={ecell_logo} alt="" />
+
                                     </div>
                                     <div className='absolute top-9 left-[36%] translate-x-[-50%]  font-bold z-10 text-lg md:text-2xl'>
                                         <div
