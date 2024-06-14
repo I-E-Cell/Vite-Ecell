@@ -46,7 +46,7 @@ const Navbar = () => {
                         <a className='hover:text-[#86C8D3] md:text-[14.5px] lg:text-[16.5px] duration-300' href="#contact">Internship</a>
                     </Link>
                     <Link to="/document">
-                        <a className='hover:text-[#86C8D3] md:text-[14.5px] lg:text-[16.5px] duration-300' href="#contact">Docs</a>
+                        <a className='hover:text-[#86C8D3] md:text-[14.5px] lg:text-[16.5px] duration-300' href="">Docs</a>
                     </Link>
                 </div>
 
