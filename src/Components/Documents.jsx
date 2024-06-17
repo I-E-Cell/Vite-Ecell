@@ -4,8 +4,11 @@ import ait from "../assets/aitb.png"
 import ecell_logo from "../assets/ecell.png";
 import mouLemonIdeas from '../assets/docs/LemonIdeas.pdf'
 import mouBhau from '../assets/docs/BhauInstitute.pdf'
-import sop from '../assets/docs/SOP-ISF.pdf'
-import startupPolicy from '../assets/docs/StartPolicy.pdf'
+
+import startupPolicy from '../assets/docs/AITStartupPolicy_2022.pdf'
+import sop from '../assets/docs/SOP-InnovationSeedFund.pdf'
+
+
 
 const Documents = () => {
     return (
@@ -158,7 +161,7 @@ const Documents = () => {
 
 
 
-
+                    <div></div>
 
 
 
