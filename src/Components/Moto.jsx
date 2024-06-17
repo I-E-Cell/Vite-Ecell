@@ -8,7 +8,7 @@ const Moto = () => {
     return (
         <div id='moto' className='bg-[#0F1322] moto md:-mt-6 h-[34.5em] md:h-[18em] w-[94%] mx-auto relative '>
             <div className='flex  top-10 flex-col md:flex-row gap-28 md:gap-16 gap justify-center relative mx-auto'>
-                <div className='w-[21em] relative mx-auto md:mx-0 md:w-[28em] lg:w-[35em] h-[10em] rounded-2xl bg-[#D2AD93]'>
+                <div className='max-w-[21em] relative mx-auto md:mx-0 md:w-[28em] lg:w-[35em] h-[10em] rounded-2xl bg-[#D2AD93]'>
 
                     <div className='absolute flex flex-row gap-2 left-[72%] md:left-[76%] top-2 justify-end'>
                         <img className='w-9 h-6' src={ait} alt="" />
@@ -49,7 +49,7 @@ const Moto = () => {
 
                     </div>
                 </div>
-                <div className='w-[21em] relative top-12 mx-auto md:mx-0 md:w-[28em] lg:w-[35em] h-[10em] rounded-2xl bg-[#A1A6DC]'>
+                <div className='max-w-[21em] relative top-12 mx-auto md:mx-0 md:w-[28em] lg:w-[35em] h-[10em] rounded-2xl bg-[#A1A6DC]'>
                     <div className='w-[76%] relative left-[24%] -top-12 h-[10em] rounded-2xl bg-[#A1A6DC]'>
                         <div className='absolute flex flex-row gap-2 left-[63%]  md:left-[70%] top-2 justify-end'>
                             <img className='w-9 h-6' src={ait} alt="" />

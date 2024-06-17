@@ -64,7 +64,7 @@ const Initia = () => {
       </div>
       <div className='flex  top-5 md:top-7 flex-col md:flex-row gap-24 md:gap-[4.4%]  justify-center relative mx-auto '>
       
-        <div className='relative mx-auto rounded-2xl h-[15.5em] top-[4.5em]  md:mx-0 w-[92%] md:w-[40%] bg-[#1C1F2B]'>
+        <div className='relative mx-auto rounded-2xl h-[15.5em] top-[4.5em]  md:mx-0 w-[92%] md:w-[45%] lg:w-[40%] bg-[#1C1F2B]'>
           <div className='lg:w-[86%] md:w-[80%] w-[82%] h-[6em] relative bg-[#1C1F2B] rounded-2xl -top-[4.5em]'>
             <div className='h-[60%] top-5 absolute skew-x-12 w-[30%] bg-[#1C1F2B] left-[75%]'>
 
@@ -101,7 +101,7 @@ const Initia = () => {
           </div>
         </div>
 
-        <div className='relative mx-auto md:mx-0 w-[92%] md:w-[40%] h-[20em]  rounded-2xl bg-[#86C8D3]'>
+        <div className='relative mx-auto md:mx-0 w-[92%] md:w-[45%] lg:w-[40%] h-[20em]  rounded-2xl bg-[#86C8D3]'>
 
           <div className='  relative flex flex-row gap-2 top-1 '>
             <h1 className='rounded-full top-1 left-2 relative shadow-[#323232] shadow-sm xl border-[0.5px] p-1 px-3 text-sm border-[#323232] text-[#000000] font-thin'>Event Details </h1>

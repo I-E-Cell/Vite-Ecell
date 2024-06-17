@@ -21,6 +21,8 @@ import Credits from "./Components/Credits";
 import Udyamita from "./Components/Udyamita";
 import Startups from "./Components/Startups";
 import Popup from "./Components/Popup";
+import Docs from "./Components/Docs";
+
 import Documents from "./Components/Documents";
 
 // import LineChart from "./Components/LineChart";
@@ -37,6 +39,7 @@ function LandingPage() {
       <Moto />
       <Initia />
       <Udyamita />
+      <Docs />
       <Newsletter />
       <CarouselDisplay />
       <Footer />
