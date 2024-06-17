@@ -4,7 +4,6 @@ import letter from '../assets/letter2.png'
 import { IoDocumentAttach } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion'
-import Popup from './Popup'
 
 
 const Newsletter = () => {
