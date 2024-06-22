@@ -114,10 +114,10 @@ const Documents = () => {
 
 
 
-                        <div className='flex flex-col relative top-14 lg:top-8 lg:flex-row justify-center items-center lg:justify-around md:my-20 '>
+                        <div className='flex flex-col relative top-14 lg:top-8 lg:flex-row justify-center items-center lg:justify-around md:my-20  '>
+                            <div className=" mx-auto">
 
-
-                            <div className='w-[18.5em]  sm:w-[21em] relative top-12 mx-auto md:mx-0 md:w-[28em] lg:w-[32em] h-[18em] rounded-2xl bg-[#A1A6DC] mb-5 md:mb-10 '>
+                            <div className='w-[18.5em]  sm:w-[21em] relative top-12  md:mx-0 md:w-[28em] lg:w-[32em] h-[18em] rounded-2xl bg-[#A1A6DC] mb-5 md:mb-10 '>
                                 <div className='w-[76%] relative left-[24%] -top-12 h-[10em] rounded-2xl bg-[#A1A6DC]'>
                                     <div className='absolute flex flex-row gap-2 left-[63%]  md:left-[70%] top-2 justify-end'>
                                         <img className='w-9 h-6' src={ait} alt="" />
@@ -158,7 +158,7 @@ const Documents = () => {
                                 </div>
                             </div>
 
-
+                            </div>
 
 
                     <div></div>
