@@ -207,10 +207,7 @@ const TeamScrap = () => {
                                 <div className='flex flex-col lg:flex-row relative  gap-20 nextline mx-auto  '>
                                     <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
                                         <Card name="Yuvraj Vibhute" branch="SE Mech" img={yuvraj} domain="Graphics, PR" insta={"https://www.instagram.com/aniketpatil.1118/"} fb={""} linkedin={"https://www.linkedin.com/in/aniket-patil-853617265"}/>
-                                    </div>
-                                    <div className='flex flex-col lg:ml-4 relative mx-auto md:flex-row gap-20 md:gap-12'>
                                         <Card name="Sumit Nagila" branch="SE COMP" img={sumit} domain="WebDev, Content" insta={"https://www.instagram.com/infinite_rishi37/"} fb={""} linkedin={"https://www.linkedin.com/in/rishi-kumar-singh-761074215/"}/>
-
                                     </div>
                                 </div>
                             </div>
