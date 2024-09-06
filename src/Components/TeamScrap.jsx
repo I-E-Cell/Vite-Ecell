@@ -98,13 +98,13 @@ const TeamScrap = () => {
                                     <Card name="Nikita Kumari" branch="BE ENTC" img={nikitamam} insta={"https://www.instagram.com/wicked.boii.420/?hl=en"} fb={""} linkedin={"https://www.linkedin.com/in/abhinawgupta/"}/>
                                 </div>
                             </div>
-                            <div className='flex flex-col   relative mx-auto  md:flex-row justify-center gap-20 md:gap-12'>
+                            <div className='flex flex-col lg:flex-row relative gap-20 nextline mx-auto '>
                                 <div className='flex flex-col relative mx-auto  md:flex-row gap-20 md:gap-12'>
                                     <Card name="Umang Singh" branch="BE ENTC" img={umangsir} insta={"https://www.instagram.com/_tanusharma2958/"} fb={""} linkedin={"https://www.linkedin.com/in/tanusharma29/"}/>
                                     <Card name="Ankit Kumar" branch="BE ENTC" img={ankitsir} insta={"https://www.instagram.com/_tanusharma2958/"} fb={""} linkedin={"https://www.linkedin.com/in/tanusharma29/"}/>
                                 </div>
                                 <div className='flex flex-col relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                    <Card name="Vignesh Hari" branch="BE ENTC" img={vigneshsir} insta={"https://www.instagram.com/_tanusharma2958/"} fb={""} linkedin={"https://www.linkedin.com/in/tanusharma29/"}/>
+                                    <Card name="Vignesh Hari" branch="BE MECH" img={vigneshsir} insta={"https://www.instagram.com/_tanusharma2958/"} fb={""} linkedin={"https://www.linkedin.com/in/tanusharma29/"}/>
                                     <Card name="Aaryan Thakur" branch="BE COMP" img={aryansir} insta={"https://www.instagram.com/_tanusharma2958/"} fb={""} linkedin={"https://www.linkedin.com/in/tanusharma29/"}/>
                                 </div>
                             </div>
