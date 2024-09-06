@@ -29,23 +29,7 @@ import anubhav from '../assets/Team/anubhav.jpg';
 import yuvraj from '../assets/Team/yuvraj.jpg';
 import sumit from '../assets/Team/sumit.jpg';
 
-// import tanumam from '../assets/Team/tanumam.jpg';
-// import gulshan from '../assets/Team/gulshan.jpeg'
-// import mitesh from '../assets/Team/mitesh.jpeg'
-// import govardhan from '../assets/Team/gobardan.jpg'
-// import tanishk from '../assets/Team/tanishk.jpg'
-// import navjot from '../assets/Team/navjot.jpg'
-// import abhinav from '../assets/Team/abhinav.jpg'
-// import neha from '../assets/Team/neha.jpeg'
-// // import ashi from '../assets/Team/ashi.png'
-// import sumit from '../assets/Team/sumit.jpg'
-// import taniya from '../assets/Team/taniya.jpg'
-// import arshia from '../assets/Team/arshia.jpg'
-// import prince from '../assets/Team/prince.jpg'
-// import samiksir from '../assets/Team/samik.jpeg'
-// import ayushsir from '../assets/Team/ayushsir.png'
-// import sandeepsir from '../assets/Team/sandeepsir.jpeg'
-// import abhinawsir from '../assets/Team/Abhinaw.png'
+// BEs 
 import ayushkrsir from '../assets/Team/ayushkrsir.jpg'
 import jyotimam from '../assets/Team/jyotimaam.jpeg'
 import shivank from '../assets/Team/shivanksir.jpg'
@@ -56,11 +40,7 @@ import likhitsir from '../assets/Team/likhithsir.jpg'
 import aryansir from '../assets/Team/aaryan.png'
 import deveshsir from '../assets/Team/deveshsir.jpg'
 import ankitsir from '../assets/Team/ankitsir.jpg'
-// import aniket from '../assets/Team/aniket.png'
-// import akhileshsir from "../assets/Team/akhilesh.jpg"
-// import rishi from '../assets/Team/rishi.png'
-// import gourav from '../assets/Team/gourav.jpg'
-// import NewCard from './NewCard';
+
 import mixpanel from 'mixpanel-browser';
 mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
@@ -88,8 +68,8 @@ const TeamScrap = () => {
                             </div>
                             <div className='flex flex-col lg:flex-row relative gap-20 nextline mx-auto '>
                                 <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20  md:gap-12'>
-                                    <Card name="Ayush Kumar" branch="BE ENTC" img={ayushkrsir}  insta={"https://www.instagram.com/akayush_17_/"} fb={""} linkedin={"linkedin.com/in/ayush-kumar-2316841b2"}/>
-                                    <Card name="Jyoti Yadav" branch="BE ENTC" img={jyotimam} insta={"https://instagram.com/jyotidky_?igshid=MmIzYWVlNDQ5Yg=="} fb={""} linkedin={"https://www.linkedin.com/in/jyoti-yadav-028270229"}/>
+                                    <Card name="Ayush Kumar" branch="BE ENTC" img={ayushkrsir}  insta={"https://www.instagram.com/akayush_17_/"} fb={""} linkedin={"https://www.linkedin.com/in/ayush-kumar-2316841b2/"}/>
+                                    <Card name="Jyoti Yadav" branch="BE ENTC" img={jyotimam} insta={"https://instagram.com/jyotidky_?igshid=MmIzYWVlNDQ5Yg=="} fb={""} linkedin={"https://www.linkedin.com/in/jyoti-yadav-028270229/"}/>
 
                                 </div>
                                 <div className='flex flex-col lg:ml-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
@@ -99,19 +79,19 @@ const TeamScrap = () => {
                                 </div>
                             </div>
                             <div className='flex flex-col lg:flex-row relative gap-20 nextline mx-auto '>
-                                <div className='flex flex-col relative mx-auto  md:flex-row gap-20 md:gap-12'>
+                                <div className='flex flex-col lg:mr-4 relative mx-auto  md:flex-row gap-20  md:gap-12'>
                                     <Card name="Umang Singh" branch="BE ENTC" img={umangsir} insta={"https://www.instagram.com/phhheeeewwwwww/"} fb={""} linkedin={"https://www.linkedin.com/in/umang-singh-514a4a1ab/"}/>
-                                    <Card name="Ankit Kumar" branch="BE ENTC" img={ankitsir} insta={"https://instagram.com/inevitable_ank?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"} fb={""} linkedin={"https://www.linkedin.com/in/ankit-kumar-ranjan-107244226"}/>
+                                    <Card name="Ankit Kumar" branch="BE ENTC" img={ankitsir} insta={"https://instagram.com/inevitable_ank?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"} fb={""} linkedin={"https://www.linkedin.com/in/ankit-kumar-ranjan-107244226/"}/>
                                 </div>
-                                <div className='flex flex-col relative mx-auto  md:flex-row gap-20 md:gap-12'>
+                                <div className='flex flex-col lg:ml-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
                                     <Card name="Vignesh Hari" branch="BE ENTC" img={vigneshsir} insta={"https://www.instagram.com/vigneshhari_02/"} fb={""} linkedin={"https://www.linkedin.com/in/vignesh2003/"}/>
-                                    <Card name="Aaryan Thakur" branch="BE COMP" img={aryansir} insta={"https://www.instagram.com/ryan_.o2/"} fb={""} linkedin={"https://www.linkedin.com/in/aaryan-thakur-75b619223"}/>
+                                    <Card name="Aaryan Thakur" branch="BE COMP" img={aryansir} insta={"https://www.instagram.com/ryan_.o2/"} fb={""} linkedin={"https://www.linkedin.com/in/aaryan-thakur-75b619223/"}/>
                                 </div>
                             </div>
                             <div className='flex flex-col   relative mx-auto  md:flex-row justify-center gap-20 md:gap-12'>
                                 <div className='flex flex-col relative mx-auto  md:flex-row gap-20 md:gap-12'>
                                     <Card name="Devesh Tiwari" branch="BE IT" img={deveshsir} insta={"https://www.instagram.com/believer._69/"} fb={""} linkedin={"https://www.linkedin.com/in/deveshtiwarii/"}/>
-                                    <Card name="Likith Reddy" branch="BE MECH" img={likhitsir} insta={"https://www.instagram.com/mai_likhith_hoon/"} fb={""} linkedin={"https://www.linkedin.com/in/likhithreddy09"}/>
+                                    <Card name="Likhith Reddy" branch="BE MECH" img={likhitsir} insta={"https://www.instagram.com/mai_likhith_hoon/"} fb={""} linkedin={"https://www.linkedin.com/in/likhithreddy09/"}/>
                                 </div>
                             </div>
                         </div>
