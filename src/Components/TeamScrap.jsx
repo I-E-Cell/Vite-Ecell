@@ -40,6 +40,7 @@ import likhitsir from '../assets/Team/likhithsir.jpg'
 import aryansir from '../assets/Team/aaryan.png'
 import deveshsir from '../assets/Team/deveshsir.jpg'
 import ankitsir from '../assets/Team/ankitsir.jpg'
+import shauryasir from '../assets/Team/shauryasir.jpeg'
 
 import mixpanel from 'mixpanel-browser';
 mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
@@ -74,7 +75,7 @@ const TeamScrap = () => {
                                 </div>
                                 <div className='flex flex-col lg:ml-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
 
-                                    <Card name="Shivank Singh" branch="BE ENTC" img={shivank} insta={"https://www.instagram.com/nasablackberry/"} fb={""} linkedin={"https://www.linkedin.com/in/nasablackberry/"}/>
+                                    <Card name="Shivank Singh" branch="BE IT" img={shivank} insta={"https://www.instagram.com/nasablackberry/"} fb={""} linkedin={"https://www.linkedin.com/in/nasablackberry/"}/>
                                     <Card name="Nikita Kumari" branch="BE ENTC" img={nikitamam} insta={"https://www.instagram.com/sugarplum_1203/"} fb={""} linkedin={"https://www.linkedin.com/in/nikita-kumari-12811b224/"}/>
                                 </div>
                             </div>
@@ -84,7 +85,7 @@ const TeamScrap = () => {
                                     <Card name="Ankit Kumar" branch="BE ENTC" img={ankitsir} insta={"https://instagram.com/inevitable_ank?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"} fb={""} linkedin={"https://www.linkedin.com/in/ankit-kumar-ranjan-107244226/"}/>
                                 </div>
                                 <div className='flex flex-col lg:ml-4 relative mx-auto  md:flex-row gap-20 md:gap-12'>
-                                    <Card name="Vignesh Hari" branch="BE ENTC" img={vigneshsir} insta={"https://www.instagram.com/vigneshhari_02/"} fb={""} linkedin={"https://www.linkedin.com/in/vignesh2003/"}/>
+                                    <Card name="Vignesh Hari" branch="BE MECH" img={vigneshsir} insta={"https://www.instagram.com/vigneshhari_02/"} fb={""} linkedin={"https://www.linkedin.com/in/vignesh2003/"}/>
                                     <Card name="Aaryan Thakur" branch="BE COMP" img={aryansir} insta={"https://www.instagram.com/ryan_.o2/"} fb={""} linkedin={"https://www.linkedin.com/in/aaryan-thakur-75b619223/"}/>
                                 </div>
                             </div>
@@ -92,6 +93,7 @@ const TeamScrap = () => {
                                 <div className='flex flex-col relative mx-auto  md:flex-row gap-20 md:gap-12'>
                                     <Card name="Devesh Tiwari" branch="BE IT" img={deveshsir} insta={"https://www.instagram.com/believer._69/"} fb={""} linkedin={"https://www.linkedin.com/in/deveshtiwarii/"}/>
                                     <Card name="Likhith Reddy" branch="BE MECH" img={likhitsir} insta={"https://www.instagram.com/mai_likhith_hoon/"} fb={""} linkedin={"https://www.linkedin.com/in/likhithreddy09/"}/>
+                                    <Card name="Shaurya Vardhan" branch="BE ENTC" img={shauryasir} insta={"https://www.instagram.com/_what_shaurya/"} fb={""} linkedin={"https://www.linkedin.com/in/svs2001/"}/>
                                 </div>
                             </div>
                         </div>
