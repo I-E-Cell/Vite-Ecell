@@ -144,10 +144,10 @@ const Documents = () => {
                                     </div>
                                     <div className='relative mt-2 min-w-[115%] text-sm md:text-[15px] lg:text-[17px] -left-[22%] z-10 top-7  text-center'>
                                         <div className='flex flex-col gap-4'>
-                                            <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href='https://aitpuneedu-my.sharepoint.com/:b:/g/personal/sdoza_aitpune_edu_in/EZFXta2GDq1CjOmHP9PSKwUB_CpGg8TVkb8XZ3U6ASo-xA'>Academic Year 2019-2020</a>
                                             <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href='https://aitpuneedu-my.sharepoint.com/:b:/g/personal/sdoza_aitpune_edu_in/EWi4O0qU-MpPm41EqWrEY00BynvVvVSdh_Zz-gOouXJlAw'>Academic Year 2020-2021</a>
                                             <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href='https://aitpuneedu-my.sharepoint.com/:b:/g/personal/sdoza_aitpune_edu_in/EXEJ-K6alzFLq6gQdHHD8EkBwdFqzqdCpxub3ppyg32oMw'>Academic Year 2021-2022</a>
                                             <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href='https://aitpuneedu-my.sharepoint.com/:b:/g/personal/sdoza_aitpune_edu_in/ESMRny2XrkdGimnXTQX1TFsBJz8DTPrh-p7QYnmLidiuOQ'>Academic Year 2022-2023</a>
+                                            <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href='https://drive.google.com/file/d/13Wmcu_C_4qXzrSpYL_AQdzuP8evDFiD7/view?usp=drive_link'>Academic Year 2023-2024</a>
                                         </div>
 
                                     </div>
