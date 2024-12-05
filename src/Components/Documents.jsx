@@ -4,7 +4,10 @@ import ait from "../assets/aitb.png"
 import ecell_logo from "../assets/ecell.png";
 import mouLemonIdeas from '../assets/docs/LemonIdeas.pdf'
 import mouBhau from '../assets/docs/BhauInstitute.pdf'
-
+import ECell20 from '../assets/docs/ECell2020-21.pdf'
+import ECell21 from '../assets/docs/ECell2021-22.pdf'
+import ECell22 from '../assets/docs/ECell2022-23.pdf'
+import ECell23 from '../assets/docs/ECell2023-24.pdf'
 import startupPolicy from '../assets/docs/AITStartupPolicy_2022.pdf'
 import sop from '../assets/docs/SOP-InnovationSeedFund.pdf'
 
@@ -144,10 +147,11 @@ const Documents = () => {
                                     </div>
                                     <div className='relative mt-2 min-w-[115%] text-sm md:text-[15px] lg:text-[17px] -left-[22%] z-10 top-7  text-center'>
                                         <div className='flex flex-col gap-4'>
-                                            <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href='https://aitpuneedu-my.sharepoint.com/:b:/g/personal/sdoza_aitpune_edu_in/EWi4O0qU-MpPm41EqWrEY00BynvVvVSdh_Zz-gOouXJlAw'>Academic Year 2020-2021</a>
-                                            <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href='https://aitpuneedu-my.sharepoint.com/:b:/g/personal/sdoza_aitpune_edu_in/EXEJ-K6alzFLq6gQdHHD8EkBwdFqzqdCpxub3ppyg32oMw'>Academic Year 2021-2022</a>
-                                            <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href='https://aitpuneedu-my.sharepoint.com/:b:/g/personal/sdoza_aitpune_edu_in/ESMRny2XrkdGimnXTQX1TFsBJz8DTPrh-p7QYnmLidiuOQ'>Academic Year 2022-2023</a>
-                                            <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href='https://drive.google.com/file/d/13Wmcu_C_4qXzrSpYL_AQdzuP8evDFiD7/view?usp=drive_link'>Academic Year 2023-2024</a>
+                                            <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href={ECell20}>Academic Year 2020-2021</a>
+                                            <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href={ECell21}>Academic Year 2021-2022</a>
+                                            <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href={ECell22}>Academic Year 2022-2023</a>
+                                            <a target='_blank' className='w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg' href={ECell23}>Academic Year 2023-2024</a>
+                                        
                                         </div>
 
                                     </div>
