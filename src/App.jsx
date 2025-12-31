@@ -22,12 +22,11 @@ import Udyamita from "./Components/Udyamita";
 import Startups from "./Components/Startups";
 import Popup from "./Components/Popup";
 import Docs from "./Components/Docs";
-
 import Documents from "./Components/Documents";
 
 // import LineChart from "./Components/LineChart";
 import mixpanel from 'mixpanel-browser';
-mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', {debug: true, track_pageview: true, persistence: 'localStorage'});
+mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', { debug: true, track_pageview: true, persistence: 'localStorage' });
 
 
 function LandingPage() {
@@ -45,7 +44,7 @@ function LandingPage() {
       <Footer />
       {/* <Popup /> */}
       {/* <LineChart /> */}
-      
+
     </div>
   );
 }
@@ -64,9 +63,9 @@ function App() {
         <Route path='/alumni' element={<Alumni />} />
         <Route path='/credits' element={<Credits />} />
         <Route path='/startups' element={<Startups />} />
-        <Route path='/document' element={<Documents/>}/>
+        <Route path='/document' element={<Documents />} />
 
-        
+
 
       </Routes>
     </Router>
