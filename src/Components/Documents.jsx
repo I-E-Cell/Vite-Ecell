@@ -11,6 +11,7 @@ import ECell23 from "../assets/docs/ECell2324.pdf";
 import startupPolicy from "../assets/docs/AITStartupPolicy_2022.pdf";
 import sop from "../assets/docs/SOP-InnovationSeedFund.pdf";
 import ECell19 from "../assets/docs/ECell1920.pdf";
+import ECell24 from "../assets/docs/ECell2024-25.pdf";
 
 const Documents = () => {
   return (
@@ -49,7 +50,7 @@ const Documents = () => {
                   <div className="relative mt-2 min-w-[115%] text-sm md:text-[15px] lg:text-[17px] -left-[22%] z-10 top-7  text-center">
                     <div className="flex flex-col gap-4">
                       <a
-                      rel="noreferrer"
+                        rel="noreferrer"
                         target="_blank"
                         className="w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg"
                         href={mouLemonIdeas}
@@ -57,7 +58,7 @@ const Documents = () => {
                         MOU - LemonIdeas
                       </a>
                       <a
-                      rel="noreferrer"
+                        rel="noreferrer"
 
                         target="_blank"
                         className="w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg"
@@ -95,7 +96,7 @@ const Documents = () => {
                     <div className="flex flex-col gap-4">
                       <a
                         target="_blank"
-                      rel="noreferrer"
+                        rel="noreferrer"
 
                         className="w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg"
                         href={startupPolicy}
@@ -106,7 +107,7 @@ const Documents = () => {
                         target="_blank"
                         className="w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg"
                         href={sop}
-                      rel="noreferrer"
+                        rel="noreferrer"
 
                       >
                         SOP-InnovationSeedFund
@@ -148,7 +149,7 @@ const Documents = () => {
                         target="_blank"
                         className="w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg"
                         href={ECell19}
-                      rel="noreferrer"
+                        rel="noreferrer"
 
                       >
                         Academic Year 2019-2020
@@ -158,7 +159,7 @@ const Documents = () => {
                         target="_blank"
                         className="w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg"
                         href={ECell20}
-                      rel="noreferrer"
+                        rel="noreferrer"
 
                       >
                         Academic Year 2020-2021
@@ -167,7 +168,7 @@ const Documents = () => {
                         target="_blank"
                         className="w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg"
                         href={ECell21}
-                      rel="noreferrer"
+                        rel="noreferrer"
 
                       >
                         Academic Year 2021-2022
@@ -204,7 +205,7 @@ const Documents = () => {
                         target="_blank"
                         className="w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg"
                         href={ECell22}
-                      rel="noreferrer"
+                        rel="noreferrer"
 
                       >
                         Academic Year 2022-2023
@@ -213,10 +214,19 @@ const Documents = () => {
                         target="_blank"
                         className="w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg"
                         href={ECell23}
-                      rel="noreferrer"
+                        rel="noreferrer"
 
                       >
                         Academic Year 2023-2024
+                      </a>
+                      <a
+                        target="_blank"
+                        className="w-[90%] text-center font-semibold mx-auto bg-[#dde0ff] p-2 rounded-lg"
+                        href={ECell24}
+                        rel="noreferrer"
+
+                      >
+                        Academic Year 2024-2025
                       </a>
                     </div>
                   </div>
