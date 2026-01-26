@@ -35,6 +35,8 @@ import vivek from '../assets/Team/vivek.jpeg'
 import sahilkus from '../assets/Team/sahil.jpeg'
 import anshul from '../assets/Team/anshul.jpeg'
 import sharad from '../assets/Team/sharad.jpeg'
+import srijan from '../assets/Team/srijan.jpeg'
+import priyaw from '../assets/Team/priyaw.jpeg'
 
 import mixpanel from 'mixpanel-browser';
 mixpanel.init('b2ff7ac9e3348a34108ce514efef85ce', { debug: true, track_pageview: true, persistence: 'localStorage' });
@@ -114,6 +116,8 @@ const TeamScrap = () => {
                                 <Card name="Anshul Sharma" branch="SE IT" img={anshul} domain="Design" insta={"https://www.instagram.com/_anshulsharmaaa/"} fb={""} linkedin={"https://www.linkedin.com/in/anshul-sharma21/"} />
                                 <Card name="Sahil Kushwah" branch="SE IT" img={sahilkus} domain="Graphics" insta={"https://www.instagram.com/sahil_blah_blah/"} fb={""} linkedin={"https://www.linkedin.com/in/sahil-singh-kushwah-353a98320/"} />
                                 <Card name="Sharad Sharma" branch="SE ENTC" img={sharad} domain="Design, Sponsorship" insta={"https://www.instagram.com/autumnsharmaa/"} fb={""} linkedin={"https://www.linkedin.com/in/sharad-sharma-046b01320/"} />
+                                <Card name="Srijan Thakur" branch="SE ENTC" img={srijan} domain="Design" insta={"https://www.instagram.com/shrijanthakur_//"} fb={""} linkedin={"https://www.linkedin.com/in/shrijan-thakur-97896631b/"} />
+                                <Card name="Priya Wandhekar" branch="SE MECH" img={priyaw} domain="Content" insta={"https://www.instagram.com/priyaaa__.25/"} fb={""} linkedin={"https://www.linkedin.com/in/priya-wandhekar-83411b1b7/"} />
                             </div>
 
 
